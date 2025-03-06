@@ -1,114 +1,171 @@
 {
   "delta": [
     {
-      "name": "Ferocious Bite",
-      "id": 22568,
+      "name": "Bear Form Passive 2",
+      "id": 21178,
       "type": "modified",
       "fields": [],
       "effects": [
         {
           "type": "added",
           "effect": {
-            "idx": "2",
-            "id": "12791",
-            "type": "Power Burn",
-            "values": [
-              {
-                "Base Value": "25"
-              },
-              {
-                "Scaled Value": "25"
-              },
-              {
-                "Misc Value": "3"
-              },
-              {
-                "Target": "Self (1)"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "name": "Berserk",
-      "id": 106951,
-      "type": "modified",
-      "fields": [],
-      "effects": [
-        {
-          "type": "added",
-          "effect": {
-            "idx": "4",
-            "id": "1149777",
+            "idx": "3",
+            "id": "1137381",
             "type": "Apply Aura",
-            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "subtype": "Modify Damage Taken%",
             "values": [
               {
-                "Base Value": "15"
+                "Base Value": "0"
               },
               {
-                "Scaled Value": "15"
+                "Scaled Value": "0"
               },
               {
-                "PvP Coefficient": "0.3334"
-              },
-              {
-                "Misc Value": "22"
+                "Misc Value": "0x7e"
               },
               {
                 "Target": "Self (1)"
               },
               {
-                "Family Flags": "98"
+                "Affected School(s)": "Arcane, Fire, Frost, Holy, Nature, Shadow"
               }
-            ],
-            "affected_spells": [
-              "Rip (1079)",
-              "Rake (1822)",
-              "Shred (5221)",
-              "Ferocious Bite (22568)",
-              "Maim (22570)",
-              "Swipe (106785)",
-              "Thrash (106830)",
-              "Moonfire (155625)",
-              "Rake (155722)",
-              "Brutal Slash (202028)",
-              "Feral Frenzy (274838)",
-              "Primal Wrath (285381)",
-              "Sickle of the Lion (363830)",
-              "Rampant Ferocity (391710)",
-              "Adaptive Swarm (391889)",
-              "Thrash (405233)",
-              "Bloodseeker Vines (439531)",
-              "Bursting Growth (440122)",
-              "Ravage (441591)",
-              "Dreadful Wound (441812)"
             ]
           }
         },
         {
           "type": "added",
           "effect": {
-            "idx": "5",
-            "id": "1149778",
+            "idx": "4",
+            "id": "1223355",
             "type": "Apply Aura",
-            "subtype": "Modify Auto Attack Damage Done%",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
             "values": [
               {
-                "Base Value": "15"
+                "Base Value": "-60"
               },
               {
-                "Scaled Value": "15"
+                "Scaled Value": "-60"
               },
               {
-                "PvP Coefficient": "0.334"
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "99"
+              }
+            ],
+            "affected_spells": [
+              "Brutal Slash (202028)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Astral Influence",
+      "id": 197524,
+      "type": "modified",
+      "talent_entry": "Generic",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "9",
+            "id": "1223359",
+            "type": "Apply Aura",
+            "subtype": "Apply Flat Modifier w/ Label : Spell Range",
+            "values": [
+              {
+                "Base Value": "5"
+              },
+              {
+                "Scaled Value": "5"
+              },
+              {
+                "Misc Value": "5"
+              },
+              {
+                "Misc Value 2": "4873 (Label)"
               },
               {
                 "Target": "Self (1)"
               }
+            ],
+            "affected_spells": [
+              "Symbiotic Relationship (474750)"
             ]
           }
+        }
+      ]
+    },
+    {
+      "name": "Ravage",
+      "id": 441602,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Override Action Spell (Misc /w Base)",
+          "affected_spells": [
+            "Maul (6807)",
+            "Strength of the Wild (236716)",
+            "Raze (400254)",
+            "Ravage (441605)"
+          ],
+          "id": "1136165",
+          "modifications": [],
+          "values": [
+            {
+              "type": "removed",
+              "key": "Misc Value"
+            },
+            {
+              "type": "added",
+              "key": "Family Flags",
+              "new": "11"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "1188920"
+        }
+      ]
+    },
+    {
+      "name": "Ursine Potential",
+      "id": 441698,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Add Percent Modifier : Spell Direct Amount",
+          "affected_spells": [
+            "Brutal Slash (202028)",
+            "Swipe (213771)"
+          ],
+          "id": "1137908",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "75",
+              "new": "300"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "75",
+              "new": "300"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "1164935"
         }
       ]
     }
