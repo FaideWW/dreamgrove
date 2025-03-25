@@ -1,38 +1,3 @@
 {
-  "delta": [
-    {
-      "name": "Restoration Druid",
-      "id": 137012,
-      "type": "modified",
-      "fields": [],
-      "effects": [
-        {
-          "idx": "15",
-          "type": "Apply Aura",
-          "subtype": "Add Percent Modifier : Spell Periodic Amount",
-          "affected_spells": [
-            "Rejuvenation (774)",
-            "Rejuvenation (Germination) (155777)"
-          ],
-          "id": "1039259",
-          "modifications": [],
-          "values": [
-            {
-              "type": "added",
-              "key": "PvP Coefficient",
-              "new": "1.58"
-            }
-          ]
-        },
-        {
-          "type": "removed",
-          "id": "1039291"
-        },
-        {
-          "type": "removed",
-          "id": "1049694"
-        }
-      ]
-    }
-  ]
+  "delta": []
 }
