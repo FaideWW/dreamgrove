@@ -1,3 +1,1187 @@
 {
-  "delta": []
+  "delta": [
+    {
+      "name": "Starsurge",
+      "id": 78674,
+      "type": "modified",
+      "talent_entry": "Balance",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "816907",
+            "type": "Dummy",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Target": "Enemy (6)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "3",
+            "id": "845292",
+            "type": "Dummy",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Target": "Enemy (6)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Guardian Druid",
+      "id": 137010,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "removed",
+          "id": "1228424"
+        }
+      ]
+    },
+    {
+      "name": "Restoration Druid",
+      "id": 137012,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "16",
+            "id": "1039291",
+            "type": "Apply Aura",
+            "subtype": "Add Flat Modifier : Spell Effect 2",
+            "values": [
+              {
+                "Base Value": "-5"
+              },
+              {
+                "Scaled Value": "-5"
+              },
+              {
+                "Misc Value": "12"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "22"
+              }
+            ],
+            "affected_spells": [
+              "Adaptive Swarm (325733)",
+              "Adaptive Swarm (325748)",
+              "Adaptive Swarm (391889)",
+              "Adaptive Swarm (391891)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "17",
+            "id": "1049694",
+            "type": "Apply Aura",
+            "subtype": "Dummy",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "18",
+            "id": "1049860",
+            "type": "Apply Aura",
+            "subtype": "Dummy",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "PvP Coefficient": "0"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "19",
+            "id": "1049861",
+            "type": "Apply Aura",
+            "subtype": "Apply Flat Modifier w/ Label : Spell Effect 1",
+            "values": [
+              {
+                "Base Value": "-2"
+              },
+              {
+                "Scaled Value": "-2"
+              },
+              {
+                "Misc Value": "3"
+              },
+              {
+                "Misc Value 2": "2672 (Label)"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "20",
+            "id": "1080082",
+            "type": "Apply Aura",
+            "subtype": "Apply Flat Modifier w/ Label : Spell Effect 2",
+            "values": [
+              {
+                "Base Value": "5"
+              },
+              {
+                "Scaled Value": "5"
+              },
+              {
+                "Misc Value": "12"
+              },
+              {
+                "Misc Value 2": "2672 (Label)"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "21",
+            "id": "1081594",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "115"
+              },
+              {
+                "Scaled Value": "115"
+              },
+              {
+                "PvP Coefficient": "0.41"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "0, 2"
+              }
+            ],
+            "affected_spells": [
+              "Wrath (5176)",
+              "Wrath (190984)",
+              "Starfire (194153)",
+              "Starfire (197628)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "22",
+            "id": "1099906",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "44"
+              },
+              {
+                "Scaled Value": "44"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "58"
+              }
+            ],
+            "affected_spells": [
+              "Wild Growth (48438)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "23",
+            "id": "1099956",
+            "type": "Apply Aura",
+            "subtype": "Modify Cooldown Time (Category)",
+            "values": [
+              {
+                "Base Value": "-30000"
+              },
+              {
+                "Scaled Value": "-30000"
+              },
+              {
+                "Misc Value": "1182 (Category)"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ],
+            "affected_spells": [
+              "PvP Trinket (42292)",
+              "Honorable Medallion (195710)",
+              "Gladiator's Medallion (336126)",
+              "Gladiator's Fastidious Resolve (363117)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "24",
+            "id": "1113290",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "36"
+              },
+              {
+                "Scaled Value": "36"
+              },
+              {
+                "PvP Coefficient": "0"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "85"
+              }
+            ],
+            "affected_spells": [
+              "Rip (1079)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "25",
+            "id": "1113620",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "47"
+              },
+              {
+                "Scaled Value": "47"
+              },
+              {
+                "PvP Coefficient": "0"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "108"
+              }
+            ],
+            "affected_spells": [
+              "Ferocious Bite (22568)",
+              "Ravage (441591)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "26",
+            "id": "1120675",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "48"
+              },
+              {
+                "Scaled Value": "48"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "15"
+              }
+            ],
+            "affected_spells": [
+              "Shred (5221)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "27",
+            "id": "1120676",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "-5"
+              },
+              {
+                "Scaled Value": "-5"
+              },
+              {
+                "PvP Coefficient": "0"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "12"
+              }
+            ],
+            "affected_spells": [
+              "Rake (1822)",
+              "Rake (155722)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "28",
+            "id": "1120677",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "11"
+              },
+              {
+                "Scaled Value": "11"
+              },
+              {
+                "PvP Coefficient": "2"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "12"
+              }
+            ],
+            "affected_spells": [
+              "Rake (1822)",
+              "Rake (155722)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "29",
+            "id": "1178737",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "-10"
+              },
+              {
+                "Scaled Value": "-10"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "33"
+              }
+            ],
+            "affected_spells": [
+              "Swiftmend (18562)",
+              "Swiftmend (422094)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "30",
+            "id": "1187014",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "20"
+              },
+              {
+                "Scaled Value": "20"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "89"
+              }
+            ],
+            "affected_spells": [
+              "Starsurge (78674)",
+              "Starsurge (197626)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Moonfire",
+      "id": 164812,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "232410",
+            "type": "Apply Aura",
+            "subtype": "Periodic Damage : arcane every 2 seconds",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "SP Coefficient": "0.184"
+              },
+              {
+                "Target": "Enemy (6)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "3",
+            "id": "363033",
+            "type": "Apply Aura",
+            "subtype": "Modify Damage Taken% from Caster's Spells",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Target": "Enemy (6)"
+              },
+              {
+                "Family Flags": "2, 23, 55, 63, 89, 92, 105, 116"
+              }
+            ],
+            "affected_spells": [
+              "Starfall (50286)",
+              "Starsurge (78674)",
+              "Moonfire (164812)",
+              "Starfall (191034)",
+              "Starfall (191037)",
+              "Starfire (194153)",
+              "Starsurge (197626)",
+              "Starfire (197628)",
+              "Stellar Flare (202347)",
+              "Shooting Stars (202497)",
+              "Fury of Elune (202770)",
+              "Fury of Elune (211545)",
+              "New Moon (274281)",
+              "Half Moon (274282)",
+              "Full Moon (274283)",
+              "Fury of Elune (281871)",
+              "Starfall (359399)",
+              "Fury of Elune (365640)",
+              "Fury of Elune (394111)",
+              "Crashing Star (408310)",
+              "Crashing Star (468981)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "4",
+            "id": "840808",
+            "type": "Apply Aura",
+            "subtype": "Modify Damage Taken% from Caster's Spells",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Target": "Enemy (6)"
+              },
+              {
+                "Family Flags": "2, 19, 23, 55, 63, 89, 92, 105, 116"
+              }
+            ],
+            "affected_spells": [
+              "Starfall (50286)",
+              "Starsurge (78674)",
+              "Moonfire (164812)",
+              "Starfall (191034)",
+              "Starfall (191037)",
+              "Starfire (194153)",
+              "Starsurge (197626)",
+              "Starfire (197628)",
+              "Stellar Flare (202347)",
+              "Shooting Stars (202497)",
+              "Fury of Elune (202770)",
+              "Fury of Elune (211545)",
+              "New Moon (274281)",
+              "Half Moon (274282)",
+              "Full Moon (274283)",
+              "Fury of Elune (281871)",
+              "Starfall (359399)",
+              "Fury of Elune (365640)",
+              "Fury of Elune (394111)",
+              "Crashing Star (408310)",
+              "Crashing Star (468981)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "5",
+            "id": "1031667",
+            "type": "Apply Aura",
+            "subtype": "Modify Damage Taken% from Caster's Spells (Label)",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Misc Value": "2391 (Label)"
+              },
+              {
+                "Target": "Enemy (6)"
+              }
+            ],
+            "affected_spells": [
+              "Orbital Strike (361237)",
+              "Goldrinn's Fang (394047)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "6",
+            "id": "1039935",
+            "type": "Apply Aura",
+            "subtype": "Modify Damage Done% to Caster",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Misc Value": "0x7f"
+              },
+              {
+                "Target": "Enemy (6)"
+              },
+              {
+                "Affected School(s)": "All"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "7",
+            "id": "1108104",
+            "type": "Apply Aura",
+            "subtype": "Modify Damage Done%",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Misc Value": "0x7f"
+              },
+              {
+                "Target": "Enemy (6)"
+              },
+              {
+                "Affected School(s)": "All"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "8",
+            "id": "1119368",
+            "type": "Apply Aura",
+            "subtype": "Decrease Movement Speed%",
+            "values": [
+              {
+                "Base Value": "-20"
+              },
+              {
+                "Scaled Value": "-20"
+              },
+              {
+                "Mechanic": "Snare"
+              },
+              {
+                "Target": "Enemy (6)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sunfire",
+      "id": 164815,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "232417",
+            "type": "Apply Aura",
+            "subtype": "Periodic Damage : nature every 2 seconds",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "SP Coefficient": "0.184"
+              },
+              {
+                "Radius": "0 - 8 yards"
+              },
+              {
+                "Target": "At Enemy (53) -> At Enemy in Area (16)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "3",
+            "id": "840806",
+            "type": "Apply Aura",
+            "subtype": "Modify Damage Taken% from Caster's Spells",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Radius": "0 - 8 yards"
+              },
+              {
+                "Target": "At Enemy (53) -> At Enemy in Area (16)"
+              },
+              {
+                "Family Flags": "0, 23, 34, 55, 63, 89, 105, 116, 127"
+              }
+            ],
+            "affected_spells": [
+              "Wrath (5176)",
+              "Starfall (50286)",
+              "Starsurge (78674)",
+              "Sunfire (164815)",
+              "Wrath (190984)",
+              "Starfall (191034)",
+              "Starfall (191037)",
+              "Starsurge (197626)",
+              "Stellar Flare (202347)",
+              "Shooting Stars (202497)",
+              "Fury of Elune (202770)",
+              "Fury of Elune (211545)",
+              "New Moon (274281)",
+              "Half Moon (274282)",
+              "Full Moon (274283)",
+              "Fury of Elune (281871)",
+              "Star Burst (356474)",
+              "Starfall (359399)",
+              "Fury of Elune (365640)",
+              "Fury of Elune (394111)",
+              "Star Burst (406430)",
+              "Crashing Star (408310)",
+              "Star Burst (421072)",
+              "Crashing Star (468981)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "4",
+            "id": "1031670",
+            "type": "Apply Aura",
+            "subtype": "Modify Damage Taken% from Caster's Spells",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Radius": "0 - 8 yards"
+              },
+              {
+                "Target": "At Enemy (53) -> At Enemy in Area (16)"
+              },
+              {
+                "Family Flags": "0, 23, 34, 55, 63, 88, 89, 105, 116, 127"
+              }
+            ],
+            "affected_spells": [
+              "Wrath (5176)",
+              "Starfall (50286)",
+              "Starsurge (78674)",
+              "Fungal Growth (81281)",
+              "Wild Mushroom (88747)",
+              "Wild Mushroom (88751)",
+              "Sunfire (164815)",
+              "Wrath (190984)",
+              "Starfall (191034)",
+              "Starfall (191037)",
+              "Starsurge (197626)",
+              "Stellar Flare (202347)",
+              "Shooting Stars (202497)",
+              "Fury of Elune (202770)",
+              "Fury of Elune (211545)",
+              "New Moon (274281)",
+              "Half Moon (274282)",
+              "Full Moon (274283)",
+              "Fury of Elune (281871)",
+              "Star Burst (356474)",
+              "Starfall (359399)",
+              "Fury of Elune (365640)",
+              "Fury of Elune (394111)",
+              "Star Burst (406430)",
+              "Crashing Star (408310)",
+              "Star Burst (421072)",
+              "Sunseeker Mushroom (468936)",
+              "Sunseeker Mushroom (468938)",
+              "Crashing Star (468981)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "5",
+            "id": "1108111",
+            "type": "Apply Aura",
+            "subtype": "Modify Damage Taken% from Caster's Spells (Label)",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Misc Value": "2391 (Label)"
+              },
+              {
+                "Radius": "0 - 8 yards"
+              },
+              {
+                "Target": "At Enemy (53) -> At Enemy in Area (16)"
+              }
+            ],
+            "affected_spells": [
+              "Orbital Strike (361237)",
+              "Goldrinn's Fang (394047)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Wrath",
+      "id": 190984,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "280099",
+            "type": "Energize Power",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Resource": "astral_power"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Harmony of the Grove",
+      "id": 428735,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "1109829",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "8"
+              },
+              {
+                "Scaled Value": "8"
+              },
+              {
+                "PvP Coefficient": "0.5"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Summoner (92)"
+              },
+              {
+                "Family Flags": "18"
+              }
+            ],
+            "affected_spells": [
+              "Wrath (5176)",
+              "Starsurge (78674)",
+              "Fungal Growth (81281)",
+              "Wild Mushroom (88751)",
+              "Moonfire (164812)",
+              "Sunfire (164815)",
+              "Fey Missile (188046)",
+              "Wrath (190984)",
+              "Starfall (191037)",
+              "Starfire (194153)",
+              "Starsurge (197626)",
+              "Starfire (197628)",
+              "Sunfire (197630)",
+              "Stellar Flare (202347)",
+              "Shooting Stars (202497)",
+              "Fury of Elune (211545)",
+              "Streaking Star (272873)",
+              "New Moon (274281)",
+              "Half Moon (274282)",
+              "Full Moon (274283)",
+              "Lunar Shrapnel (279641)",
+              "Fury of Elune (281871)",
+              "Thorns (305496)",
+              "Adaptive Swarm (325733)",
+              "Star Burst (356474)",
+              "Starfall (359399)",
+              "Orbital Strike (361237)",
+              "Fury of Elune (365640)",
+              "Power of Goldrinn (394046)",
+              "Goldrinn's Fang (394047)",
+              "Fury of Elune (394111)",
+              "Star Burst (406430)",
+              "Crashing Star (408310)",
+              "Minor Moon (424588)",
+              "Boundless Moonlight (428682)",
+              "Dream Burst (433850)",
+              "Crashing Star (468981)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lunar Calling",
+      "id": 429523,
+      "type": "modified",
+      "talent_entry": "Elune's Chosen (Balance, Guardian)",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "1118640",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "12"
+              },
+              {
+                "Scaled Value": "12"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "40, 91, 126"
+              }
+            ],
+            "affected_spells": [
+              "Thrash (77758)",
+              "Thrash (106830)",
+              "Thrash (192090)",
+              "Thrash (405233)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "3",
+            "id": "1118641",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "12"
+              },
+              {
+                "Scaled Value": "12"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "40, 91, 126"
+              }
+            ],
+            "affected_spells": [
+              "Thrash (77758)",
+              "Thrash (106830)",
+              "Thrash (192090)",
+              "Thrash (405233)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "4",
+            "id": "1118642",
+            "type": "Apply Aura",
+            "subtype": "Modify Spell School",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Misc Value": "64"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "40, 91, 126"
+              }
+            ],
+            "affected_spells": [
+              "Thrash (77758)",
+              "Thrash (106830)",
+              "Thrash (192090)",
+              "Thrash (405233)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "5",
+            "id": "1204429",
+            "type": "Apply Aura",
+            "subtype": "Apply Flat Modifier w/ Label : Spell Effect 2",
+            "values": [
+              {
+                "Base Value": "10"
+              },
+              {
+                "Scaled Value": "10"
+              },
+              {
+                "Misc Value": "12"
+              },
+              {
+                "Misc Value 2": "4367 (Label)"
+              }
+            ],
+            "affected_spells": [
+              "Fury of Nature (370701)",
+              "Fury of Nature (370704)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "6",
+            "id": "1204430",
+            "type": "Apply Aura",
+            "subtype": "Apply Flat Modifier w/ Label : Spell Effect 3",
+            "values": [
+              {
+                "Base Value": "10"
+              },
+              {
+                "Scaled Value": "10"
+              },
+              {
+                "Misc Value": "23"
+              },
+              {
+                "Misc Value 2": "4367 (Label)"
+              }
+            ],
+            "affected_spells": [
+              "Fury of Nature (370701)",
+              "Fury of Nature (370704)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dreadful Wound",
+      "id": 451177,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "1151597",
+            "type": "Apply Aura",
+            "subtype": "Modify Damage Done% to Caster",
+            "values": [
+              {
+                "Base Value": "-10"
+              },
+              {
+                "Scaled Value": "-10"
+              },
+              {
+                "Misc Value": "0x7f"
+              },
+              {
+                "Target": "Enemy (6)"
+              },
+              {
+                "Affected School(s)": "All"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
 }
