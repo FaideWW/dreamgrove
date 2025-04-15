@@ -1,17 +1,286 @@
 {
   "delta": [
     {
-      "name": "Tireless Pursuit",
-      "id": 393897,
+      "name": "Starsurge",
+      "id": 78674,
       "type": "modified",
-      "fields": [
+      "talent_entry": "Balance",
+      "fields": [],
+      "effects": [
         {
-          "field": "duration",
-          "prev": "5 seconds",
-          "new": "3 seconds"
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "68268",
+          "modifications": [],
+          "values": [
+            {
+              "key": "SP Coefficient",
+              "prev": "2.8728",
+              "new": "2.96"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "816907"
+        },
+        {
+          "type": "removed",
+          "id": "845292"
         }
-      ],
-      "effects": []
+      ]
+    },
+    {
+      "name": "Balance Druid",
+      "id": 137013,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Add Percent Modifier : Spell Direct Amount",
+          "affected_spells": [
+            "Wrath (5176)",
+            "Starsurge (78674)",
+            "Fungal Growth (81281)",
+            "Wild Mushroom (88751)",
+            "Moonfire (164812)",
+            "Sunfire (164815)",
+            "Fey Missile (188046)",
+            "Wrath (190984)",
+            "Starfall (191037)",
+            "Starfire (194153)",
+            "Starsurge (197626)",
+            "Starfire (197628)",
+            "Sunfire (197630)",
+            "Stellar Flare (202347)",
+            "Shooting Stars (202497)",
+            "Fury of Elune (211545)",
+            "Streaking Star (272873)",
+            "New Moon (274281)",
+            "Half Moon (274282)",
+            "Full Moon (274283)",
+            "Lunar Shrapnel (279641)",
+            "Fury of Elune (281871)",
+            "Thorns (305496)",
+            "Adaptive Swarm (325733)",
+            "Star Burst (356474)",
+            "Starfall (359399)",
+            "Orbital Strike (361237)",
+            "Fury of Elune (365640)",
+            "Power of Goldrinn (394046)",
+            "Goldrinn's Fang (394047)",
+            "Fury of Elune (394111)",
+            "Star Burst (406430)",
+            "Crashing Star (408310)",
+            "Minor Moon (424588)",
+            "Boundless Moonlight (428682)",
+            "Dream Burst (433850)",
+            "Crashing Star (468981)"
+          ],
+          "id": "179696",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "6",
+              "new": "9"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "6",
+              "new": "9"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "191146"
+        },
+        {
+          "type": "removed",
+          "id": "191147"
+        },
+        {
+          "type": "removed",
+          "id": "191148"
+        },
+        {
+          "type": "removed",
+          "id": "191149"
+        },
+        {
+          "type": "removed",
+          "id": "260777"
+        },
+        {
+          "type": "removed",
+          "id": "260778"
+        },
+        {
+          "type": "removed",
+          "id": "872569"
+        },
+        {
+          "type": "removed",
+          "id": "1080967"
+        },
+        {
+          "type": "removed",
+          "id": "1080968"
+        },
+        {
+          "type": "removed",
+          "id": "1088945"
+        },
+        {
+          "type": "removed",
+          "id": "1177983"
+        },
+        {
+          "type": "removed",
+          "id": "1177984"
+        },
+        {
+          "type": "removed",
+          "id": "1177985"
+        },
+        {
+          "type": "removed",
+          "id": "1177986"
+        },
+        {
+          "type": "removed",
+          "id": "1178044"
+        },
+        {
+          "type": "removed",
+          "id": "1228206"
+        }
+      ]
+    },
+    {
+      "name": "Starfall",
+      "id": 191037,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "280158",
+          "modifications": [],
+          "values": [
+            {
+              "key": "SP Coefficient",
+              "prev": "0.249",
+              "new": "0.224"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Power of Goldrinn",
+      "id": 394046,
+      "type": "modified",
+      "talent_entry": "Balance",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "3",
+          "type": "School Damage : astral",
+          "id": "1109174",
+          "modifications": [],
+          "values": [
+            {
+              "key": "SP Coefficient",
+              "prev": "1.5",
+              "new": "1.545"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Goldrinn's Fang",
+      "id": 394047,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "1033385",
+          "modifications": [],
+          "values": [
+            {
+              "key": "SP Coefficient",
+              "prev": "1.5",
+              "new": "1.545"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Minor Moon",
+      "id": 424588,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "1101681",
+          "modifications": [],
+          "values": [
+            {
+              "key": "SP Coefficient",
+              "prev": "2.4486",
+              "new": "2.204"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "1101682"
+        },
+        {
+          "type": "removed",
+          "id": "1169121"
+        }
+      ]
+    },
+    {
+      "name": "Boundless Moonlight",
+      "id": 428682,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "1109706",
+          "modifications": [],
+          "values": [
+            {
+              "key": "SP Coefficient",
+              "prev": "2.81",
+              "new": "2.53"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "1119703"
+        },
+        {
+          "type": "removed",
+          "id": "1119704"
+        }
+      ]
     }
   ]
 }
