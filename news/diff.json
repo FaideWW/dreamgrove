@@ -1,286 +1,95 @@
 {
   "delta": [
     {
-      "name": "Starsurge",
-      "id": 78674,
-      "type": "modified",
-      "talent_entry": "Balance",
-      "fields": [],
-      "effects": [
-        {
-          "idx": "1",
-          "type": "School Damage : astral",
-          "id": "68268",
-          "modifications": [],
-          "values": [
-            {
-              "key": "SP Coefficient",
-              "prev": "2.8728",
-              "new": "2.96"
-            }
-          ]
-        },
-        {
-          "type": "removed",
-          "id": "816907"
-        },
-        {
-          "type": "removed",
-          "id": "845292"
-        }
-      ]
-    },
-    {
-      "name": "Balance Druid",
-      "id": 137013,
+      "name": "Druid",
+      "id": 137009,
       "type": "modified",
       "fields": [],
       "effects": [
         {
-          "idx": "1",
+          "idx": "4",
           "type": "Apply Aura",
-          "subtype": "Add Percent Modifier : Spell Direct Amount",
+          "subtype": "Hasted Global Cooldown",
           "affected_spells": [
-            "Wrath (5176)",
-            "Starsurge (78674)",
-            "Fungal Growth (81281)",
-            "Wild Mushroom (88751)",
-            "Moonfire (164812)",
-            "Sunfire (164815)",
-            "Fey Missile (188046)",
-            "Wrath (190984)",
-            "Starfall (191037)",
-            "Starfire (194153)",
-            "Starsurge (197626)",
-            "Starfire (197628)",
-            "Sunfire (197630)",
-            "Stellar Flare (202347)",
-            "Shooting Stars (202497)",
-            "Fury of Elune (211545)",
-            "Streaking Star (272873)",
-            "New Moon (274281)",
-            "Half Moon (274282)",
-            "Full Moon (274283)",
-            "Lunar Shrapnel (279641)",
-            "Fury of Elune (281871)",
-            "Thorns (305496)",
-            "Adaptive Swarm (325733)",
-            "Star Burst (356474)",
-            "Starfall (359399)",
-            "Orbital Strike (361237)",
-            "Fury of Elune (365640)",
-            "Power of Goldrinn (394046)",
-            "Goldrinn's Fang (394047)",
-            "Fury of Elune (394111)",
-            "Star Burst (406430)",
-            "Crashing Star (408310)",
-            "Minor Moon (424588)",
-            "Boundless Moonlight (428682)",
-            "Dream Burst (433850)",
-            "Crashing Star (468981)"
+            "Incapacitating Roar (99)",
+            "Cat Form (768)",
+            "Travel Form (783)",
+            "Mighty Bash (5211)",
+            "Bear Form (5487)",
+            "Maul (6807)",
+            "Frenzied Regeneration (22842)",
+            "Moonkin Form (24858)",
+            "Incarnation"
           ],
-          "id": "179696",
+          "id": "191164",
           "modifications": [],
           "values": [
             {
-              "key": "Base Value",
-              "prev": "6",
-              "new": "9"
-            },
-            {
-              "key": "Scaled Value",
-              "prev": "6",
-              "new": "9"
-            }
-          ]
-        },
-        {
-          "type": "removed",
-          "id": "191146"
-        },
-        {
-          "type": "removed",
-          "id": "191147"
-        },
-        {
-          "type": "removed",
-          "id": "191148"
-        },
-        {
-          "type": "removed",
-          "id": "191149"
-        },
-        {
-          "type": "removed",
-          "id": "260777"
-        },
-        {
-          "type": "removed",
-          "id": "260778"
-        },
-        {
-          "type": "removed",
-          "id": "872569"
-        },
-        {
-          "type": "removed",
-          "id": "1080967"
-        },
-        {
-          "type": "removed",
-          "id": "1080968"
-        },
-        {
-          "type": "removed",
-          "id": "1088945"
-        },
-        {
-          "type": "removed",
-          "id": "1177983"
-        },
-        {
-          "type": "removed",
-          "id": "1177984"
-        },
-        {
-          "type": "removed",
-          "id": "1177985"
-        },
-        {
-          "type": "removed",
-          "id": "1177986"
-        },
-        {
-          "type": "removed",
-          "id": "1178044"
-        },
-        {
-          "type": "removed",
-          "id": "1228206"
-        }
-      ]
-    },
-    {
-      "name": "Starfall",
-      "id": 191037,
-      "type": "modified",
-      "fields": [],
-      "effects": [
-        {
-          "idx": "1",
-          "type": "School Damage : astral",
-          "id": "280158",
-          "modifications": [],
-          "values": [
-            {
-              "key": "SP Coefficient",
-              "prev": "0.249",
-              "new": "0.224"
+              "key": "Family Flags",
+              "prev": "3, 11, 13, 25, 27, 29, 30, 31, 32, 38, 40, 43, 45, 46, 47, 52, 62, 87, 91, 106, 123",
+              "new": "3, 11, 13, 25, 27, 29, 30, 31, 32, 38, 40, 41, 43, 45, 46, 47, 52, 62, 87, 91, 106, 123"
             }
           ]
         }
       ]
     },
     {
-      "name": "Power of Goldrinn",
-      "id": 394046,
+      "name": "Moonfire",
+      "id": 164812,
       "type": "modified",
-      "talent_entry": "Balance",
       "fields": [],
       "effects": [
         {
-          "idx": "3",
-          "type": "School Damage : astral",
-          "id": "1109174",
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : arcane every 2 seconds",
+          "id": "232410",
           "modifications": [],
           "values": [
             {
-              "key": "SP Coefficient",
-              "prev": "1.5",
-              "new": "1.545"
+              "type": "added",
+              "key": "PvP Coefficient",
+              "new": "1.33"
             }
           ]
         }
       ]
     },
     {
-      "name": "Goldrinn's Fang",
-      "id": 394047,
+      "name": "Sunfire",
+      "id": 164815,
       "type": "modified",
       "fields": [],
       "effects": [
         {
-          "idx": "1",
-          "type": "School Damage : astral",
-          "id": "1033385",
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : nature every 2 seconds",
+          "id": "232417",
           "modifications": [],
           "values": [
             {
-              "key": "SP Coefficient",
-              "prev": "1.5",
-              "new": "1.545"
+              "type": "added",
+              "key": "PvP Coefficient",
+              "new": "1.33"
             }
           ]
         }
       ]
     },
     {
-      "name": "Minor Moon",
-      "id": 424588,
+      "name": "Symbiotic Relationship",
+      "id": 474750,
       "type": "modified",
-      "fields": [],
-      "effects": [
+      "talent_entry": "Generic",
+      "fields": [
         {
-          "idx": "1",
-          "type": "School Damage : astral",
-          "id": "1101681",
-          "modifications": [],
-          "values": [
-            {
-              "key": "SP Coefficient",
-              "prev": "2.4486",
-              "new": "2.204"
-            }
-          ]
-        },
-        {
-          "type": "removed",
-          "id": "1101682"
-        },
-        {
-          "type": "removed",
-          "id": "1169121"
+          "field": "cast_time",
+          "prev": "2.5 seconds",
+          "new": "1.5 seconds"
         }
-      ]
-    },
-    {
-      "name": "Boundless Moonlight",
-      "id": 428682,
-      "type": "modified",
-      "fields": [],
-      "effects": [
-        {
-          "idx": "1",
-          "type": "School Damage : astral",
-          "id": "1109706",
-          "modifications": [],
-          "values": [
-            {
-              "key": "SP Coefficient",
-              "prev": "2.81",
-              "new": "2.53"
-            }
-          ]
-        },
-        {
-          "type": "removed",
-          "id": "1119703"
-        },
-        {
-          "type": "removed",
-          "id": "1119704"
-        }
-      ]
+      ],
+      "effects": []
     }
   ]
 }
