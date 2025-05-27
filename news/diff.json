@@ -1,3 +1,57 @@
 {
-  "delta": []
+  "delta": [
+    {
+      "name": "Wrath",
+      "id": 190984,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : nature",
+          "id": "280098",
+          "modifications": [],
+          "values": [
+            {
+              "key": "PvP Coefficient",
+              "prev": "1.4",
+              "new": "1.61"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "280099"
+        }
+      ]
+    },
+    {
+      "name": "Blooming Infusion",
+      "id": 429474,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Add Percent Modifier : Spell Direct Amount",
+          "affected_spells": [
+            "Wrath (5176)",
+            "Wrath (190984)",
+            "Starfire (194153)",
+            "Starfire (197628)"
+          ],
+          "id": "1113724",
+          "modifications": [],
+          "values": [
+            {
+              "type": "added",
+              "key": "PvP Coefficient",
+              "new": "0.25"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
