@@ -1,3 +1,39 @@
 {
-  "delta": []
+  "delta": [
+    {
+      "name": "Bear Form Passive 2",
+      "id": 21178,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Threat",
+          "id": "12001",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "815",
+              "new": "950"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "815",
+              "new": "950"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "12002"
+        },
+        {
+          "type": "removed",
+          "id": "1137381"
+        }
+      ]
+    }
+  ]
 }
