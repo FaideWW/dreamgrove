@@ -1,30 +1,183 @@
 {
   "delta": [
     {
-      "name": "Balance Druid",
-      "id": 137013,
+      "name": "Savage Roar",
+      "id": 62071,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "3",
+          "type": "Apply Aura",
+          "subtype": "Modify Power Regen",
+          "id": "479882",
+          "modifications": [],
+          "values": [
+            {
+              "type": "removed",
+              "key": "Misc Value"
+            },
+            {
+              "type": "added",
+              "key": "Resource",
+              "new": "energy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Feral Druid",
+      "id": 137011,
       "type": "modified",
       "fields": [],
       "effects": [
         {
           "idx": "6",
           "type": "Apply Aura",
-          "subtype": "Add Percent Modifier : Spell Resource Cost",
-          "affected_spells": [
-            "Regrowth (8936)"
-          ],
-          "id": "260777",
+          "subtype": "Modify Power Regen",
+          "id": "260767",
           "modifications": [],
           "values": [
             {
-              "key": "Base Value",
-              "prev": "47",
-              "new": "0"
+              "type": "removed",
+              "key": "Misc Value"
             },
             {
-              "key": "Scaled Value",
-              "prev": "47",
-              "new": "0"
+              "type": "added",
+              "key": "Resource",
+              "new": "energy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Feral Affinity",
+      "id": 197490,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Modify Power Regen",
+          "id": "340934",
+          "modifications": [],
+          "values": [
+            {
+              "type": "removed",
+              "key": "Misc Value"
+            },
+            {
+              "type": "added",
+              "key": "Resource",
+              "new": "energy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Feral Affinity",
+      "id": 202155,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Modify Power Regen",
+          "id": "340945",
+          "modifications": [],
+          "values": [
+            {
+              "type": "removed",
+              "key": "Misc Value"
+            },
+            {
+              "type": "added",
+              "key": "Resource",
+              "new": "energy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nature's Balance",
+      "id": 279649,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Modify Power Regen",
+          "id": "736079",
+          "modifications": [],
+          "values": [
+            {
+              "type": "removed",
+              "key": "Misc Value"
+            },
+            {
+              "type": "added",
+              "key": "Resource",
+              "new": "astral_power"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tireless Energy",
+      "id": 383352,
+      "type": "modified",
+      "talent_entry": "Feral",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Modify Power Regen",
+          "id": "1027913",
+          "modifications": [],
+          "values": [
+            {
+              "type": "removed",
+              "key": "Misc Value"
+            },
+            {
+              "type": "added",
+              "key": "Resource",
+              "new": "energy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Savage Fury",
+      "id": 449646,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Modify Power Regen",
+          "id": "1148999",
+          "modifications": [],
+          "values": [
+            {
+              "type": "removed",
+              "key": "Misc Value"
+            },
+            {
+              "type": "added",
+              "key": "Resource",
+              "new": "energy"
             }
           ]
         }

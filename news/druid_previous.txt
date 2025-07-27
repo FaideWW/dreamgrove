@@ -4494,7 +4494,7 @@ Effects          :
                    Affected Spells: Regrowth (8936)
                    Family Flags: 6
 #6 (id=260777)   : Apply Aura (6) | Add Percent Modifier (108): Spell Resource Cost (14)
-                   Base Value: 47 | Scaled Value: 47 | Misc Value: 14 | Target: Self (1)
+                   Base Value: 0 | Scaled Value: 0 | Misc Value: 14 | Target: Self (1)
                    Affected Spells: Regrowth (8936)
                    Family Flags: 6
 #7 (id=260778)   : Apply Aura (6) | Override Attack Power per Spell Power% (404)
