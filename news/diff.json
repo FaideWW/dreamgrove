@@ -1,12 +1,1222 @@
 {
   "delta": [
     {
-      "type": "added",
-      "id": 1215544
+      "name": "Bear Form Passive 2",
+      "id": 21178,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "4",
+            "id": "1223355",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "-50"
+              },
+              {
+                "Scaled Value": "-50"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "99"
+              }
+            ],
+            "affected_spells": [
+              "Brutal Slash (202028)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Maim",
+      "id": 22570,
+      "type": "modified",
+      "talent_entry": "Generic",
+      "fields": [
+        {
+          "field": "cooldown",
+          "prev": "20 seconds",
+          "new": "30 seconds"
+        }
+      ],
+      "effects": []
+    },
+    {
+      "name": "Solar Beam",
+      "id": 78675,
+      "type": "modified",
+      "talent_entry": "Balance",
+      "fields": [],
+      "effects": [
+        {
+          "type": "removed",
+          "id": "190087"
+        }
+      ]
+    },
+    {
+      "name": "Guardian Druid",
+      "id": 137010,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Add Percent Modifier : Spell Direct Amount",
+          "affected_spells": [
+            "Maul (6807)",
+            "Mangle (33917)",
+            "Thrash (77758)",
+            "Pulverize (80313)",
+            "Thrash (192090)",
+            "Brambles (203958)",
+            "Lunar Beam (204069)",
+            "Brambles (213709)",
+            "Swipe (213771)",
+            "Architect's Aligner (363789)",
+            "Thorns of Iron (400223)",
+            "Raze (400254)",
+            "Lunar Beam (414613)",
+            "Ravage (441605)",
+            "Dreadful Wound (451177)"
+          ],
+          "id": "179693",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "151",
+              "new": "181"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "151",
+              "new": "181"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Add Percent Modifier : Spell Periodic Amount",
+          "affected_spells": [
+            "Maul (6807)",
+            "Mangle (33917)",
+            "Thrash (77758)",
+            "Pulverize (80313)",
+            "Thrash (192090)",
+            "Brambles (203958)",
+            "Lunar Beam (204069)",
+            "Brambles (213709)",
+            "Swipe (213771)",
+            "Architect's Aligner (363789)",
+            "Thorns of Iron (400223)",
+            "Raze (400254)",
+            "Lunar Beam (414613)",
+            "Ravage (441605)",
+            "Dreadful Wound (451177)"
+          ],
+          "id": "191158",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "151",
+              "new": "181"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "151",
+              "new": "181"
+            }
+          ]
+        },
+        {
+          "idx": "19",
+          "type": "Apply Aura",
+          "subtype": "Add Percent Modifier : Spell Direct Amount",
+          "affected_spells": [
+            "Moonfire (8921)",
+            "Moonfire (164812)"
+          ],
+          "id": "1091200",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "53",
+              "new": "71"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "53",
+              "new": "71"
+            }
+          ]
+        },
+        {
+          "idx": "20",
+          "type": "Apply Aura",
+          "subtype": "Add Percent Modifier : Spell Periodic Amount",
+          "affected_spells": [
+            "Moonfire (8921)",
+            "Moonfire (164812)"
+          ],
+          "id": "1091201",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "53",
+              "new": "71"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "53",
+              "new": "71"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Feral Druid",
+      "id": 137011,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Add Percent Modifier : Spell Direct Amount",
+          "affected_spells": [
+            "Rip (1079)",
+            "Rake (1822)",
+            "Shred (5221)",
+            "Ferocious Bite (22568)",
+            "Maim (22570)",
+            "Swipe (106785)",
+            "Thrash (106830)",
+            "Moonfire (155625)",
+            "Rake (155722)",
+            "Brutal Slash (202028)",
+            "Feral Frenzy (274838)",
+            "Primal Wrath (285381)",
+            "Sickle of the Lion (363830)",
+            "Rampant Ferocity (391710)",
+            "Adaptive Swarm (391889)",
+            "Thrash (405233)",
+            "Bloodseeker Vines (439531)",
+            "Bursting Growth (440122)",
+            "Ravage (441591)",
+            "Dreadful Wound (441812)"
+          ],
+          "id": "179694",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "14",
+              "new": "23"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "14",
+              "new": "23"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "191154"
+        },
+        {
+          "type": "removed",
+          "id": "191155"
+        },
+        {
+          "type": "removed",
+          "id": "191156"
+        },
+        {
+          "type": "removed",
+          "id": "191157"
+        },
+        {
+          "type": "removed",
+          "id": "260767"
+        },
+        {
+          "type": "removed",
+          "id": "260768"
+        },
+        {
+          "type": "removed",
+          "id": "260769"
+        },
+        {
+          "type": "removed",
+          "id": "260770"
+        },
+        {
+          "type": "removed",
+          "id": "1032347"
+        },
+        {
+          "type": "removed",
+          "id": "1032348"
+        },
+        {
+          "type": "removed",
+          "id": "1049862"
+        },
+        {
+          "type": "removed",
+          "id": "1049863"
+        },
+        {
+          "type": "removed",
+          "id": "1080962"
+        },
+        {
+          "type": "removed",
+          "id": "1088944"
+        },
+        {
+          "type": "removed",
+          "id": "1174663"
+        },
+        {
+          "type": "removed",
+          "id": "1177947"
+        },
+        {
+          "type": "removed",
+          "id": "1222119"
+        }
+      ]
+    },
+    {
+      "name": "Restoration Druid",
+      "id": 137012,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "31",
+            "id": "1256956",
+            "type": "Apply Aura",
+            "subtype": "Apply Flat Modifier w/ Label : Spell Duration",
+            "values": [
+              {
+                "Base Value": "30000"
+              },
+              {
+                "Scaled Value": "30000"
+              },
+              {
+                "Misc Value": "1"
+              },
+              {
+                "Misc Value 2": "5540 (Label)"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ],
+            "affected_spells": [
+              "Dryad's Favor (1236807)",
+              "Dryad's Favor (1252024)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Balance Druid",
+      "id": 137013,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Add Percent Modifier : Spell Direct Amount",
+          "affected_spells": [
+            "Wrath (5176)",
+            "Starsurge (78674)",
+            "Fungal Growth (81281)",
+            "Wild Mushroom (88751)",
+            "Moonfire (164812)",
+            "Sunfire (164815)",
+            "Fey Missile (188046)",
+            "Wrath (190984)",
+            "Starfall (191037)",
+            "Starfire (194153)",
+            "Starsurge (197626)",
+            "Starfire (197628)",
+            "Sunfire (197630)",
+            "Stellar Flare (202347)",
+            "Shooting Stars (202497)",
+            "Fury of Elune (211545)",
+            "Streaking Star (272873)",
+            "New Moon (274281)",
+            "Half Moon (274282)",
+            "Full Moon (274283)",
+            "Lunar Shrapnel (279641)",
+            "Fury of Elune (281871)",
+            "Thorns (305496)",
+            "Adaptive Swarm (325733)",
+            "Star Burst (356474)",
+            "Starfall (359399)",
+            "Orbital Strike (361237)",
+            "Fury of Elune (365640)",
+            "Power of Goldrinn (394046)",
+            "Goldrinn's Fang (394047)",
+            "Fury of Elune (394111)",
+            "Star Burst (406430)",
+            "Crashing Star (408310)",
+            "Minor Moon (424588)",
+            "Boundless Moonlight (428682)",
+            "Dream Burst (433850)",
+            "Crashing Star (468981)"
+          ],
+          "id": "179696",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "9",
+              "new": "18"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "9",
+              "new": "18"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Add Percent Modifier : Spell Periodic Amount",
+          "affected_spells": [
+            "Wrath (5176)",
+            "Starsurge (78674)",
+            "Fungal Growth (81281)",
+            "Wild Mushroom (88751)",
+            "Moonfire (164812)",
+            "Sunfire (164815)",
+            "Fey Missile (188046)",
+            "Wrath (190984)",
+            "Starfall (191037)",
+            "Starfire (194153)",
+            "Starsurge (197626)",
+            "Starfire (197628)",
+            "Sunfire (197630)",
+            "Stellar Flare (202347)",
+            "Shooting Stars (202497)",
+            "Fury of Elune (211545)",
+            "Streaking Star (272873)",
+            "New Moon (274281)",
+            "Half Moon (274282)",
+            "Full Moon (274283)",
+            "Lunar Shrapnel (279641)",
+            "Fury of Elune (281871)",
+            "Thorns (305496)",
+            "Adaptive Swarm (325733)",
+            "Star Burst (356474)",
+            "Starfall (359399)",
+            "Orbital Strike (361237)",
+            "Fury of Elune (365640)",
+            "Power of Goldrinn (394046)",
+            "Goldrinn's Fang (394047)",
+            "Fury of Elune (394111)",
+            "Star Burst (406430)",
+            "Crashing Star (408310)",
+            "Minor Moon (424588)",
+            "Boundless Moonlight (428682)",
+            "Dream Burst (433850)",
+            "Crashing Star (468981)"
+          ],
+          "id": "191146",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "9",
+              "new": "18"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "9",
+              "new": "18"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Apply Aura",
+          "subtype": "Modify Pet Damage Done%",
+          "id": "191147",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "9",
+              "new": "18"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "9",
+              "new": "18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tranquility",
+      "id": 157982,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "220365",
+          "modifications": [],
+          "values": [
+            {
+              "key": "SP Coefficient",
+              "prev": "2.714",
+              "new": "5.428"
+            },
+            {
+              "key": "PvP Coefficient",
+              "prev": "2.6",
+              "new": "1.3"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 2 seconds",
+          "id": "709927",
+          "modifications": [],
+          "values": [
+            {
+              "key": "SP Coefficient",
+              "prev": "0.01978",
+              "new": "0.05934"
+            },
+            {
+              "key": "PvP Coefficient",
+              "prev": "2.6",
+              "new": "1.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sabertooth",
+      "id": 202031,
+      "type": "modified",
+      "talent_entry": "Feral",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "753677",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "3",
+              "new": "5"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "3",
+              "new": "5"
+            },
+            {
+              "key": "PvP Coefficient",
+              "prev": "0.67",
+              "new": "0.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lycara's Teachings",
+      "id": 378989,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "1225961",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "4"
+              },
+              {
+                "Scaled Value": "4"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "18"
+              }
+            ],
+            "affected_spells": [
+              "Wrath (5176)",
+              "Starsurge (78674)",
+              "Fungal Growth (81281)",
+              "Wild Mushroom (88751)",
+              "Moonfire (164812)",
+              "Sunfire (164815)",
+              "Fey Missile (188046)",
+              "Wrath (190984)",
+              "Starfall (191037)",
+              "Starfire (194153)",
+              "Starsurge (197626)",
+              "Starfire (197628)",
+              "Sunfire (197630)",
+              "Stellar Flare (202347)",
+              "Shooting Stars (202497)",
+              "Fury of Elune (211545)",
+              "Streaking Star (272873)",
+              "New Moon (274281)",
+              "Half Moon (274282)",
+              "Full Moon (274283)",
+              "Lunar Shrapnel (279641)",
+              "Fury of Elune (281871)",
+              "Thorns (305496)",
+              "Adaptive Swarm (325733)",
+              "Star Burst (356474)",
+              "Starfall (359399)",
+              "Orbital Strike (361237)",
+              "Fury of Elune (365640)",
+              "Power of Goldrinn (394046)",
+              "Goldrinn's Fang (394047)",
+              "Fury of Elune (394111)",
+              "Star Burst (406430)",
+              "Crashing Star (408310)",
+              "Minor Moon (424588)",
+              "Boundless Moonlight (428682)",
+              "Dream Burst (433850)",
+              "Crashing Star (468981)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "3",
+            "id": "1225962",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "4"
+              },
+              {
+                "Scaled Value": "4"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "18"
+              }
+            ],
+            "affected_spells": [
+              "Wrath (5176)",
+              "Starsurge (78674)",
+              "Fungal Growth (81281)",
+              "Wild Mushroom (88751)",
+              "Moonfire (164812)",
+              "Sunfire (164815)",
+              "Fey Missile (188046)",
+              "Wrath (190984)",
+              "Starfall (191037)",
+              "Starfire (194153)",
+              "Starsurge (197626)",
+              "Starfire (197628)",
+              "Sunfire (197630)",
+              "Stellar Flare (202347)",
+              "Shooting Stars (202497)",
+              "Fury of Elune (211545)",
+              "Streaking Star (272873)",
+              "New Moon (274281)",
+              "Half Moon (274282)",
+              "Full Moon (274283)",
+              "Lunar Shrapnel (279641)",
+              "Fury of Elune (281871)",
+              "Thorns (305496)",
+              "Adaptive Swarm (325733)",
+              "Star Burst (356474)",
+              "Starfall (359399)",
+              "Orbital Strike (361237)",
+              "Fury of Elune (365640)",
+              "Power of Goldrinn (394046)",
+              "Goldrinn's Fang (394047)",
+              "Fury of Elune (394111)",
+              "Star Burst (406430)",
+              "Crashing Star (408310)",
+              "Minor Moon (424588)",
+              "Boundless Moonlight (428682)",
+              "Dream Burst (433850)",
+              "Crashing Star (468981)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lycara's Teachings",
+      "id": 378990,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "1225959",
+            "type": "Apply Aura",
+            "subtype": "Modify Total Stat%",
+            "values": [
+              {
+                "Base Value": "4"
+              },
+              {
+                "Scaled Value": "4"
+              },
+              {
+                "Stat": "Sta"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lycara's Teachings",
+      "id": 378991,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "1225963",
+            "type": "Apply Aura",
+            "subtype": "Increase Movement Speed% (Stacking)",
+            "values": [
+              {
+                "Base Value": "5"
+              },
+              {
+                "Scaled Value": "5"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lycara's Teachings",
+      "id": 378992,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "1225964",
+            "type": "Apply Aura",
+            "subtype": "Modify AoE Damage Taken%",
+            "values": [
+              {
+                "Base Value": "-3"
+              },
+              {
+                "Scaled Value": "-3"
+              },
+              {
+                "Misc Value": "127"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Saber Jaws",
+      "id": 421432,
+      "type": "modified",
+      "talent_entry": "Feral",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "1095708",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "40",
+              "new": "60"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "40",
+              "new": "60"
+            },
+            {
+              "key": "PvP Coefficient",
+              "prev": "0.5",
+              "new": "0.33"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thriving Growth",
+      "id": 439528,
+      "type": "modified",
+      "talent_entry": "Wildstalker (Feral, Restoration)",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "3",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "1133056",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "65",
+              "new": "85"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "65",
+              "new": "85"
+            }
+          ]
+        },
+        {
+          "idx": "4",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "1133057",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "120",
+              "new": "155"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "120",
+              "new": "155"
+            }
+          ]
+        },
+        {
+          "idx": "5",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "1133063",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "120",
+              "new": "155"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "120",
+              "new": "155"
+            }
+          ]
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "6",
+            "id": "1233700",
+            "type": "Apply Aura",
+            "subtype": "Dummy",
+            "values": [
+              {
+                "Base Value": "62"
+              },
+              {
+                "Scaled Value": "62"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "7",
+            "id": "1233701",
+            "type": "Apply Aura",
+            "subtype": "Dummy",
+            "values": [
+              {
+                "Base Value": "75"
+              },
+              {
+                "Scaled Value": "75"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Symbiotic Blooms",
+      "id": 439530,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 2 seconds",
+          "id": "1132873",
+          "modifications": [],
+          "values": [
+            {
+              "key": "SP Coefficient",
+              "prev": "0.4",
+              "new": "0.52"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Twin Sprouts",
+      "id": 440117,
+      "type": "modified",
+      "talent_entry": "Wildstalker (Feral, Restoration)",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "1133804",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "20",
+              "new": "30"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "20",
+              "new": "30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vigorous Creepers",
+      "id": 440119,
+      "type": "modified",
+      "talent_entry": "Wildstalker (Feral, Restoration)",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Apply Flat Modifier w/ Label : Spell Effect 2",
+          "affected_spells": [
+            "Bloodseeker Vines (439531)"
+          ],
+          "id": "1133806",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "5",
+              "new": "6"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "5",
+              "new": "6"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "1133807"
+        }
+      ]
+    },
+    {
+      "name": "Bursting Growth",
+      "id": 440121,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "1133809",
+          "modifications": [],
+          "values": [
+            {
+              "key": "SP Coefficient",
+              "prev": "0.2",
+              "new": "0.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Empowered Shapeshifting",
+      "id": 441689,
+      "type": "modified",
+      "talent_entry": "Druid of the Claw (Feral, Guardian)",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "4",
+          "type": "Apply Aura",
+          "subtype": "Apply Flat Modifier w/ Label : Spell Effect 3",
+          "affected_spells": [
+            "Bear Form Passive 2 (21178)"
+          ],
+          "id": "1137383",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "-4",
+              "new": "-6"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "-4",
+              "new": "-6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dreadful Wound",
+      "id": 451177,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Done% to Caster",
+          "id": "1151597",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "-10",
+              "new": "-15"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "-10",
+              "new": "-15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Strike for the Heart",
+      "id": 458724,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal%",
+          "id": "1164928",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "1",
+              "new": "5"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "1",
+              "new": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "removed",
+      "name": "Lycara's Meditation",
+      "id": 474728
     },
     {
       "type": "added",
-      "id": 1215545
+      "id": 1232897
+    },
+    {
+      "type": "added",
+      "id": 1236330
+    },
+    {
+      "type": "added",
+      "id": 1236331
+    },
+    {
+      "type": "added",
+      "id": 1236332
+    },
+    {
+      "type": "added",
+      "id": 1236333
+    },
+    {
+      "type": "added",
+      "id": 1236334
+    },
+    {
+      "type": "added",
+      "id": 1236336
+    },
+    {
+      "type": "added",
+      "id": 1236337
+    },
+    {
+      "type": "added",
+      "id": 1236338
+    },
+    {
+      "type": "added",
+      "id": 1236342
+    },
+    {
+      "type": "added",
+      "id": 1236556
+    },
+    {
+      "type": "added",
+      "id": 1236573
+    },
+    {
+      "type": "added",
+      "id": 1236607
+    },
+    {
+      "type": "added",
+      "id": 1236608
+    },
+    {
+      "type": "added",
+      "id": 1236613
+    },
+    {
+      "type": "added",
+      "id": 1236640
+    },
+    {
+      "type": "added",
+      "id": 1236671
+    },
+    {
+      "type": "added",
+      "id": 1236807
+    },
+    {
+      "type": "added",
+      "id": 1236851
+    },
+    {
+      "type": "added",
+      "id": 1236853
+    },
+    {
+      "type": "added",
+      "id": 1236917
+    },
+    {
+      "type": "added",
+      "id": 1236989
+    },
+    {
+      "type": "added",
+      "id": 1236990
+    },
+    {
+      "type": "added",
+      "id": 1252024
     }
   ]
 }
