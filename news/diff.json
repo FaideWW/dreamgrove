@@ -1,3 +1,627 @@
 {
-  "delta": []
+  "delta": [
+    {
+      "name": "Feral Druid",
+      "id": 137011,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "191154",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "23"
+              },
+              {
+                "Scaled Value": "23"
+              },
+              {
+                "PvP Coefficient": "0.79"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "98"
+              }
+            ],
+            "affected_spells": [
+              "Rip (1079)",
+              "Rake (1822)",
+              "Shred (5221)",
+              "Ferocious Bite (22568)",
+              "Maim (22570)",
+              "Swipe (106785)",
+              "Thrash (106830)",
+              "Moonfire (155625)",
+              "Rake (155722)",
+              "Brutal Slash (202028)",
+              "Feral Frenzy (274838)",
+              "Primal Wrath (285381)",
+              "Sickle of the Lion (363830)",
+              "Rampant Ferocity (391710)",
+              "Adaptive Swarm (391889)",
+              "Thrash (405233)",
+              "Bloodseeker Vines (439531)",
+              "Bursting Growth (440122)",
+              "Ravage (441591)",
+              "Dreadful Wound (441812)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "3",
+            "id": "191155",
+            "type": "Apply Aura",
+            "subtype": "Add Flat Modifier : Spell Cooldown",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Misc Value": "11"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "45"
+              }
+            ],
+            "affected_spells": [
+              "Moonkin Form (24858)",
+              "Moonkin Form (197625)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "4",
+            "id": "191156",
+            "type": "Apply Aura",
+            "subtype": "Add Flat Modifier : Spell Effects",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Misc Value": "8"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "76"
+              }
+            ],
+            "affected_spells": [
+              "Astral Influence (197524)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "5",
+            "id": "191157",
+            "type": "Apply Aura",
+            "subtype": "Override Spell Power per Attack Power%",
+            "values": [
+              {
+                "Base Value": "96"
+              },
+              {
+                "Scaled Value": "96"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "6",
+            "id": "260767",
+            "type": "Apply Aura",
+            "subtype": "Modify Power Regen",
+            "values": [
+              {
+                "Base Value": "10"
+              },
+              {
+                "Scaled Value": "10"
+              },
+              {
+                "Resource": "energy"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "7",
+            "id": "260768",
+            "type": "Apply Aura",
+            "subtype": "Modify Pet Damage Done%",
+            "values": [
+              {
+                "Base Value": "23"
+              },
+              {
+                "Scaled Value": "23"
+              },
+              {
+                "PvP Coefficient": "0.79"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "8",
+            "id": "260769",
+            "type": "Apply Aura",
+            "subtype": "Modify Guardian Damage Done%",
+            "values": [
+              {
+                "Base Value": "23"
+              },
+              {
+                "Scaled Value": "23"
+              },
+              {
+                "PvP Coefficient": "0.79"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "9",
+            "id": "260770",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "15"
+              },
+              {
+                "Scaled Value": "15"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "33"
+              }
+            ],
+            "affected_spells": [
+              "Swiftmend (18562)",
+              "Swiftmend (422094)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "10",
+            "id": "1032347",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "25"
+              },
+              {
+                "Scaled Value": "25"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "4, 58"
+              }
+            ],
+            "affected_spells": [
+              "Rejuvenation (774)",
+              "Wild Growth (48438)",
+              "Rejuvenation (Germination) (155777)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "11",
+            "id": "1032348",
+            "type": "Apply Aura",
+            "subtype": "Modify Mana Regen%",
+            "values": [
+              {
+                "Base Value": "60"
+              },
+              {
+                "Scaled Value": "60"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "12",
+            "id": "1049862",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "75"
+              },
+              {
+                "Scaled Value": "75"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "6"
+              }
+            ],
+            "affected_spells": [
+              "Regrowth (8936)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "13",
+            "id": "1049863",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "75"
+              },
+              {
+                "Scaled Value": "75"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "6"
+              }
+            ],
+            "affected_spells": [
+              "Regrowth (8936)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "14",
+            "id": "1080962",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "10"
+              },
+              {
+                "Scaled Value": "10"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "12"
+              }
+            ],
+            "affected_spells": [
+              "Rake (1822)",
+              "Rake (155722)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "15",
+            "id": "1088944",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "15"
+              },
+              {
+                "Scaled Value": "15"
+              },
+              {
+                "PvP Coefficient": "0"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "85"
+              }
+            ],
+            "affected_spells": [
+              "Rip (1079)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "16",
+            "id": "1174663",
+            "type": "Apply Aura",
+            "subtype": "Apply Flat Modifier w/ Label : Spell Effect 1",
+            "values": [
+              {
+                "Base Value": "-10"
+              },
+              {
+                "Scaled Value": "-10"
+              },
+              {
+                "Misc Value": "3"
+              },
+              {
+                "Misc Value 2": "3962 (Label)"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ],
+            "affected_spells": [
+              "Harmonious Constitution (440116)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "17",
+            "id": "1177947",
+            "type": "Apply Aura",
+            "subtype": "Modify Auto Attack Damage Done%",
+            "values": [
+              {
+                "Base Value": "67"
+              },
+              {
+                "Scaled Value": "67"
+              },
+              {
+                "PvP Coefficient": "0.93"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "18",
+            "id": "1222119",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "-40"
+              },
+              {
+                "Scaled Value": "-40"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "127"
+              }
+            ],
+            "affected_spells": [
+              "Sunfire (164815)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Vigorous Creepers",
+      "id": 440119,
+      "type": "modified",
+      "talent_entry": "Wildstalker (Feral, Restoration)",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "1133807",
+            "type": "Apply Aura",
+            "subtype": "Apply Flat Modifier w/ Label : Spell Effect 2",
+            "values": [
+              {
+                "Base Value": "20"
+              },
+              {
+                "Scaled Value": "20"
+              },
+              {
+                "Misc Value": "12"
+              },
+              {
+                "Misc Value 2": "3246 (Label)"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ],
+            "affected_spells": [
+              "Symbiotic Blooms (439530)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Druid Keeper of the Grove 11.2 Class Set 2pc",
+      "id": 1236334,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "3",
+            "id": "1232573",
+            "type": "Apply Aura",
+            "subtype": "Dummy",
+            "values": [
+              {
+                "Base Value": "800"
+              },
+              {
+                "Scaled Value": "800"
+              },
+              {
+                "PvP Coefficient": "0.33"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "4",
+            "id": "1232670",
+            "type": "Apply Aura",
+            "subtype": "Dummy",
+            "values": [
+              {
+                "Base Value": "5000"
+              },
+              {
+                "Scaled Value": "5000"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "5",
+            "id": "1232731",
+            "type": "Apply Aura",
+            "subtype": "Dummy",
+            "values": [
+              {
+                "Base Value": "200"
+              },
+              {
+                "Scaled Value": "200"
+              },
+              {
+                "PvP Coefficient": "0.33"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Druid Keeper of the Grove 11.2 Class Set 4pc",
+      "id": 1236336,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "5",
+            "id": "1256967",
+            "type": "Apply Aura",
+            "subtype": "Unknown",
+            "values": [
+              {
+                "Base Value": "1252024"
+              },
+              {
+                "Scaled Value": "1252024"
+              },
+              {
+                "Trigger Spell": "1252024"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
 }
