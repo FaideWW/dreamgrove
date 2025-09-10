@@ -21740,4 +21740,3 @@ Effects          :
 Description      : $@spelldesc1236336
 Tooltip          : $?c1[The damage of your next Starsurge is increased by $w1 and it splashes $w2% of its damage done to nearby enemies, reduced beyond $w4 targets.][The healing of your next Swiftmend is increased by $w1 and it splashes $w3% of its healing done to nearby allies, reduced beyond $w4 targets.]
 
-
