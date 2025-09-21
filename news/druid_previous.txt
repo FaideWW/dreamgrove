@@ -68,7 +68,7 @@ Category         : 46 (Type 0x0)
 Labels           : 16: Class Spells
                  : 21: Druid Spells
                  : 292
-                 : 690: Strive for Perfection (296320 effect#2), Strive for Perfection (299367 effect#2), Strive for Perfection (299369 effect#2), Benevolent Faerie (327710 effect#1), Benevolent Faerie Fermata (345453 effect#1), Haunted Mask (356968 effect#1)
+                 : 690: Major Cooldowns
 Category Cooldown: 180 seconds
 Affecting Spells : Starfall (191034 effect#2), Inner Peace (197073 effect#1), Astral Influence (197524 effects: #1, #3), Ekowraith, Creator of Worlds (210667 effects: #1, #7)
 Family Flags     : 53
@@ -1899,7 +1899,7 @@ Category         : 1208 (Type 0x0)
 Labels           : 16: Class Spells
                  : 21: Druid Spells
                  : 292
-                 : 690: Strive for Perfection (296320 effect#2), Strive for Perfection (299367 effect#2), Strive for Perfection (299369 effect#2), Benevolent Faerie (327710 effect#1), Benevolent Faerie Fermata (345453 effect#1), Haunted Mask (356968 effect#1)
+                 : 690: Major Cooldowns
 Category Cooldown: 180 seconds
 Affecting Spells : Starfall (191034 effect#2), Legacy of the Sleeper (339062 effect#1), Unchecked Aggression (340552 effect#1), Berserk: Ravage (343240 effect#1), Berserk: Unchecked Aggression (377623 effects: #1, #2)
 Family Flags     : 84
@@ -2999,7 +2999,7 @@ Category         : 1333 (Type 0x0)
 Labels           : 16: Class Spells
                  : 21: Druid Spells
                  : 292
-                 : 690: Strive for Perfection (296320 effect#2), Strive for Perfection (299367 effect#2), Strive for Perfection (299369 effect#2), Benevolent Faerie (327710 effect#1), Benevolent Faerie Fermata (345453 effect#1), Haunted Mask (356968 effect#1)
+                 : 690: Major Cooldowns
                  : 1387
 Category Cooldown: 180 seconds
 Proc Chance      : 101%
@@ -3087,7 +3087,7 @@ Category         : 1333 (Type 0x0)
 Labels           : 16: Class Spells
                  : 21: Druid Spells
                  : 292
-                 : 690: Strive for Perfection (296320 effect#2), Strive for Perfection (299367 effect#2), Strive for Perfection (299369 effect#2), Benevolent Faerie (327710 effect#1), Benevolent Faerie Fermata (345453 effect#1), Haunted Mask (356968 effect#1)
+                 : 690: Major Cooldowns
 Category Cooldown: 180 seconds
 Proc Chance      : 101%
 Affecting Spells : Metamorphosis Rune (23724 effect#1), Cheaper Druid Shapeshifting (38314 effect#1), Incarnation (117679 effect#1), Druid (137009 effect#4), Wildcat Celerity (184877 effect#1), Starfall (191034 effect#2), Legacy of the Sleeper (339062 effect#1), Unchecked Aggression (340552 effect#1), Berserk (343223 effect#1), Berserk: Ravage (343240 effect#1), Berserk: Unchecked Aggression (377623 effects: #1, #2), Orbital Strike (390378 effect#2), Berserk: Heart of the Lion (391174 effect#1), Whirling Stars (468743 effect#1)
@@ -3177,7 +3177,7 @@ Category Flags   : Reset Charges on Encounter End (4), Unknown (7)
 Labels           : 16: Class Spells
                  : 21: Druid Spells
                  : 292
-                 : 690: Strive for Perfection (296320 effect#2), Strive for Perfection (299367 effect#2), Strive for Perfection (299369 effect#2), Benevolent Faerie (327710 effect#1), Benevolent Faerie Fermata (345453 effect#1), Haunted Mask (356968 effect#1)
+                 : 690: Major Cooldowns
                  : 2330: Elune's Guidance (393991 effect#5), Elune's Guidance (393991 effect#6)
 Proc Chance      : 101%
 Affecting Spells : Incarnation (117679 effect#1), Druid (137009 effect#4), Wildcat Celerity (184877 effect#1), Starfall (191034 effect#2), Berserk (343223 effect#1), Orbital Strike (390378 effect#2), Berserk: Heart of the Lion (391174 effect#1), Whirling Stars (468743 effect#1)
@@ -3485,7 +3485,7 @@ Category         : 1208 (Type 0x0)
 Labels           : 16: Class Spells
                  : 21: Druid Spells
                  : 292
-                 : 690: Strive for Perfection (296320 effect#2), Strive for Perfection (299367 effect#2), Strive for Perfection (299369 effect#2), Benevolent Faerie (327710 effect#1), Benevolent Faerie Fermata (345453 effect#1), Haunted Mask (356968 effect#1)
+                 : 690: Major Cooldowns
 Category Cooldown: 180 seconds
 Affecting Spells : Wildcat Celerity (184877 effect#1), Starfall (191034 effect#2), Berserk (343223 effect#1), Berserk: Heart of the Lion (391174 effect#1)
 Family Flags     : 70
@@ -5658,7 +5658,7 @@ Category Flags   : Reset Charges on Encounter End (4), Unknown (7)
 Labels           : 16: Class Spells
                  : 21: Druid Spells
                  : 292
-                 : 690: Strive for Perfection (296320 effect#2), Strive for Perfection (299367 effect#2), Strive for Perfection (299369 effect#2), Benevolent Faerie (327710 effect#1), Benevolent Faerie Fermata (345453 effect#1), Haunted Mask (356968 effect#1)
+                 : 690: Major Cooldowns
 Affecting Spells : Starfall (191034 effect#2), Astral Influence (197524 effect#1), Precise Alignment (340706 effect#1), Orbital Strike (390378 effect#1), Whirling Stars (468743 effect#1)
 Family Flags     : 113
 Attributes       : No Threat (42), Aura Points On Client (268), Reset cooldown upon ending an encounter (333), Allow Class Ability Procs (416)
@@ -9067,7 +9067,7 @@ Cooldown         : 180 seconds
 Labels           : 16: Class Spells
                  : 21: Druid Spells
                  : 292
-                 : 976
+                 : 976: Covenant Spells
                  : 3091: Endless Thirst (341383 effect#1)
 Stacks           : 99 maximum
 Proc Chance      : 100%
@@ -9140,7 +9140,7 @@ Cooldown         : 120 seconds
 Labels           : 16: Class Spells
                  : 21: Druid Spells
                  : 292
-                 : 976
+                 : 976: Covenant Spells
 Stacks           : 99 maximum
 Proc Chance      : 101%
 Stance Mask      : 0x40000011
@@ -9183,7 +9183,7 @@ Cooldown         : 25 seconds
 Labels           : 16: Class Spells
                  : 21: Druid Spells
                  : 292
-                 : 976
+                 : 976: Covenant Spells
                  : 1162: Cat Form (3025 effect#5), Astral Influence (197524 effect#5)
 Attributes       : No Reflection (39), Do Not Reset Combat Timers (81), Not In Spellbook Until Learned (269), Allow Class Ability Procs (416)
 Effects          :
@@ -9322,7 +9322,7 @@ Duration         : 3600 seconds
 Labels           : 16: Class Spells
                  : 21: Druid Spells
                  : 292
-                 : 976
+                 : 976: Covenant Spells
 Affecting Spells : Starfall (191034 effect#2), Astral Influence (197524 effect#1), Ashamane's Frenzy (210723 effect#4), Deep Allegiance (341378 effect#1)
 Family Flags     : 103
 Attributes       : Not Shapeshifted (16), Allow Low Level Buff (67), Allow Aura While Dead (116), Limit N (165), Not On Player Controlled NPC (168), Aura Points On Client (268), Not In Spellbook Until Learned (269), Allow Class Ability Procs (416), Always Require PvP Target Match (430)
@@ -9362,7 +9362,7 @@ Category         : 1885 (Type 0x0)
 Labels           : 16: Class Spells
                  : 21: Druid Spells
                  : 292
-                 : 976
+                 : 976: Covenant Spells
 Category Cooldown: 60 seconds
 Affecting Spells : Starfall (191034 effect#2), Astral Influence (197524 effect#1), Ashamane's Frenzy (210723 effect#4), Deep Allegiance (341378 effect#1)
 Family Flags     : 103
@@ -9388,7 +9388,7 @@ Category         : 1885 (Type 0x0)
 Labels           : 16: Class Spells
                  : 21: Druid Spells
                  : 292
-                 : 976
+                 : 976: Covenant Spells
 Category Cooldown: 60 seconds
 Affecting Spells : Starfall (191034 effect#2), Astral Influence (197524 effect#1), Ashamane's Frenzy (210723 effect#4), Deep Allegiance (341378 effect#1)
 Family Flags     : 103
@@ -9430,7 +9430,7 @@ Category         : 1885 (Type 0x0)
 Labels           : 16: Class Spells
                  : 21: Druid Spells
                  : 292
-                 : 976
+                 : 976: Covenant Spells
 Category Cooldown: 60 seconds
 Affecting Spells : Starfall (191034 effect#2), Astral Influence (197524 effect#1), Ashamane's Frenzy (210723 effect#4), Deep Allegiance (341378 effect#1)
 Family Flags     : 103
@@ -9737,7 +9737,7 @@ Category         : 1885 (Type 0x0)
 Labels           : 16: Class Spells
                  : 21: Druid Spells
                  : 292
-                 : 976
+                 : 976: Covenant Spells
                  : 1326
 Category Cooldown: 60 seconds
 Affecting Spells : Starfall (191034 effect#2), Astral Influence (197524 effect#1), Ashamane's Frenzy (210723 effect#4), Deep Allegiance (341378 effect#1)
@@ -12746,7 +12746,7 @@ Category Flags   : Reset Charges on Encounter End (4), Unknown (7)
 Labels           : 16: Class Spells
                  : 21: Druid Spells
                  : 292
-                 : 690: Strive for Perfection (296320 effect#2), Strive for Perfection (299367 effect#2), Strive for Perfection (299369 effect#2), Benevolent Faerie (327710 effect#1), Benevolent Faerie Fermata (345453 effect#1), Haunted Mask (356968 effect#1)
+                 : 690: Major Cooldowns
 Affecting Spells : Starfall (191034 effect#2), Astral Influence (197524 effect#1), Precise Alignment (340706 effect#1), Orbital Strike (390378 effect#1), Whirling Stars (468743 effect#1)
 Family Flags     : 113
 Attributes       : No Threat (42), Aura Points On Client (268), Spellcast Override In Spellbook (310), Reset cooldown upon ending an encounter (333), Allow Class Ability Procs (416), Periodic Refresh Extends Duration (436), Unknown (458)
@@ -12905,7 +12905,7 @@ Category Flags   : Reset Charges on Encounter End (4), Unknown (7)
 Labels           : 16: Class Spells
                  : 21: Druid Spells
                  : 292
-                 : 690: Strive for Perfection (296320 effect#2), Strive for Perfection (299367 effect#2), Strive for Perfection (299369 effect#2), Benevolent Faerie (327710 effect#1), Benevolent Faerie Fermata (345453 effect#1), Haunted Mask (356968 effect#1)
+                 : 690: Major Cooldowns
                  : 2330: Elune's Guidance (393991 effect#5), Elune's Guidance (393991 effect#6)
 Proc Chance      : 101%
 Affecting Spells : Incarnation (117679 effect#1), Druid (137009 effect#4), Wildcat Celerity (184877 effect#1), Starfall (191034 effect#2), Berserk (343223 effect#1), Orbital Strike (390378 effect#2), Berserk: Heart of the Lion (391174 effect#1), Whirling Stars (468743 effect#1)

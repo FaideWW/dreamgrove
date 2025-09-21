@@ -1,3 +1,7772 @@
 {
-  "delta": []
+  "delta": [
+    {
+      "name": "Incapacitating Roar",
+      "id": 99,
+      "type": "modified",
+      "talent_entry": "Generic",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Decrease Movement Speed%",
+          "id": "111704",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (22) -> Enemy in Area (15)",
+              "new": "Source (22) -> Enemy in Area (15)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Entangling Roots",
+      "id": 339,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Root",
+          "id": "142",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : nature every 2 seconds",
+          "id": "824443",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tranquility",
+      "id": 740,
+      "type": "modified",
+      "talent_entry": "Restoration",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "2",
+          "type": "Apply Party Aura",
+          "subtype": "Dummy",
+          "id": "294",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(29)",
+              "new": "at Dynamic Ally in Area (29)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rejuvenation",
+      "id": 774,
+      "type": "modified",
+      "talent_entry": "Generic",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 3 seconds",
+          "id": "311",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rip",
+      "id": 1079,
+      "type": "modified",
+      "talent_entry": "Generic",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : physical every 2 seconds",
+          "id": "390",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "117625",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Dummy",
+          "id": "117626",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "4",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken% from Caster's Spells",
+          "affected_spells": [
+            "Rip (1079)",
+            "Rake (1822)",
+            "Shred (5221)",
+            "Ferocious Bite (22568)",
+            "Maim (22570)",
+            "Swipe (106785)",
+            "Thrash (106830)",
+            "Moonfire (155625)",
+            "Rake (155722)",
+            "Brutal Slash (202028)",
+            "Feral Frenzy (274838)",
+            "Primal Wrath (285381)",
+            "Adaptive Swarm (325733)",
+            "Adaptive Swarm (325748)",
+            "Sickle of the Lion (363830)",
+            "Rampant Ferocity (391710)",
+            "Adaptive Swarm (391889)",
+            "Adaptive Swarm (391891)",
+            "Thrash (405233)",
+            "Bloodseeker Vines (439531)",
+            "Bursting Growth (440122)",
+            "Ravage (441591)",
+            "Dreadful Wound (441812)"
+          ],
+          "id": "1099584",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mark of the Wild",
+      "id": 1126,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Modify Versatility%",
+          "id": "404",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly or Raid (118)",
+              "new": "Targeted Ally or Raid (118)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rake",
+      "id": 1822,
+      "type": "modified",
+      "talent_entry": "Generic",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "559",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Trigger Spell : Rake",
+          "id": "561",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "4",
+          "type": "Dummy",
+          "id": "310505",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hibernate",
+      "id": 2637,
+      "type": "modified",
+      "talent_entry": "Generic",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Stun",
+          "id": "794",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Remove Corruption",
+      "id": 2782,
+      "type": "modified",
+      "talent_entry": "Balance, Feral, Guardian",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dispel",
+          "id": "164777",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Dispel",
+          "id": "846",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Soothe",
+      "id": 2908,
+      "type": "modified",
+      "talent_entry": "Generic",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dispel",
+          "id": "878",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wrath",
+      "id": 5176,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : nature",
+          "id": "1837",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mighty Bash",
+      "id": 5211,
+      "type": "modified",
+      "talent_entry": "Generic",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Stun",
+          "id": "1848",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shred",
+      "id": 5221,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "1859",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Dummy",
+          "id": "1861",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Growl",
+      "id": 6795,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Unknown",
+          "id": "2451",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Taunt",
+          "id": "2452",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maul",
+      "id": 6807,
+      "type": "modified",
+      "talent_entry": "Guardian",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "2456",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "School Damage : physical",
+          "id": "2457",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moonfire",
+      "id": 8921,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "3726",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Regrowth",
+      "id": 8936,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "3728",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 2 seconds",
+          "id": "3729",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wild Charge",
+      "id": 16979,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Charge",
+          "id": "8662",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Trigger Spell : Immobilized",
+          "id": "8663",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Swiftmend",
+      "id": 18562,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "10065",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ferocious Bite",
+      "id": 22568,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "12790",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maim",
+      "id": 22570,
+      "type": "modified",
+      "talent_entry": "Generic",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "12792",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "School Damage : physical",
+          "id": "784041",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Enemy (53) -> At Enemy in Area (16)",
+              "new": "At Enemy (53) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Innervate",
+      "id": 29166,
+      "type": "modified",
+      "talent_entry": "Generic",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Unknown",
+          "id": "18680",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lifebloom",
+      "id": 33763,
+      "type": "modified",
+      "talent_entry": "Restoration",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 1 seconds",
+          "id": "23639",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lifebloom",
+      "id": 33778,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "23653",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cyclone",
+      "id": 33786,
+      "type": "modified",
+      "talent_entry": "Generic",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Stun",
+          "id": "23666",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "School Immunity",
+          "id": "23667",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Apply Aura",
+          "subtype": "Modify Healing Received%",
+          "id": "23668",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mangle",
+      "id": 33917,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "23847",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "School Damage : physical",
+          "id": "216150",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Dummy",
+          "id": "281797",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Immobilized",
+      "id": 45334,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Root",
+          "id": "37278",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wild Growth",
+      "id": 48438,
+      "type": "modified",
+      "talent_entry": "Generic",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 1 seconds",
+          "id": "40640",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Target (63) -> At Friendly in Area (31)",
+              "new": "at Target (63) -> At Ally in Area (31)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wild Charge",
+      "id": 49376,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Trigger Spell : Dazed",
+          "id": "41500",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Unknown",
+          "id": "41501",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(65)",
+              "new": "at Target Back (65)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dazed",
+      "id": 50259,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Decrease Movement Speed%",
+          "id": "42413",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Starfall",
+      "id": 50286,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "42450",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87) -> At Enemy in Area (16)",
+              "new": "at Area in Area (87) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nourish",
+      "id": 50464,
+      "type": "modified",
+      "talent_entry": "Restoration",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "42665",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Dummy",
+          "id": "1045823",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Infected Wounds",
+      "id": 58180,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Decrease Movement Speed%",
+          "id": "51495",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Modify Healing Received%",
+          "id": "887087",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Typhoon",
+      "id": 61391,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Knock Back",
+          "id": "55240",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Cone to Enemy (104)",
+              "new": "Enemies in Cone to Targeted Enemy (104)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Apply Aura",
+          "subtype": "Decrease Movement Speed%",
+          "id": "55242",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Cone to Enemy (104)",
+              "new": "Enemies in Cone to Targeted Enemy (104)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thrash",
+      "id": 77758,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "subtype": "Attributes: Area Effects Use Target Radius",
+          "id": "68168",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (22) -> Enemy in Area (15)",
+              "new": "Source (22) -> Enemy in Area (15)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stampeding Roar",
+      "id": 77761,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Increase Speed%",
+          "id": "68170",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (22) -> Friendly in Area (30)",
+              "new": "Source (22) -> Ally in Area (30)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Server Side Script",
+          "id": "316246",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (22) -> Friendly in Area (30)",
+              "new": "Source (22) -> Ally in Area (30)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stampeding Roar",
+      "id": 77764,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Increase Speed%",
+          "id": "68172",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (22) -> Friendly in Area (30)",
+              "new": "Source (22) -> Ally in Area (30)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Server Side Script",
+          "id": "104800",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (22) -> Friendly in Area (30)",
+              "new": "Source (22) -> Ally in Area (30)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Starsurge",
+      "id": 78674,
+      "type": "modified",
+      "talent_entry": "Balance",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "68268",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Dummy",
+          "id": "816907",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Dummy",
+          "id": "845292",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solar Beam",
+      "id": 78675,
+      "type": "modified",
+      "talent_entry": "Balance",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Trigger Spell : Solar Beam",
+          "id": "68270",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pulverize",
+      "id": 80313,
+      "type": "modified",
+      "talent_entry": "Guardian",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "68522",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Done% to Caster",
+          "id": "68523",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Dummy",
+          "id": "327035",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Efflorescence",
+      "id": 81269,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "68693",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87) -> At Friendly in Area (31)",
+              "new": "at Area in Area (87) -> At Ally in Area (31)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fungal Growth",
+      "id": 81281,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : nature every 2 seconds",
+          "id": "68703",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Decrease Movement Speed%",
+          "id": "1031644",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nature's Cure",
+      "id": 88423,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dispel",
+          "id": "90766",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Dispel",
+          "id": "117651",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Dispel",
+          "id": "117652",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wild Mushroom",
+      "id": 88751,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : nature",
+          "subtype": "Attributes: Area Effects Use Target Radius",
+          "id": "91242",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87) -> At Enemy in Area (16)",
+              "new": "at Area in Area (87) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sunfire",
+      "id": 93402,
+      "type": "modified",
+      "talent_entry": "Generic",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "97908",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Dummy",
+          "id": "324053",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skull Bash",
+      "id": 93985,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Interrupt Cast",
+          "id": "98665",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solar Beam",
+      "id": 97547,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Interrupt Cast",
+          "id": "104140",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ironbark",
+      "id": 102342,
+      "type": "modified",
+      "talent_entry": "Restoration",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken%",
+          "id": "111070",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Modify Healing Taken% from Caster's Spells",
+          "affected_spells": [
+            "Rejuvenation (774)",
+            "Regrowth (8936)",
+            "Lifebloom (33763)",
+            "Wild Growth (48438)",
+            "Efflorescence (81269)",
+            "Cenarion Ward (102351)",
+            "Cenarion Ward (102352)",
+            "Rejuvenation (Germination) (155777)",
+            "Tranquility (157982)",
+            "Lifebloom (188550)",
+            "Cultivation (200389)",
+            "Spring Blossoms (207386)",
+            "Minor Cenarion Ward (429222)",
+            "Tranquility (1236573)"
+          ],
+          "id": "116796",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cenarion Ward",
+      "id": 102351,
+      "type": "modified",
+      "talent_entry": "Restoration",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "111086",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cenarion Ward",
+      "id": 102352,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 2 seconds",
+          "id": "111087",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mass Entanglement",
+      "id": 102359,
+      "type": "modified",
+      "talent_entry": "Generic",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Root",
+          "id": "111098",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Enemy (53) -> At Enemy in Area (16)",
+              "new": "At Enemy (53) -> at Enemy in Area (16)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : nature every 2 seconds",
+          "id": "868561",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6) -> At Enemy in Area (16)",
+              "new": "Targeted Enemy (6) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wild Charge",
+      "id": 102401,
+      "type": "modified",
+      "talent_entry": "Generic",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "111148",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Unknown",
+          "id": "111149",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Target (63)",
+              "new": "at Target (63)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Grove Guardians",
+      "id": 102693,
+      "type": "modified",
+      "talent_entry": "Restoration",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "111575",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Summon",
+          "id": "111576",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Radius (73)",
+              "new": "at Radius (73)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ursol's Vortex",
+      "id": 102793,
+      "type": "modified",
+      "talent_entry": "Generic",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "111705",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87) -> At Enemy in Area (16)",
+              "new": "at Area in Area (87) -> at Enemy in Area (16)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Create Area Trigger",
+          "id": "154620",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87)",
+              "new": "at Area in Area (87)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ursol's Vortex",
+      "id": 102794,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Server Side Script",
+          "id": "111706",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Swipe",
+      "id": 106785,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "3",
+          "type": "School Damage : physical",
+          "subtype": "Attributes: Area Effects Use Target Radius",
+          "id": "222212",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (22) -> Enemy in Area (15)",
+              "new": "Source (22) -> Enemy in Area (15)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thrash",
+      "id": 106830,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "subtype": "Attributes: Area Effects Use Target Radius",
+          "id": "117262",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (22) -> Enemy in Area (15)",
+              "new": "Source (22) -> Enemy in Area (15)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thrash",
+      "id": 106832,
+      "type": "modified",
+      "talent_entry": "Generic",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "117266",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skull Bash",
+      "id": 106839,
+      "type": "modified",
+      "talent_entry": "Feral, Guardian, Restoration",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "117279",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stampeding Roar",
+      "id": 106898,
+      "type": "modified",
+      "talent_entry": "Generic",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Increase Speed%",
+          "id": "117391",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (22) -> Friendly in Area (30)",
+              "new": "Source (22) -> Ally in Area (30)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Server Side Script",
+          "id": "740276",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (22) -> Friendly in Area (30)",
+              "new": "Source (22) -> Ally in Area (30)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nature's Vigil",
+      "id": 124988,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "158340",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (18) -> At Friendly in Area (31)",
+              "new": "at Self (18) -> At Ally in Area (31)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nature's Vigil",
+      "id": 124991,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : nature",
+          "id": "158344",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Friendly (132) -> At Enemy in Area (16)",
+              "new": "at Targeted Ally (132) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Charm Woodland Creature",
+      "id": 127757,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Charmed",
+          "id": "162531",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Apply Aura",
+          "subtype": "Unknown",
+          "id": "164499",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ursol's Vortex",
+      "id": 127797,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Decrease Movement Speed%",
+          "id": "162599",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "163494",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tooth and Claw",
+      "id": 135601,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Done% to Caster",
+          "id": "177104",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Charged Bolt",
+      "id": 137542,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : nature",
+          "id": "180586",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (22) -> Enemy in Area (15)",
+              "new": "Source (22) -> Enemy in Area (15)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dream of Cenarius",
+      "id": 145153,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "195370",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87) -> At Friendly in Area (31)",
+              "new": "at Area in Area (87) -> At Ally in Area (31)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Efflorescence",
+      "id": 145205,
+      "type": "modified",
+      "talent_entry": "Restoration",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "195464",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87)",
+              "new": "at Area in Area (87)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Summon",
+          "id": "195465",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87)",
+              "new": "at Area in Area (87)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Create Area Trigger",
+          "id": "195466",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87)",
+              "new": "at Area in Area (87)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moonfire",
+      "id": 155625,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : arcane every 2 seconds",
+          "id": "216287",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "School Damage : arcane",
+          "id": "216288",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rake",
+      "id": 155722,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : physical every 3 seconds",
+          "id": "216427",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken% from Caster's Spells",
+          "affected_spells": [
+            "Rip (1079)",
+            "Rake (1822)",
+            "Shred (5221)",
+            "Ferocious Bite (22568)",
+            "Maim (22570)",
+            "Swipe (106785)",
+            "Thrash (106830)",
+            "Moonfire (155625)",
+            "Rake (155722)",
+            "Brutal Slash (202028)",
+            "Feral Frenzy (274838)",
+            "Primal Wrath (285381)",
+            "Adaptive Swarm (325733)",
+            "Adaptive Swarm (325748)",
+            "Sickle of the Lion (363830)",
+            "Rampant Ferocity (391710)",
+            "Adaptive Swarm (391889)",
+            "Adaptive Swarm (391891)",
+            "Thrash (405233)",
+            "Bloodseeker Vines (439531)",
+            "Bursting Growth (440122)",
+            "Ravage (441591)",
+            "Dreadful Wound (441812)"
+          ],
+          "id": "1095738",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rejuvenation",
+      "id": 155777,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 3 seconds",
+          "id": "216513",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tranquility",
+      "id": 157982,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "220365",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (22) -> Friendly in Area (30)",
+              "new": "Source (22) -> Ally in Area (30)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 2 seconds",
+          "id": "709927",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (22) -> Friendly in Area (30)",
+              "new": "Source (22) -> Ally in Area (30)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rake",
+      "id": 163505,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Stun",
+          "id": "229990",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fungal Growth",
+      "id": 164717,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Unknown",
+          "id": "232242",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moonfire",
+      "id": 164812,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : arcane",
+          "id": "232409",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : arcane every 2 seconds",
+          "id": "232410",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken% from Caster's Spells",
+          "affected_spells": [
+            "Starfall (50286)",
+            "Starsurge (78674)",
+            "Moonfire (164812)",
+            "Starfall (191034)",
+            "Starfall (191037)",
+            "Starfire (194153)",
+            "Starsurge (197626)",
+            "Starfire (197628)",
+            "Stellar Flare (202347)",
+            "Shooting Stars (202497)",
+            "Fury of Elune (202770)",
+            "Fury of Elune (211545)",
+            "New Moon (274281)",
+            "Half Moon (274282)",
+            "Full Moon (274283)",
+            "Fury of Elune (281871)",
+            "Starfall (359399)",
+            "Fury of Elune (365640)",
+            "Fury of Elune (394111)",
+            "Crashing Star (408310)",
+            "Crashing Star (468981)",
+            "Starfall (1236607)",
+            "Starfall (1236608)"
+          ],
+          "id": "363033",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "4",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken% from Caster's Spells",
+          "affected_spells": [
+            "Starfall (50286)",
+            "Starsurge (78674)",
+            "Moonfire (164812)",
+            "Starfall (191034)",
+            "Starfall (191037)",
+            "Starfire (194153)",
+            "Starsurge (197626)",
+            "Starfire (197628)",
+            "Stellar Flare (202347)",
+            "Shooting Stars (202497)",
+            "Fury of Elune (202770)",
+            "Fury of Elune (211545)",
+            "New Moon (274281)",
+            "Half Moon (274282)",
+            "Full Moon (274283)",
+            "Fury of Elune (281871)",
+            "Starfall (359399)",
+            "Fury of Elune (365640)",
+            "Fury of Elune (394111)",
+            "Crashing Star (408310)",
+            "Crashing Star (468981)",
+            "Starfall (1236607)",
+            "Starfall (1236608)"
+          ],
+          "id": "840808",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "5",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken% from Caster's Spells (Label)",
+          "affected_spells": [
+            "Orbital Strike (361237)",
+            "Goldrinn's Fang (394047)"
+          ],
+          "id": "1031667",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "6",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Done% to Caster",
+          "id": "1039935",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "7",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Done%",
+          "id": "1108104",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "8",
+          "type": "Apply Aura",
+          "subtype": "Decrease Movement Speed%",
+          "id": "1119368",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sunfire",
+      "id": 164815,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : nature",
+          "id": "232416",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : nature every 2 seconds",
+          "id": "232417",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Enemy (53) -> At Enemy in Area (16)",
+              "new": "At Enemy (53) -> at Enemy in Area (16)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken% from Caster's Spells",
+          "affected_spells": [
+            "Wrath (5176)",
+            "Starfall (50286)",
+            "Starsurge (78674)",
+            "Sunfire (164815)",
+            "Wrath (190984)",
+            "Starfall (191034)",
+            "Starfall (191037)",
+            "Starsurge (197626)",
+            "Stellar Flare (202347)",
+            "Shooting Stars (202497)",
+            "Fury of Elune (202770)",
+            "Fury of Elune (211545)",
+            "New Moon (274281)",
+            "Half Moon (274282)",
+            "Full Moon (274283)",
+            "Fury of Elune (281871)",
+            "Star Burst (356474)",
+            "Starfall (359399)",
+            "Fury of Elune (365640)",
+            "Fury of Elune (394111)",
+            "Star Burst (406430)",
+            "Crashing Star (408310)",
+            "Star Burst (421072)",
+            "Crashing Star (468981)",
+            "Starfall (1236607)",
+            "Starfall (1236608)"
+          ],
+          "id": "840806",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Enemy (53) -> At Enemy in Area (16)",
+              "new": "At Enemy (53) -> at Enemy in Area (16)"
+            }
+          ]
+        },
+        {
+          "idx": "4",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken% from Caster's Spells",
+          "affected_spells": [
+            "Wrath (5176)",
+            "Starfall (50286)",
+            "Starsurge (78674)",
+            "Fungal Growth (81281)",
+            "Wild Mushroom (88747)",
+            "Wild Mushroom (88751)",
+            "Sunfire (164815)",
+            "Wrath (190984)",
+            "Starfall (191034)",
+            "Starfall (191037)",
+            "Starsurge (197626)",
+            "Stellar Flare (202347)",
+            "Shooting Stars (202497)",
+            "Fury of Elune (202770)",
+            "Fury of Elune (211545)",
+            "New Moon (274281)",
+            "Half Moon (274282)",
+            "Full Moon (274283)",
+            "Fury of Elune (281871)",
+            "Star Burst (356474)",
+            "Starfall (359399)",
+            "Fury of Elune (365640)",
+            "Fury of Elune (394111)",
+            "Star Burst (406430)",
+            "Crashing Star (408310)",
+            "Star Burst (421072)",
+            "Sunseeker Mushroom (468936)",
+            "Sunseeker Mushroom (468938)",
+            "Crashing Star (468981)",
+            "Starfall (1236607)",
+            "Starfall (1236608)"
+          ],
+          "id": "1031670",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Enemy (53) -> At Enemy in Area (16)",
+              "new": "At Enemy (53) -> at Enemy in Area (16)"
+            }
+          ]
+        },
+        {
+          "idx": "5",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken% from Caster's Spells (Label)",
+          "affected_spells": [
+            "Orbital Strike (361237)",
+            "Goldrinn's Fang (394047)"
+          ],
+          "id": "1108111",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Enemy (53) -> At Enemy in Area (16)",
+              "new": "At Enemy (53) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fey Missile",
+      "id": 188046,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "274309",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fey Moonwing",
+      "id": 188083,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Summon",
+          "id": "274372",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (18) -> At Random (72)",
+              "new": "at Self (18) -> at Random (72)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lifebloom",
+      "id": 188550,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 1 seconds",
+          "id": "275445",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wrath",
+      "id": 190984,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : nature",
+          "id": "280098",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Starfall",
+      "id": 191037,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "280158",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thrash",
+      "id": 192090,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : physical every 3 seconds",
+          "id": "281782",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken% from Caster's Spells",
+          "affected_spells": [
+            "Rip (1079)",
+            "Rake (1822)",
+            "Wrath (5176)",
+            "Shred (5221)",
+            "Maul (6807)",
+            "Ferocious Bite (22568)",
+            "Maim (22570)",
+            "Mangle (33917)",
+            "Thrash (77758)",
+            "Starsurge (78674)",
+            "Pulverize (80313)",
+            "Fungal Growth (81281)",
+            "Wild Mushroom (88751)",
+            "Swipe (106785)",
+            "Thrash (106830)",
+            "Moonfire (155625)",
+            "Rake (155722)",
+            "Moonfire (164812)",
+            "Sunfire (164815)",
+            "Fey Missile (188046)",
+            "Wrath (190984)",
+            "Starfall (191037)",
+            "Thrash (192090)",
+            "Starfire (194153)",
+            "Starsurge (197626)",
+            "Starfire (197628)",
+            "Sunfire (197630)",
+            "Brutal Slash (202028)",
+            "Stellar Flare (202347)",
+            "Shooting Stars (202497)",
+            "Brambles (203958)",
+            "Lunar Beam (204069)",
+            "Fury of Elune (211545)",
+            "Brambles (213709)",
+            "Swipe (213771)",
+            "Streaking Star (272873)",
+            "New Moon (274281)",
+            "Half Moon (274282)",
+            "Full Moon (274283)",
+            "Feral Frenzy (274838)",
+            "Lunar Shrapnel (279641)",
+            "Fury of Elune (281871)",
+            "Primal Wrath (285381)",
+            "Thorns (305496)",
+            "Adaptive Swarm (325733)",
+            "Star Burst (356474)",
+            "Starfall (359399)",
+            "Orbital Strike (361237)",
+            "Architect's Aligner (363789)",
+            "Sickle of the Lion (363830)",
+            "Fury of Elune (365640)",
+            "Rampant Ferocity (391710)",
+            "Adaptive Swarm (391889)",
+            "Power of Goldrinn (394046)",
+            "Goldrinn's Fang (394047)",
+            "Fury of Elune (394111)",
+            "Thorns of Iron (400223)",
+            "Raze (400254)",
+            "Thrash (405233)",
+            "Star Burst (406430)",
+            "Crashing Star (408310)",
+            "Lunar Beam (414613)",
+            "Minor Moon (424588)",
+            "Boundless Moonlight (428682)",
+            "Dream Burst (433850)",
+            "Bloodseeker Vines (439531)",
+            "Bursting Growth (440122)",
+            "Ravage (441591)",
+            "Ravage (441605)",
+            "Dreadful Wound (441812)",
+            "Dreadful Wound (451177)",
+            "Crashing Star (468981)"
+          ],
+          "id": "301092",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Apply Aura",
+          "subtype": "Modify Auto Attack Damage Taken% from Caster",
+          "id": "301093",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "4",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Done% to Caster",
+          "id": "805968",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Starfire",
+      "id": 194153,
+      "type": "modified",
+      "talent_entry": "Balance",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : arcane",
+          "id": "284976",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Enemy (53) -> At Enemy in Area (16)",
+              "new": "At Enemy (53) -> at Enemy in Area (16)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Dummy",
+          "id": "295015",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "4",
+          "type": "Server Side Script",
+          "id": "298448",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Enemy (53) -> At Enemy in Area (16)",
+              "new": "At Enemy (53) -> at Enemy in Area (16)"
+            }
+          ]
+        },
+        {
+          "idx": "5",
+          "type": "Dummy",
+          "id": "1081718",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Starsurge",
+      "id": 197626,
+      "type": "modified",
+      "talent_entry": "Feral, Guardian, Restoration",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "290376",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Starfire",
+      "id": 197628,
+      "type": "modified",
+      "talent_entry": "Feral, Guardian, Restoration",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : arcane",
+          "id": "290380",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Enemy (53) -> At Enemy in Area (16)",
+              "new": "At Enemy (53) -> at Enemy in Area (16)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Dummy",
+          "id": "353245",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Dummy",
+          "id": "1081717",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sunfire",
+      "id": 197630,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "290382",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flourish",
+      "id": 197721,
+      "type": "modified",
+      "talent_entry": "Restoration",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Server Side Script",
+          "id": "290540",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (18) -> At Friendly in Area (31)",
+              "new": "at Self (18) -> At Ally in Area (31)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cultivation",
+      "id": 200389,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 3 seconds",
+          "id": "295007",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brutal Slash",
+      "id": 202028,
+      "type": "modified",
+      "talent_entry": "Feral",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "2",
+          "type": "School Damage : physical",
+          "subtype": "Attributes: Area Effects Use Target Radius",
+          "id": "297727",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (22) -> Enemy in Area (15)",
+              "new": "Source (22) -> Enemy in Area (15)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stellar Flare",
+      "id": 202347,
+      "type": "modified",
+      "talent_entry": "Balance",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "298295",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : astral every 2 seconds",
+          "id": "298296",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooting Stars",
+      "id": 202497,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "298525",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Half Moon",
+      "id": 202768,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : arcane",
+          "id": "298965",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fury of Elune",
+      "id": 202770,
+      "type": "modified",
+      "talent_entry": "Balance",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "298967",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Create Area Trigger",
+          "id": "298968",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(148)",
+              "new": "in Area From Target to Self (148)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Full Moon",
+      "id": 202771,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : arcane",
+          "id": "298969",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Enemy (53) -> At Enemy in Area (16)",
+              "new": "At Enemy (53) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Goldrinn's Fang",
+      "id": 203001,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : arcane",
+          "id": "299322",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Overgrowth",
+      "id": 203651,
+      "type": "modified",
+      "talent_entry": "Restoration",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "300414",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brambles",
+      "id": 203958,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : nature",
+          "id": "300967",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lunar Beam",
+      "id": 204066,
+      "type": "modified",
+      "talent_entry": "Guardian",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Create Area Trigger",
+          "id": "301149",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (18)",
+              "new": "at Self (18)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Force of Nature",
+      "id": 205636,
+      "type": "modified",
+      "talent_entry": "Balance",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "303838",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87)",
+              "new": "at Area in Area (87)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Trigger Spell : Force of Nature",
+          "id": "303839",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87)",
+              "new": "at Area in Area (87)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Trigger Spell : Force of Nature",
+          "id": "465061",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87)",
+              "new": "at Area in Area (87)"
+            }
+          ]
+        },
+        {
+          "idx": "4",
+          "type": "Trigger Spell : Force of Nature",
+          "id": "465062",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87)",
+              "new": "at Area in Area (87)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spring Blossoms",
+      "id": 207386,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 2 seconds",
+          "id": "306707",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ashamane's Rip",
+      "id": 210705,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : shadow every 2 seconds",
+          "id": "312119",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Dummy",
+          "id": "312120",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Dummy",
+          "id": "312121",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ashamane's Frenzy",
+      "id": 210722,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "312146",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ashamane's Frenzy",
+      "id": 210723,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "312147",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : physical every 2 seconds",
+          "id": "312148",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "4",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken% from Caster's Spells",
+          "affected_spells": [
+            "Rip (1079)",
+            "Rake (1822)",
+            "Shred (5221)",
+            "Ferocious Bite (22568)",
+            "Maim (22570)",
+            "Thrash (77758)",
+            "Swipe (106785)",
+            "Thrash (106830)",
+            "Moonfire (155625)",
+            "Rake (155722)",
+            "Thrash (192090)",
+            "Brutal Slash (202028)",
+            "Swipe (213771)",
+            "Kindred Spirits (326434)",
+            "Empower Bond (326446)",
+            "Empower Bond (326462)",
+            "Empower Bond (326647)",
+            "Lone Empowerment (338142)",
+            "Thrash (405233)",
+            "Ravage (441591)"
+          ],
+          "id": "364769",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fury of Elune",
+      "id": 211545,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "313366",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87) -> At Enemy in Area (16)",
+              "new": "at Area in Area (87) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fury of Elune",
+      "id": 211547,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "313368",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87)",
+              "new": "at Area in Area (87)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Revitalize",
+      "id": 212040,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Unknown",
+          "id": "314325",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Self and Summons (119)",
+              "new": "Raid Corpse in Area (119)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Galactic Guardian",
+      "id": 213708,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "2",
+          "type": "Dummy",
+          "id": "317116",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brambles",
+      "id": 213709,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : nature",
+          "id": "317117",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (18) -> At Enemy in Area (16)",
+              "new": "at Self (18) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Swipe",
+      "id": 213764,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "2",
+          "type": "Dummy",
+          "id": "317209",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (22) -> Enemy in Area (15)",
+              "new": "Source (22) -> Enemy in Area (15)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Swipe",
+      "id": 213771,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "2",
+          "type": "Dummy",
+          "subtype": "Attributes: Area Effects Use Target Radius",
+          "id": "317224",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (22) -> Enemy in Area (15)",
+              "new": "Source (22) -> Enemy in Area (15)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "School Damage : physical",
+          "id": "317225",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (22) -> Enemy in Area (15)",
+              "new": "Source (22) -> Enemy in Area (15)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ashamane's Frenzy",
+      "id": 217363,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "323538",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : physical every 2 seconds",
+          "id": "323539",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rage of the Sleeper",
+      "id": 219432,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : nature",
+          "id": "326922",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ashamane's Rip",
+      "id": 224435,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : shadow every 1.33 seconds",
+          "id": "335879",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Dummy",
+          "id": "335880",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Dummy",
+          "id": "335881",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thorns",
+      "id": 232559,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Decrease Movement Speed%",
+          "id": "350956",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Strength of the Wild",
+      "id": 236716,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Damage Taken Max Health%",
+          "id": "358072",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Dummy",
+          "id": "358073",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Force of Nature",
+      "id": 248280,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Summon",
+          "id": "465060",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87) -> Unknown(91)",
+              "new": "at Area in Area (87) -> at Radius in Area (91)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Light's Judgment",
+      "id": 255647,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Trigger Missiles",
+          "id": "477694",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Light's Judgment",
+      "id": 256893,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : holy",
+          "id": "479673",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Enemy (53) -> At Enemy in Area (16)",
+              "new": "At Enemy (53) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Light's Reckoning",
+      "id": 256896,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : holy",
+          "subtype": "Scaling Class: -8",
+          "id": "479676",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (18) -> At Enemy in Area (16)",
+              "new": "at Self (18) -> at Enemy in Area (16)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Direct Heal",
+          "subtype": "Scaling Class: -8",
+          "id": "479677",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (18) -> At Friendly in Area (31)",
+              "new": "at Self (18) -> At Ally in Area (31)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Streaking Star",
+      "id": 272873,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : arcane",
+          "id": "724055",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "New Moon",
+      "id": 274281,
+      "type": "modified",
+      "talent_entry": "Balance",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "726522",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Half Moon",
+      "id": 274282,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "726525",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Full Moon",
+      "id": 274283,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "726528",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Enemy (53) -> At Enemy in Area (16)",
+              "new": "At Enemy (53) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Feral Frenzy",
+      "id": 274837,
+      "type": "modified",
+      "talent_entry": "Feral",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "727432",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Feral Frenzy",
+      "id": 274838,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "727435",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : physical every 2 seconds",
+          "id": "727436",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lunar Shrapnel",
+      "id": 279641,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "736069",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Enemy (53) -> At Enemy in Area (16)",
+              "new": "At Enemy (53) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wrath",
+      "id": 279729,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : nature",
+          "id": "736222",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Enemy (53) -> At Enemy in Area (16)",
+              "new": "At Enemy (53) -> at Enemy in Area (16)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Dummy",
+          "id": "736367",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Twin Moons",
+      "id": 281847,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Server Side Script",
+          "id": "741016",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Enemy (53) -> At Enemy in Area (16)",
+              "new": "At Enemy (53) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fury of Elune",
+      "id": 281871,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "741104",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87) -> At Enemy in Area (16)",
+              "new": "at Area in Area (87) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Primal Wrath",
+      "id": 285381,
+      "type": "modified",
+      "talent_entry": "Feral",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "747140",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (22) -> Enemy in Area (15)",
+              "new": "Source (22) -> Enemy in Area (15)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dreamwalk",
+      "id": 293887,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Ritual Base",
+          "id": "761955",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Self (1) -> Unknown(17)",
+              "new": "Self (1) -> at Database Entry in Area (17)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thorns",
+      "id": 305496,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : nature",
+          "id": "782753",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thorns",
+      "id": 305497,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "782754",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skull Bash",
+      "id": 314330,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "797301",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Adaptive Swarm",
+      "id": 325727,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "816175",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Dummy",
+          "id": "816645",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Adaptive Swarm",
+      "id": 325733,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : shadow every 2 seconds",
+          "id": "816184",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken% from Caster's Spells",
+          "affected_spells": [
+            "Entangling Roots (339)",
+            "Rip (1079)",
+            "Rake (1822)",
+            "Starfall (50286)",
+            "Mass Entanglement (102359)",
+            "Thrash (106830)",
+            "Moonfire (155625)",
+            "Rake (155722)",
+            "Moonfire (164812)",
+            "Sunfire (164815)",
+            "Starfall (191034)",
+            "Starfall (191037)",
+            "Thrash (192090)",
+            "Stellar Flare (202347)",
+            "Shooting Stars (202497)",
+            "Fury of Elune (202770)",
+            "Overgrowth (203651)",
+            "Fury of Elune (211545)",
+            "Feral Frenzy (274837)",
+            "Feral Frenzy (274838)",
+            "Fury of Elune (281871)",
+            "Starfall (359399)",
+            "Fury of Elune (365640)",
+            "Fury of Elune (394111)",
+            "Thrash (405233)",
+            "Crashing Star (408310)",
+            "Crashing Star (468981)",
+            "Starfall (1236607)",
+            "Starfall (1236608)"
+          ],
+          "id": "816651",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Adaptive Swarm",
+      "id": 325748,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 2 seconds",
+          "id": "816206",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Modify Healing Taken% from Caster's Spells",
+          "affected_spells": [
+            "Rejuvenation (774)",
+            "Frenzied Regeneration (22842)",
+            "Lifebloom (33763)",
+            "Lifebloom (33778)",
+            "Wild Growth (48438)",
+            "Efflorescence (81269)",
+            "Cenarion Ward (102351)",
+            "Cenarion Ward (102352)",
+            "Ysera's Gift (145108)",
+            "Ysera's Gift (145109)",
+            "Ysera's Gift (145110)",
+            "Rejuvenation (Germination) (155777)",
+            "Tranquility (157982)",
+            "Lifebloom (188550)",
+            "Cultivation (200389)",
+            "Overgrowth (203651)",
+            "Spring Blossoms (207386)",
+            "Grove Tending (279793)",
+            "Grove Tending (383193)",
+            "Minor Cenarion Ward (429222)",
+            "Tranquility (1236573)"
+          ],
+          "id": "816652",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kindred Spirits",
+      "id": 326434,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "817451",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "889281",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Apply Aura",
+          "subtype": "Add Percent Modifier : Spell Critical Chance",
+          "id": "889282",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "4",
+          "type": "Apply Aura",
+          "subtype": "Modify All Haste%",
+          "id": "889283",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "5",
+          "type": "Apply Aura",
+          "subtype": "Modify Versatility%",
+          "id": "889284",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "6",
+          "type": "Apply Aura",
+          "subtype": "Modify Rating",
+          "id": "889338",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kindred Spirits",
+      "id": 326967,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Override Action Spell (Misc /w Base)",
+          "id": "818239",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Periodic Dummy : every 1 seconds",
+          "id": "832560",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Apply Aura",
+          "subtype": "Add Percent Modifier : Spell Critical Chance",
+          "id": "889245",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "4",
+          "type": "Apply Aura",
+          "subtype": "Modify All Haste%",
+          "id": "889246",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "5",
+          "type": "Apply Aura",
+          "subtype": "Modify Versatility%",
+          "id": "889249",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        },
+        {
+          "idx": "6",
+          "type": "Apply Aura",
+          "subtype": "Modify Rating",
+          "id": "889250",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kindred Empowerment",
+      "id": 327022,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Absorb Damage",
+          "id": "818328",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "837056",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kindred Protection",
+      "id": 327037,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Transfer Damage%",
+          "id": "818347",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kindred Focus",
+      "id": 327071,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "818396",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kindred Spirits",
+      "id": 327097,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "818438",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kindred Empowerment",
+      "id": 327139,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Dummy : every 0.5 seconds",
+          "id": "818495",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kindred Focus",
+      "id": 327148,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Dummy : every 0.5 seconds",
+          "id": "818519",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kindred Focus",
+      "id": 327149,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "818520",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kindred Empowerment",
+      "id": 338411,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : arcane",
+          "id": "837005",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kindred Empowerment",
+      "id": 338525,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "837220",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kindred Empowerment",
+      "id": 344991,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "869829",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Infected Wounds",
+      "id": 345209,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Decrease Movement Speed%",
+          "id": "870268",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Infected Wounds",
+      "id": 354571,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Modify Healing Received%",
+          "id": "887089",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Star Burst",
+      "id": 356433,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Create Area Trigger",
+          "id": "890286",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87)",
+              "new": "at Area in Area (87)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Star Burst",
+      "id": 356468,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Trigger Missiles",
+          "id": "890345",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Random (72)",
+              "new": "at Random (72)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Star Burst",
+      "id": 356474,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "890354",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Enemy in Area (16)",
+              "new": "at Enemy in Area (16)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Unknown",
+          "id": "890355",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Enemy in Area (16)",
+              "new": "at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Star Burst",
+      "id": 356536,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Summon",
+          "id": "890449",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87)",
+              "new": "at Area in Area (87)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Starfall",
+      "id": 359399,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "895540",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orbital Strike",
+      "id": 361237,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "898966",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Enemy in Area (16)",
+              "new": "at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Architect's Aligner",
+      "id": 363789,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : cosmic",
+          "id": "903409",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (18) -> At Enemy in Area (16)",
+              "new": "at Self (18) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sickle of the Lion",
+      "id": 363830,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : physical every 1 seconds",
+          "id": "903466",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (22) -> Enemy in Area (15)",
+              "new": "Source (22) -> Enemy in Area (15)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bleeding Soul",
+      "id": 363831,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : cosmic every 1 seconds",
+          "id": "903467",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Renewing Bloom",
+      "id": 364686,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 1 seconds",
+          "id": "904878",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cosmic Predator",
+      "id": 365334,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "906174",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Ground (62) -> At Enemy in Area (16)",
+              "new": "at Ground (62) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Darkening Moon",
+      "id": 365476,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "906421",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (18) -> To Area (8)",
+              "new": "at Self (18) -> at any in Area (8)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Celestial Pillar",
+      "id": 365478,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "906425",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Create Area Trigger",
+          "id": "913775",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(148)",
+              "new": "in Area From Target to Self (148)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fury of Elune",
+      "id": 365640,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "906701",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87) -> At Enemy in Area (16)",
+              "new": "at Area in Area (87) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ephemeral Profusion",
+      "id": 367330,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "910920",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Target (63) -> At Friendly in Area (31)",
+              "new": "at Target (63) -> At Ally in Area (31)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "After the Wildfire",
+      "id": 371982,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "989783",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (18) -> At Friendly in Area (31)",
+              "new": "at Self (18) -> At Ally in Area (31)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Grove Tending",
+      "id": 383193,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 3 seconds",
+          "id": "1014953",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Celestial Alignment",
+      "id": 383410,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "1015322",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Enemy in Area (16)",
+              "new": "at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Incarnation: Chosen of Elune",
+      "id": 390414,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "5",
+          "type": "Dummy",
+          "id": "1039813",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Enemy in Area (16)",
+              "new": "at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frenzied Assault",
+      "id": 391140,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : physical every 2 seconds",
+          "id": "1028451",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tear",
+      "id": 391356,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : physical every 2 seconds",
+          "id": "1028821",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rampant Ferocity",
+      "id": 391710,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "1029376",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sabertooth",
+      "id": 391722,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken% from Caster's Spells",
+          "affected_spells": [
+            "Entangling Roots (339)",
+            "Rip (1079)",
+            "Rake (1822)",
+            "Mass Entanglement (102359)",
+            "Thrash (106830)",
+            "Moonfire (155625)",
+            "Rake (155722)",
+            "Moonfire (164812)",
+            "Sunfire (164815)",
+            "Thrash (192090)",
+            "Feral Frenzy (274837)",
+            "Feral Frenzy (274838)",
+            "Adaptive Swarm (325733)",
+            "Adaptive Swarm (325748)",
+            "Tear (391356)",
+            "Adaptive Swarm (391889)",
+            "Adaptive Swarm (391891)",
+            "Thrash (405233)"
+          ],
+          "id": "1029392",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tear Open Wounds",
+      "id": 391786,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "1029486",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Adaptive Swarm",
+      "id": 391888,
+      "type": "modified",
+      "talent_entry": "Feral",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "1029656",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Dummy",
+          "id": "1029657",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Adaptive Swarm",
+      "id": 391889,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : nature every 2 seconds",
+          "id": "1029658",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken% from Caster's Spells",
+          "affected_spells": [
+            "Entangling Roots (339)",
+            "Rip (1079)",
+            "Rake (1822)",
+            "Mass Entanglement (102359)",
+            "Thrash (106830)",
+            "Moonfire (155625)",
+            "Rake (155722)",
+            "Moonfire (164812)",
+            "Sunfire (164815)",
+            "Thrash (192090)",
+            "Feral Frenzy (274837)",
+            "Feral Frenzy (274838)",
+            "Thrash (405233)"
+          ],
+          "id": "1029659",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken% from Caster's Spells (Label)",
+          "affected_spells": [
+            "Frenzied Assault (391140)"
+          ],
+          "id": "1149652",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        },
+        {
+          "idx": "4",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken% from Caster's Spells (Label)",
+          "affected_spells": [
+            "Bloodseeker Vines (439531)"
+          ],
+          "id": "1158529",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        },
+        {
+          "idx": "5",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken% from Caster's Spells (Label)",
+          "affected_spells": [
+            "Dreadful Wound (441812)",
+            "Dreadful Wound (451177)"
+          ],
+          "id": "1158530",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Adaptive Swarm",
+      "id": 391891,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 2 seconds",
+          "id": "1029661",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Modify Healing Taken% from Caster's Spells",
+          "affected_spells": [
+            "Rejuvenation (774)",
+            "Frenzied Regeneration (22842)",
+            "Lifebloom (33763)",
+            "Lifebloom (33778)",
+            "Wild Growth (48438)",
+            "Efflorescence (81269)",
+            "Cenarion Ward (102351)",
+            "Cenarion Ward (102352)",
+            "Ysera's Gift (145108)",
+            "Ysera's Gift (145109)",
+            "Ysera's Gift (145110)",
+            "Rejuvenation (Germination) (155777)",
+            "Tranquility (157982)",
+            "Lifebloom (188550)",
+            "Cultivation (200389)",
+            "Overgrowth (203651)",
+            "Spring Blossoms (207386)",
+            "Grove Tending (279793)",
+            "Grove Tending (383193)",
+            "Minor Cenarion Ward (429222)",
+            "Tranquility (1236573)"
+          ],
+          "id": "1029662",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nurturing Dormancy",
+      "id": 392101,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "1030017",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nurturing Dormancy",
+      "id": 392103,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "1030019",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Regenerative Heartwood",
+      "id": 392117,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "1030041",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Embrace of the Dream",
+      "id": 392146,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "1030096",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (18) -> At Friendly in Area (31)",
+              "new": "at Self (18) -> At Ally in Area (31)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Embrace of the Dream",
+      "id": 392147,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "1030097",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Invigorate",
+      "id": 392160,
+      "type": "modified",
+      "talent_entry": "Restoration",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Server Side Script",
+          "id": "1030126",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Budding Leaves",
+      "id": 392168,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Modify Healing Taken% from Caster's Spells",
+          "affected_spells": [
+            "Lifebloom (33763)",
+            "Lifebloom (188550)"
+          ],
+          "id": "1030138",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verdancy",
+      "id": 392329,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "1030446",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Waning Twilight",
+      "id": 393957,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken% from Caster's Spells",
+          "affected_spells": [
+            "Wrath (5176)",
+            "Starsurge (78674)",
+            "Fungal Growth (81281)",
+            "Wild Mushroom (88751)",
+            "Moonfire (164812)",
+            "Sunfire (164815)",
+            "Fey Missile (188046)",
+            "Wrath (190984)",
+            "Starfall (191037)",
+            "Starfire (194153)",
+            "Starsurge (197626)",
+            "Starfire (197628)",
+            "Sunfire (197630)",
+            "Stellar Flare (202347)",
+            "Shooting Stars (202497)",
+            "Fury of Elune (211545)",
+            "Streaking Star (272873)",
+            "New Moon (274281)",
+            "Half Moon (274282)",
+            "Full Moon (274283)",
+            "Lunar Shrapnel (279641)",
+            "Fury of Elune (281871)",
+            "Thorns (305496)",
+            "Adaptive Swarm (325733)",
+            "Star Burst (356474)",
+            "Starfall (359399)",
+            "Orbital Strike (361237)",
+            "Fury of Elune (365640)",
+            "Power of Goldrinn (394046)",
+            "Goldrinn's Fang (394047)",
+            "Fury of Elune (394111)",
+            "Star Burst (406430)",
+            "Crashing Star (408310)",
+            "Minor Moon (424588)",
+            "Boundless Moonlight (428682)",
+            "Dream Burst (433850)",
+            "Crashing Star (468981)"
+          ],
+          "id": "1033222",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Modify Healing Taken% from Caster's Spells",
+          "affected_spells": [
+            "Rejuvenation (774)",
+            "Regrowth (8936)",
+            "Swiftmend (18562)",
+            "Lifebloom (33763)",
+            "Lifebloom (33778)",
+            "Wild Growth (48438)",
+            "Nourish (50464)",
+            "Efflorescence (81269)",
+            "Cenarion Ward (102352)",
+            "Rejuvenation (Germination) (155777)",
+            "Tranquility (157982)",
+            "Lifebloom (188550)",
+            "Cultivation (200389)",
+            "Reactive Resin (203406)",
+            "Spring Blossoms (207386)",
+            "Grove Tending (279793)",
+            "Early Harvest (287255)",
+            "Adaptive Swarm (325748)",
+            "Renewing Bloom (364686)",
+            "Ephemeral Profusion (367330)",
+            "Grove Tending (383193)",
+            "Adaptive Swarm (391891)",
+            "Embrace of the Dream (392147)",
+            "Invigorate (392160)",
+            "Verdancy (392329)",
+            "Nourish (422090)",
+            "Swiftmend (422094)",
+            "Wild Growth (422382)",
+            "Nourish (423618)",
+            "Minor Cenarion Ward (429222)",
+            "Dream Bloom (434141)",
+            "Symbiotic Blooms (439530)",
+            "Bursting Growth (440121)",
+            "Reactive Resin (468152)",
+            "Blossom Burst (473919)",
+            "Mass Blooming (474149)",
+            "Insurance! (1215515)",
+            "Insurance! (1215518)",
+            "Tranquility (1236573)"
+          ],
+          "id": "1033223",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Goldrinn's Fang",
+      "id": 394047,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "1033385",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Astral Smolder",
+      "id": 394061,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : astral every 2 seconds",
+          "id": "1033407",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Denizen of the Dream",
+      "id": 394076,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Summon",
+          "id": "1033432",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (18) -> At Random (72)",
+              "new": "at Self (18) -> at Random (72)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sundered Firmament",
+      "id": 394103,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "1033494",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (18) -> To Area (8)",
+              "new": "at Self (18) -> at any in Area (8)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sundered Firmament",
+      "id": 394106,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "1033498",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Create Area Trigger",
+          "id": "1033499",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(148)",
+              "new": "in Area From Target to Self (148)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fury of Elune",
+      "id": 394111,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "1033506",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87) -> At Enemy in Area (16)",
+              "new": "at Area in Area (87) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Budding Leaves",
+      "id": 395072,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Modify Healing Taken% from Caster's Spells",
+          "affected_spells": [
+            "Lifebloom (33763)",
+            "Lifebloom (188550)"
+          ],
+          "id": "1035261",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Swiping Mangle",
+      "id": 395942,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "1036752",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Protector of the Pack",
+      "id": 400202,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : nature",
+          "id": "1044955",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Protector of the Pack",
+      "id": 400204,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "1044957",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thorns of Iron",
+      "id": 400223,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "1044989",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (18) -> At Enemy in Area (16)",
+              "new": "at Self (18) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Raze",
+      "id": 400254,
+      "type": "modified",
+      "talent_entry": "Guardian",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "1045055",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "School Damage : physical",
+          "id": "1188876",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Cone to Enemy (104)",
+              "new": "Enemies in Cone to Targeted Enemy (104)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moonless Night",
+      "id": 400360,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : arcane",
+          "id": "1045299",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thrash",
+      "id": 405233,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : physical every 3 seconds",
+          "id": "1053352",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Star Burst",
+      "id": 406430,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "1055364",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Knock Back",
+          "id": "1055365",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Trigger Spell : Star Burst",
+          "id": "1095137",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crashing Star",
+      "id": 408310,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "1072361",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blossoming Infusion",
+      "id": 408571,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Modify Healing Taken% from Caster's Spells",
+          "affected_spells": [
+            "Rejuvenation (774)",
+            "Regrowth (8936)",
+            "Swiftmend (18562)",
+            "Lifebloom (33763)",
+            "Lifebloom (33778)",
+            "Wild Growth (48438)",
+            "Nourish (50464)",
+            "Efflorescence (81269)",
+            "Cenarion Ward (102352)",
+            "Rejuvenation (Germination) (155777)",
+            "Tranquility (157982)",
+            "Lifebloom (188550)",
+            "Cultivation (200389)",
+            "Reactive Resin (203406)",
+            "Spring Blossoms (207386)",
+            "Grove Tending (279793)",
+            "Early Harvest (287255)",
+            "Adaptive Swarm (325748)",
+            "Renewing Bloom (364686)",
+            "Ephemeral Profusion (367330)",
+            "Grove Tending (383193)",
+            "Adaptive Swarm (391891)",
+            "Embrace of the Dream (392147)",
+            "Invigorate (392160)",
+            "Verdancy (392329)",
+            "Nourish (422090)",
+            "Swiftmend (422094)",
+            "Wild Growth (422382)",
+            "Nourish (423618)",
+            "Minor Cenarion Ward (429222)",
+            "Dream Bloom (434141)",
+            "Symbiotic Blooms (439530)",
+            "Bursting Growth (440121)",
+            "Reactive Resin (468152)",
+            "Blossom Burst (473919)",
+            "Mass Blooming (474149)",
+            "Insurance! (1215515)",
+            "Insurance! (1215518)",
+            "Tranquility (1236573)"
+          ],
+          "id": "1072790",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lunar Beam",
+      "id": 414613,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : arcane",
+          "id": "1083866",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87) -> At Enemy in Area (16)",
+              "new": "at Area in Area (87) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Star Burst",
+      "id": 421072,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "1095136",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nourish",
+      "id": 422090,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "1097196",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (18) -> At Friendly in Area (31)",
+              "new": "at Self (18) -> At Ally in Area (31)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Swiftmend",
+      "id": 422094,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "1097203",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (18) -> At Friendly in Area (31)",
+              "new": "at Self (18) -> At Ally in Area (31)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wild Growth",
+      "id": 422382,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 1 seconds",
+          "id": "1097664",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (18) -> At Friendly in Area (31)",
+              "new": "at Self (18) -> At Ally in Area (31)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Burning Frenzy",
+      "id": 422779,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : fire every 2 seconds",
+          "id": "1098320",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nourish",
+      "id": 423618,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "1099760",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (18) -> At Friendly in Area (31)",
+              "new": "at Self (18) -> At Ally in Area (31)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Minor Moon",
+      "id": 424588,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "1101681",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Enemy (53) -> At Enemy in Area (16)",
+              "new": "At Enemy (53) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blazing Thorns",
+      "id": 425448,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : fire",
+          "id": "1103273",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moonfire",
+      "id": 428545,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "1109466",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87) -> At Enemy in Area (16)",
+              "new": "at Area in Area (87) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Boundless Moonlight",
+      "id": 428682,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "1109706",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Target (63) -> At Enemy in Area (16)",
+              "new": "at Target (63) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Minor Cenarion Ward",
+      "id": 429222,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 2 seconds",
+          "id": "1113286",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Atmospheric Exposure",
+      "id": 430589,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken% from Caster's Spells",
+          "affected_spells": [
+            "Wrath (5176)",
+            "Maul (6807)",
+            "Mangle (33917)",
+            "Thrash (77758)",
+            "Starsurge (78674)",
+            "Pulverize (80313)",
+            "Fungal Growth (81281)",
+            "Wild Mushroom (88751)",
+            "Moonfire (164812)",
+            "Sunfire (164815)",
+            "Fey Missile (188046)",
+            "Wrath (190984)",
+            "Starfall (191037)",
+            "Thrash (192090)",
+            "Starfire (194153)",
+            "Starsurge (197626)",
+            "Starfire (197628)",
+            "Sunfire (197630)",
+            "Stellar Flare (202347)",
+            "Shooting Stars (202497)",
+            "Brambles (203958)",
+            "Lunar Beam (204069)",
+            "Fury of Elune (211545)",
+            "Brambles (213709)",
+            "Swipe (213771)",
+            "Streaking Star (272873)",
+            "New Moon (274281)",
+            "Half Moon (274282)",
+            "Full Moon (274283)",
+            "Lunar Shrapnel (279641)",
+            "Fury of Elune (281871)",
+            "Thorns (305496)",
+            "Adaptive Swarm (325733)",
+            "Star Burst (356474)",
+            "Starfall (359399)",
+            "Orbital Strike (361237)",
+            "Architect's Aligner (363789)",
+            "Fury of Elune (365640)",
+            "Power of Goldrinn (394046)",
+            "Goldrinn's Fang (394047)",
+            "Fury of Elune (394111)",
+            "Thorns of Iron (400223)",
+            "Raze (400254)",
+            "Star Burst (406430)",
+            "Crashing Star (408310)",
+            "Lunar Beam (414613)",
+            "Minor Moon (424588)",
+            "Boundless Moonlight (428682)",
+            "Dream Burst (433850)",
+            "Ravage (441605)",
+            "Dreadful Wound (451177)",
+            "Crashing Star (468981)"
+          ],
+          "id": "1117671",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dream Burst",
+      "id": 433832,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Proc Trigger Spell : Dream Burst",
+          "id": "1123420",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dream Burst",
+      "id": 433850,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : nature",
+          "subtype": "Attributes: Always AOE Line of Sight , Suppress Points Stacking",
+          "id": "1123446",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Enemy (53) -> At Enemy in Area (16)",
+              "new": "At Enemy (53) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dream Bloom",
+      "id": 434141,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "subtype": "Attributes: Suppress Points Stacking",
+          "id": "1123932",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Target Random (74) -> At Friendly in Area (31)",
+              "new": "at Target Random (74) -> At Ally in Area (31)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Symbiotic Blooms",
+      "id": 439530,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 2 seconds",
+          "id": "1132873",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Modify Healing Taken% from Caster",
+          "id": "1133530",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bloodseeker Vines",
+      "id": 439531,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : physical every 2 seconds",
+          "id": "1132874",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken% from Caster",
+          "id": "1133529",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flower Walk",
+      "id": 439902,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "1133474",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21) -> At Friendly in Area (31)",
+              "new": "Targeted Ally (21) -> At Ally in Area (31)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bursting Growth",
+      "id": 440121,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "1133809",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87) -> At Friendly in Area (31)",
+              "new": "at Area in Area (87) -> At Ally in Area (31)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bursting Growth",
+      "id": 440122,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "1133810",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87) -> At Enemy in Area (16)",
+              "new": "at Area in Area (87) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ravage",
+      "id": 441591,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "1136153",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "School Damage : physical",
+          "id": "1137019",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Cone to Enemy (104)",
+              "new": "Enemies in Cone to Targeted Enemy (104)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ravage",
+      "id": 441605,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "1136169",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "School Damage : physical",
+          "id": "1136170",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Cone to Enemy (104)",
+              "new": "Enemies in Cone to Targeted Enemy (104)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dreadful Wound",
+      "id": 441812,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : physical every 2 seconds",
+          "id": "1136537",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Done% to Caster",
+          "id": "1136538",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thriving Vegetation",
+      "id": 447132,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "1144924",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stellar Amplification",
+      "id": 450214,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken% from Caster's Spells",
+          "affected_spells": [
+            "Starfall (50286)",
+            "Moonfire (164812)",
+            "Sunfire (164815)",
+            "Starfall (191034)",
+            "Starfall (191037)",
+            "Stellar Flare (202347)",
+            "Shooting Stars (202497)",
+            "Starfall (359399)",
+            "Crashing Star (408310)",
+            "Crashing Star (468981)",
+            "Starfall (1236607)",
+            "Starfall (1236608)"
+          ],
+          "id": "1150047",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken% from Caster's Spells (Label)",
+          "affected_spells": [
+            "Fungal Growth (81281)"
+          ],
+          "id": "1150049",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        },
+        {
+          "idx": "3",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Taken% from Caster's Spells (Label)",
+          "affected_spells": [
+            "Astral Smolder (394061)"
+          ],
+          "id": "1150050",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dreadful Wound",
+      "id": 451177,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : physical every 2 seconds",
+          "id": "1151596",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Modify Damage Done% to Caster",
+          "id": "1151597",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reactive Resin",
+      "id": 468152,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 2 seconds",
+          "id": "1181629",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thrash",
+      "id": 468873,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : physical every 3 seconds",
+          "id": "1182854",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rake",
+      "id": 468934,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : physical every 3 seconds",
+          "id": "1182941",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crashing Star",
+      "id": 468981,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "1183020",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flourish",
+      "id": 473901,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "1193130",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blossom Burst",
+      "id": 473919,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "1193178",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mass Blooming",
+      "id": 474149,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "1193590",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Direct Heal",
+          "id": "1193591",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Friendly (132) -> At Friendly in Area (31)",
+              "new": "at Targeted Ally (132) -> At Ally in Area (31)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Symbiotic Relationship",
+      "id": 474750,
+      "type": "modified",
+      "talent_entry": "Generic",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "1194594",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Symbiotic Relationship",
+      "id": 474754,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "1194601",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "1194620",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Symbiotic Relationship",
+      "id": 474760,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "1194618",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Insurance!",
+      "id": 1215515,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 3 seconds",
+          "id": "1198516",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "1198517",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Insurance!",
+      "id": 1215518,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "1198522",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Insurance!",
+      "id": 1215544,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 3 seconds",
+          "id": "1198567",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "1198568",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Insurance!",
+      "id": 1215545,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "1198569",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Big Winner!!!",
+      "id": 1217245,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "2",
+          "type": "School Damage : physical",
+          "id": "1201189",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Single-Button Assistant",
+      "id": 1229376,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "1220649",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dryad",
+      "id": 1236556,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "2",
+          "type": "Summon",
+          "id": "1232579",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Radius (73)",
+              "new": "at Radius (73)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tranquility",
+      "id": 1236573,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "1232616",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (22) -> Friendly in Area (30)",
+              "new": "Source (22) -> Ally in Area (30)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 2 seconds",
+          "id": "1232617",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "At Self (22) -> Friendly in Area (30)",
+              "new": "Source (22) -> Ally in Area (30)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Starfall",
+      "id": 1236607,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Unknown",
+          "id": "1232687",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Periodic Trigger Spell : Starfall every 1 seconds",
+          "id": "1232688",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Any Target (25)",
+              "new": "Current Target (25)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Starfall",
+      "id": 1236608,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Dummy",
+          "id": "1232692",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Unknown(87) -> At Enemy in Area (16)",
+              "new": "at Area in Area (87) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Starfall",
+      "id": 1236613,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "1232703",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Starsurge",
+      "id": 1236640,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "1232743",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dryad's Favor",
+      "id": 1236851,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "1233181",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dryad's Favor",
+      "id": 1236853,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "1233183",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Friendly (21)",
+              "new": "Targeted Ally (21)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Starsurge",
+      "id": 1236917,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : astral",
+          "id": "1233308",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Target",
+              "prev": "Enemy (6)",
+              "new": "Targeted Enemy (6)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
