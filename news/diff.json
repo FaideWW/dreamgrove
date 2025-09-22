@@ -14,8 +14,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87) -> at Enemy in Area (16)",
-              "new": "at Location in Area (87) -> at Enemy in Area (16)"
+              "prev": "at Location in Area (87) -> at Enemy in Area (16)",
+              "new": "at Area (87) -> at Enemy in Area (16)"
             }
           ]
         }
@@ -35,8 +35,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87) -> At Ally in Area (31)",
-              "new": "at Location in Area (87) -> At Ally in Area (31)"
+              "prev": "at Location in Area (87) -> At Ally in Area (31)",
+              "new": "at Area (87) -> At Ally in Area (31)"
             }
           ]
         }
@@ -57,8 +57,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87) -> at Enemy in Area (16)",
-              "new": "at Location in Area (87) -> at Enemy in Area (16)"
+              "prev": "at Location in Area (87) -> at Enemy in Area (16)",
+              "new": "at Area (87) -> at Enemy in Area (16)"
             }
           ]
         }
@@ -79,8 +79,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87) -> at Enemy in Area (16)",
-              "new": "at Location in Area (87) -> at Enemy in Area (16)"
+              "prev": "at Location in Area (87) -> at Enemy in Area (16)",
+              "new": "at Area (87) -> at Enemy in Area (16)"
             }
           ]
         },
@@ -92,8 +92,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87)",
-              "new": "at Location in Area (87)"
+              "prev": "at Location in Area (87)",
+              "new": "at Area (87)"
             }
           ]
         }
@@ -113,8 +113,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87) -> At Ally in Area (31)",
-              "new": "at Location in Area (87) -> At Ally in Area (31)"
+              "prev": "at Location in Area (87) -> At Ally in Area (31)",
+              "new": "at Area (87) -> At Ally in Area (31)"
             }
           ]
         }
@@ -135,8 +135,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87)",
-              "new": "at Location in Area (87)"
+              "prev": "at Location in Area (87)",
+              "new": "at Area (87)"
             }
           ]
         },
@@ -148,8 +148,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87)",
-              "new": "at Location in Area (87)"
+              "prev": "at Location in Area (87)",
+              "new": "at Area (87)"
             }
           ]
         },
@@ -161,8 +161,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87)",
-              "new": "at Location in Area (87)"
+              "prev": "at Location in Area (87)",
+              "new": "at Area (87)"
             }
           ]
         }
@@ -183,8 +183,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87)",
-              "new": "at Location in Area (87)"
+              "prev": "at Location in Area (87)",
+              "new": "at Area (87)"
             }
           ]
         },
@@ -196,8 +196,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87)",
-              "new": "at Location in Area (87)"
+              "prev": "at Location in Area (87)",
+              "new": "at Area (87)"
             }
           ]
         },
@@ -209,8 +209,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87)",
-              "new": "at Location in Area (87)"
+              "prev": "at Location in Area (87)",
+              "new": "at Area (87)"
             }
           ]
         },
@@ -222,8 +222,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87)",
-              "new": "at Location in Area (87)"
+              "prev": "at Location in Area (87)",
+              "new": "at Area (87)"
             }
           ]
         }
@@ -243,8 +243,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87) -> at Enemy in Area (16)",
-              "new": "at Location in Area (87) -> at Enemy in Area (16)"
+              "prev": "at Location in Area (87) -> at Enemy in Area (16)",
+              "new": "at Area (87) -> at Enemy in Area (16)"
             }
           ]
         }
@@ -264,8 +264,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87)",
-              "new": "at Location in Area (87)"
+              "prev": "at Location in Area (87)",
+              "new": "at Area (87)"
             }
           ]
         }
@@ -285,8 +285,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87) -> at Radius in Area (91)",
-              "new": "at Location in Area (87) -> at Radius in Area (91)"
+              "prev": "at Location in Area (87) -> at Radius in Area (91)",
+              "new": "at Area (87) -> at Radius in Area (91)"
             }
           ]
         }
@@ -306,8 +306,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87) -> at Enemy in Area (16)",
-              "new": "at Location in Area (87) -> at Enemy in Area (16)"
+              "prev": "at Location in Area (87) -> at Enemy in Area (16)",
+              "new": "at Area (87) -> at Enemy in Area (16)"
             }
           ]
         }
@@ -327,8 +327,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87)",
-              "new": "at Location in Area (87)"
+              "prev": "at Location in Area (87)",
+              "new": "at Area (87)"
             }
           ]
         }
@@ -348,8 +348,92 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87)",
-              "new": "at Location in Area (87)"
+              "prev": "at Location in Area (87)",
+              "new": "at Area (87)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Umbral Power",
+      "id": 365097,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Modify Spell School",
+          "affected_spells": [
+            "Wrath (5176)",
+            "Wrath (190984)"
+          ],
+          "id": "905709",
+          "modifications": [],
+          "values": [
+            {
+              "type": "removed",
+              "key": "Misc Value"
+            },
+            {
+              "type": "added",
+              "key": "School",
+              "new": "cosmic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Umbral Embrace",
+      "id": 365473,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Modify Spell School",
+          "affected_spells": [
+            "Wrath (5176)",
+            "Wrath (190984)",
+            "Starfire (194153)",
+            "Starfire (197628)"
+          ],
+          "id": "906411",
+          "modifications": [],
+          "values": [
+            {
+              "type": "removed",
+              "key": "Misc Value"
+            },
+            {
+              "type": "added",
+              "key": "School",
+              "new": "astral"
+            }
+          ]
+        },
+        {
+          "idx": "4",
+          "type": "Apply Aura",
+          "subtype": "Modify Spell School",
+          "affected_spells": [
+            "Moonfire (164812)",
+            "Sunfire (164815)"
+          ],
+          "id": "906414",
+          "modifications": [],
+          "values": [
+            {
+              "type": "removed",
+              "key": "Misc Value"
+            },
+            {
+              "type": "added",
+              "key": "School",
+              "new": "astral"
             }
           ]
         }
@@ -369,8 +453,40 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87) -> at Enemy in Area (16)",
-              "new": "at Location in Area (87) -> at Enemy in Area (16)"
+              "prev": "at Location in Area (87) -> at Enemy in Area (16)",
+              "new": "at Area (87) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Umbral Embrace",
+      "id": 393763,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Modify Spell School",
+          "affected_spells": [
+            "Wrath (5176)",
+            "Wrath (190984)",
+            "Starfire (194153)",
+            "Starfire (197628)"
+          ],
+          "id": "1032884",
+          "modifications": [],
+          "values": [
+            {
+              "type": "removed",
+              "key": "Misc Value"
+            },
+            {
+              "type": "added",
+              "key": "School",
+              "new": "astral"
             }
           ]
         }
@@ -390,8 +506,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87) -> at Enemy in Area (16)",
-              "new": "at Location in Area (87) -> at Enemy in Area (16)"
+              "prev": "at Location in Area (87) -> at Enemy in Area (16)",
+              "new": "at Area (87) -> at Enemy in Area (16)"
             }
           ]
         }
@@ -411,8 +527,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87) -> at Enemy in Area (16)",
-              "new": "at Location in Area (87) -> at Enemy in Area (16)"
+              "prev": "at Location in Area (87) -> at Enemy in Area (16)",
+              "new": "at Area (87) -> at Enemy in Area (16)"
             }
           ]
         }
@@ -432,8 +548,41 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87) -> at Enemy in Area (16)",
-              "new": "at Location in Area (87) -> at Enemy in Area (16)"
+              "prev": "at Location in Area (87) -> at Enemy in Area (16)",
+              "new": "at Area (87) -> at Enemy in Area (16)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lunar Calling",
+      "id": 429523,
+      "type": "modified",
+      "talent_entry": "Elune's Chosen (Balance, Guardian)",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "4",
+          "type": "Apply Aura",
+          "subtype": "Modify Spell School",
+          "affected_spells": [
+            "Thrash (77758)",
+            "Thrash (106830)",
+            "Thrash (192090)",
+            "Thrash (405233)"
+          ],
+          "id": "1118642",
+          "modifications": [],
+          "values": [
+            {
+              "type": "removed",
+              "key": "Misc Value"
+            },
+            {
+              "type": "added",
+              "key": "School",
+              "new": "arcane"
             }
           ]
         }
@@ -453,8 +602,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87) -> At Ally in Area (31)",
-              "new": "at Location in Area (87) -> At Ally in Area (31)"
+              "prev": "at Location in Area (87) -> At Ally in Area (31)",
+              "new": "at Area (87) -> At Ally in Area (31)"
             }
           ]
         }
@@ -474,8 +623,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87) -> at Enemy in Area (16)",
-              "new": "at Location in Area (87) -> at Enemy in Area (16)"
+              "prev": "at Location in Area (87) -> at Enemy in Area (16)",
+              "new": "at Area (87) -> at Enemy in Area (16)"
             }
           ]
         }
@@ -495,8 +644,8 @@
           "values": [
             {
               "key": "Target",
-              "prev": "at Area in Area (87) -> at Enemy in Area (16)",
-              "new": "at Location in Area (87) -> at Enemy in Area (16)"
+              "prev": "at Location in Area (87) -> at Enemy in Area (16)",
+              "new": "at Area (87) -> at Enemy in Area (16)"
             }
           ]
         }
