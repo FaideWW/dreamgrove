@@ -1,3 +1,150 @@
 {
-  "delta": []
+  "delta": [
+    {
+      "name": "Stat Negation Aura - Agility DPS",
+      "id": 162697,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Unknown",
+          "id": "228478",
+          "modifications": [],
+          "values": [
+            {
+              "type": "removed",
+              "key": "Misc Value"
+            },
+            {
+              "type": "added",
+              "key": "Stat",
+              "new": "Int"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Unknown",
+          "id": "228479",
+          "modifications": [],
+          "values": [
+            {
+              "type": "added",
+              "key": "Stat",
+              "new": "Str"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stat Negation Aura - Intellect DPS",
+      "id": 162699,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Unknown",
+          "id": "228487",
+          "modifications": [],
+          "values": [
+            {
+              "type": "removed",
+              "key": "Misc Value"
+            },
+            {
+              "type": "added",
+              "key": "Stat",
+              "new": "Agi"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Unknown",
+          "id": "228488",
+          "modifications": [],
+          "values": [
+            {
+              "type": "added",
+              "key": "Stat",
+              "new": "Str"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stat Negation Aura - Agility Tank",
+      "id": 162700,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Unknown",
+          "id": "228491",
+          "modifications": [],
+          "values": [
+            {
+              "type": "removed",
+              "key": "Misc Value"
+            },
+            {
+              "type": "added",
+              "key": "Stat",
+              "new": "Int"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stat Negation Aura - Intellect Healer",
+      "id": 162701,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Unknown",
+          "id": "228494",
+          "modifications": [],
+          "values": [
+            {
+              "type": "removed",
+              "key": "Misc Value"
+            },
+            {
+              "type": "added",
+              "key": "Stat",
+              "new": "Agi"
+            }
+          ]
+        },
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Unknown",
+          "id": "228495",
+          "modifications": [],
+          "values": [
+            {
+              "type": "added",
+              "key": "Stat",
+              "new": "Str"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
