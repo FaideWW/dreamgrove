@@ -1,3 +1,26 @@
 {
-  "delta": []
+  "delta": [
+    {
+      "name": "Reactive Resin",
+      "id": 468152,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 2 seconds",
+          "id": "1181629",
+          "modifications": [],
+          "values": [
+            {
+              "key": "SP Coefficient",
+              "prev": "0.3",
+              "new": "0.54"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
