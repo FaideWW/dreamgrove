@@ -1,3 +1,668 @@
 {
-  "delta": []
+  "delta": [
+    {
+      "name": "Stat Negation Aura - Agility DPS",
+      "id": 162697,
+      "type": "modified",
+      "fields": [
+        {
+          "field": "class",
+          "prev": "Beast Mastery Hunter, Marksmanship Hunter, Survival Hunter, Assassination Rogue, Outlaw Rogue, Subtlety Rogue, Enhancement Shaman, Windwalker Monk, Feral Druid, Havoc Demon Hunter",
+          "new": "Beast Mastery Hunter, Marksmanship Hunter, Survival Hunter, Assassination Rogue, Outlaw Rogue, Subtlety Rogue, Enhancement Shaman, Windwalker Monk, Feral Druid, Havoc Demon Hunter, Warrior, Paladin, Priest, Death Knight, Mage, Warlock, Evoker"
+        }
+      ],
+      "effects": []
+    },
+    {
+      "name": "Stat Negation Aura - Intellect DPS",
+      "id": 162699,
+      "type": "modified",
+      "fields": [
+        {
+          "field": "class",
+          "prev": "Shadow Priest, Elemental Shaman, Arcane Mage, Fire Mage, Frost Mage, Affliction Warlock, Demonology Warlock, Destruction Warlock, Balance Druid",
+          "new": "Shadow Priest, Elemental Shaman, Arcane Mage, Fire Mage, Frost Mage, Affliction Warlock, Demonology Warlock, Destruction Warlock, Balance Druid, Warrior, Paladin, Hunter, Rogue, Death Knight, Monk, Demon Hunter, Evoker"
+        }
+      ],
+      "effects": []
+    },
+    {
+      "name": "Stat Negation Aura - Agility Tank",
+      "id": 162700,
+      "type": "modified",
+      "fields": [
+        {
+          "field": "class",
+          "prev": "Brewmaster Monk, Guardian Druid, Vengeance Demon Hunter",
+          "new": "Brewmaster Monk, Guardian Druid, Vengeance Demon Hunter, Warrior, Paladin, Hunter, Rogue, Priest, Death Knight, Shaman, Mage, Warlock, Evoker"
+        }
+      ],
+      "effects": []
+    },
+    {
+      "name": "Stat Negation Aura - Intellect Healer",
+      "id": 162701,
+      "type": "modified",
+      "fields": [
+        {
+          "field": "class",
+          "prev": "Holy Paladin, Discipline Priest, Holy Priest, Restoration Shaman, Mistweaver Monk, Restoration Druid",
+          "new": "Holy Paladin, Discipline Priest, Holy Priest, Restoration Shaman, Mistweaver Monk, Restoration Druid, Warrior, Hunter, Rogue, Death Knight, Mage, Warlock, Demon Hunter, Evoker"
+        }
+      ],
+      "effects": []
+    },
+    {
+      "type": "added",
+      "id": 822
+    },
+    {
+      "type": "added",
+      "id": 5227
+    },
+    {
+      "type": "added",
+      "id": 6562
+    },
+    {
+      "type": "added",
+      "id": 7744
+    },
+    {
+      "type": "added",
+      "id": 20549
+    },
+    {
+      "type": "added",
+      "id": 20550
+    },
+    {
+      "type": "added",
+      "id": 20551
+    },
+    {
+      "type": "added",
+      "id": 20552
+    },
+    {
+      "type": "added",
+      "id": 20555
+    },
+    {
+      "type": "added",
+      "id": 20557
+    },
+    {
+      "type": "added",
+      "id": 20573
+    },
+    {
+      "type": "added",
+      "id": 20577
+    },
+    {
+      "type": "added",
+      "id": 20578
+    },
+    {
+      "type": "added",
+      "id": 20579
+    },
+    {
+      "type": "added",
+      "id": 20582
+    },
+    {
+      "type": "added",
+      "id": 20583
+    },
+    {
+      "type": "added",
+      "id": 20589
+    },
+    {
+      "type": "added",
+      "id": 20592
+    },
+    {
+      "type": "added",
+      "id": 20594
+    },
+    {
+      "type": "added",
+      "id": 20596
+    },
+    {
+      "type": "added",
+      "id": 20598
+    },
+    {
+      "type": "added",
+      "id": 26297
+    },
+    {
+      "type": "added",
+      "id": 55342
+    },
+    {
+      "type": "added",
+      "id": 58943
+    },
+    {
+      "type": "added",
+      "id": 58984
+    },
+    {
+      "type": "added",
+      "id": 59221
+    },
+    {
+      "type": "added",
+      "id": 59224
+    },
+    {
+      "type": "added",
+      "id": 59752
+    },
+    {
+      "type": "added",
+      "id": 65116
+    },
+    {
+      "type": "added",
+      "id": 69041
+    },
+    {
+      "type": "added",
+      "id": 69042
+    },
+    {
+      "type": "added",
+      "id": 69070
+    },
+    {
+      "type": "added",
+      "id": 79636
+    },
+    {
+      "type": "added",
+      "id": 92680
+    },
+    {
+      "type": "added",
+      "id": 92682
+    },
+    {
+      "type": "added",
+      "id": 107072
+    },
+    {
+      "type": "added",
+      "id": 107074
+    },
+    {
+      "type": "added",
+      "id": 107076
+    },
+    {
+      "type": "added",
+      "id": 107079
+    },
+    {
+      "type": "added",
+      "id": 126408
+    },
+    {
+      "type": "added",
+      "id": 127802
+    },
+    {
+      "type": "added",
+      "id": 154742
+    },
+    {
+      "type": "added",
+      "id": 154743
+    },
+    {
+      "type": "added",
+      "id": 154748
+    },
+    {
+      "type": "added",
+      "id": 162698
+    },
+    {
+      "type": "added",
+      "id": 162702
+    },
+    {
+      "type": "added",
+      "id": 195710
+    },
+    {
+      "type": "added",
+      "id": 255654
+    },
+    {
+      "type": "added",
+      "id": 255655
+    },
+    {
+      "type": "added",
+      "id": 255656
+    },
+    {
+      "type": "added",
+      "id": 255658
+    },
+    {
+      "type": "added",
+      "id": 255659
+    },
+    {
+      "type": "added",
+      "id": 255661
+    },
+    {
+      "type": "added",
+      "id": 255664
+    },
+    {
+      "type": "added",
+      "id": 255665
+    },
+    {
+      "type": "added",
+      "id": 255667
+    },
+    {
+      "type": "added",
+      "id": 255668
+    },
+    {
+      "type": "added",
+      "id": 255669
+    },
+    {
+      "type": "added",
+      "id": 255670
+    },
+    {
+      "type": "added",
+      "id": 255723
+    },
+    {
+      "type": "added",
+      "id": 256374
+    },
+    {
+      "type": "added",
+      "id": 256948
+    },
+    {
+      "type": "added",
+      "id": 257040
+    },
+    {
+      "type": "added",
+      "id": 259756
+    },
+    {
+      "type": "added",
+      "id": 259760
+    },
+    {
+      "type": "added",
+      "id": 260364
+    },
+    {
+      "type": "added",
+      "id": 260369
+    },
+    {
+      "type": "added",
+      "id": 265221
+    },
+    {
+      "type": "added",
+      "id": 265222
+    },
+    {
+      "type": "added",
+      "id": 265223
+    },
+    {
+      "type": "added",
+      "id": 265224
+    },
+    {
+      "type": "added",
+      "id": 265225
+    },
+    {
+      "type": "added",
+      "id": 265226
+    },
+    {
+      "type": "added",
+      "id": 273216
+    },
+    {
+      "type": "added",
+      "id": 273217
+    },
+    {
+      "type": "added",
+      "id": 273220
+    },
+    {
+      "type": "added",
+      "id": 274738
+    },
+    {
+      "type": "added",
+      "id": 274739
+    },
+    {
+      "type": "added",
+      "id": 274741
+    },
+    {
+      "type": "added",
+      "id": 281954
+    },
+    {
+      "type": "added",
+      "id": 287712
+    },
+    {
+      "type": "added",
+      "id": 291417
+    },
+    {
+      "type": "added",
+      "id": 291619
+    },
+    {
+      "type": "added",
+      "id": 291622
+    },
+    {
+      "type": "added",
+      "id": 291628
+    },
+    {
+      "type": "added",
+      "id": 291843
+    },
+    {
+      "type": "added",
+      "id": 291861
+    },
+    {
+      "type": "added",
+      "id": 291944
+    },
+    {
+      "type": "added",
+      "id": 292751
+    },
+    {
+      "type": "added",
+      "id": 292752
+    },
+    {
+      "type": "added",
+      "id": 312198
+    },
+    {
+      "type": "added",
+      "id": 312215
+    },
+    {
+      "type": "added",
+      "id": 312370
+    },
+    {
+      "type": "added",
+      "id": 312372
+    },
+    {
+      "type": "added",
+      "id": 312411
+    },
+    {
+      "type": "added",
+      "id": 312425
+    },
+    {
+      "type": "added",
+      "id": 312890
+    },
+    {
+      "type": "added",
+      "id": 312896
+    },
+    {
+      "type": "added",
+      "id": 312916
+    },
+    {
+      "type": "added",
+      "id": 312923
+    },
+    {
+      "type": "added",
+      "id": 312924
+    },
+    {
+      "type": "added",
+      "id": 313010
+    },
+    {
+      "type": "added",
+      "id": 313015
+    },
+    {
+      "type": "added",
+      "id": 313055
+    },
+    {
+      "type": "added",
+      "id": 313424
+    },
+    {
+      "type": "added",
+      "id": 313514
+    },
+    {
+      "type": "added",
+      "id": 313531
+    },
+    {
+      "type": "added",
+      "id": 315084
+    },
+    {
+      "type": "added",
+      "id": 315322
+    },
+    {
+      "type": "added",
+      "id": 315327
+    },
+    {
+      "type": "added",
+      "id": 315335
+    },
+    {
+      "type": "added",
+      "id": 315357
+    },
+    {
+      "type": "added",
+      "id": 315879
+    },
+    {
+      "type": "added",
+      "id": 317795
+    },
+    {
+      "type": "added",
+      "id": 317821
+    },
+    {
+      "type": "added",
+      "id": 317829
+    },
+    {
+      "type": "added",
+      "id": 321677
+    },
+    {
+      "type": "added",
+      "id": 321685
+    },
+    {
+      "type": "added",
+      "id": 321686
+    },
+    {
+      "type": "added",
+      "id": 321695
+    },
+    {
+      "type": "added",
+      "id": 321701
+    },
+    {
+      "type": "added",
+      "id": 344921
+    },
+    {
+      "type": "added",
+      "id": 351978
+    },
+    {
+      "type": "added",
+      "id": 351985
+    },
+    {
+      "type": "added",
+      "id": 357214
+    },
+    {
+      "type": "added",
+      "id": 358731
+    },
+    {
+      "type": "added",
+      "id": 358733
+    },
+    {
+      "type": "added",
+      "id": 358734
+    },
+    {
+      "type": "added",
+      "id": 360009
+    },
+    {
+      "type": "added",
+      "id": 365575
+    },
+    {
+      "type": "added",
+      "id": 366489
+    },
+    {
+      "type": "added",
+      "id": 366646
+    },
+    {
+      "type": "added",
+      "id": 368437
+    },
+    {
+      "type": "added",
+      "id": 376743
+    },
+    {
+      "type": "added",
+      "id": 376744
+    },
+    {
+      "type": "added",
+      "id": 381451
+    },
+    {
+      "type": "added",
+      "id": 382569
+    },
+    {
+      "type": "added",
+      "id": 382820
+    },
+    {
+      "type": "added",
+      "id": 382998
+    },
+    {
+      "type": "added",
+      "id": 386449
+    },
+    {
+      "type": "added",
+      "id": 386451
+    },
+    {
+      "type": "added",
+      "id": 436339
+    },
+    {
+      "type": "added",
+      "id": 436340
+    },
+    {
+      "type": "added",
+      "id": 436341
+    },
+    {
+      "type": "added",
+      "id": 436344
+    },
+    {
+      "type": "added",
+      "id": 448924
+    },
+    {
+      "type": "added",
+      "id": 451897
+    },
+    {
+      "type": "added",
+      "id": 451903
+    },
+    {
+      "type": "added",
+      "id": 451934
+    },
+    {
+      "type": "added",
+      "id": 458619
+    },
+    {
+      "type": "added",
+      "id": 461063
+    },
+    {
+      "type": "added",
+      "id": 1231411
+    },
+    {
+      "type": "added",
+      "id": 1231418
+    }
+  ]
 }
