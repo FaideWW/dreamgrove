@@ -1,4 +1,4 @@
-SimulationCraft 1200-01 for World of Warcraft 12.0.0.65294 midnight-BETA
+SimulationCraft 1200-01 for World of Warcraft 12.0.0.65390 midnight-BETA
 Name             : Incapacitating Roar (id=99) [Spell Family (7)] 
 Talent Entry     : Generic [tree=class, row=9, col=1, max_rank=1, req_points=20, select_idx=100]
 Class            : Druid
@@ -379,7 +379,7 @@ Labels           : 16: Class Spells
                  : 21: Druid Spells
                  : 219
                  : 292
-                 : 1381: Blessing of the Bronze (381746 effect#1), Blessing of the Bronze (381749 effect#1), Blessing of the Bronze (381753 effect#1), Blessing of the Bronze (381754 effect#1), Blessing of the Bronze (381756 effect#1), Blessing of the Bronze (381757 effect#1)
+                 : 1381: Blessing of the Bronze (381746 effect#1), Blessing of the Bronze (381749 effect#1), Blessing of the Bronze (381754 effect#1), Blessing of the Bronze (381756 effect#1), Blessing of the Bronze (381757 effect#1)
                  : 4638
 Category Cooldown: 120 seconds
 Affecting Spells : Cat Form (768 effect#5), Starfall (191034 effect#2), Time Spiral (375230 effects: #1, #2)
@@ -8810,7 +8810,7 @@ Labels           : 16: Class Spells
                  : 21: Druid Spells
                  : 219
                  : 292
-                 : 1381: Blessing of the Bronze (381746 effect#1), Blessing of the Bronze (381749 effect#1), Blessing of the Bronze (381753 effect#1), Blessing of the Bronze (381754 effect#1), Blessing of the Bronze (381756 effect#1), Blessing of the Bronze (381757 effect#1)
+                 : 1381: Blessing of the Bronze (381746 effect#1), Blessing of the Bronze (381749 effect#1), Blessing of the Bronze (381754 effect#1), Blessing of the Bronze (381756 effect#1), Blessing of the Bronze (381757 effect#1)
                  : 4638
 Category Cooldown: 45 seconds
 Affecting Spells : Cat Form (768 effect#5), Starfall (191034 effect#2), Time Spiral (375230 effects: #1, #2)
@@ -24880,7 +24880,7 @@ School           : Astral
 Spell Type       : Magic
 Spell Level      : 15
 Range            : 100 yards
-Duration         : 15 seconds
+Duration         : 8 seconds
 Labels           : 16: Class Spells
                  : 21: Druid Spells
                  : 292
