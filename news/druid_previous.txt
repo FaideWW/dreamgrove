@@ -1565,7 +1565,7 @@ Proc Chance      : 100%
 Proc Flags       : White Melee Taken, Yellow Melee Taken, White Ranged Taken, Yellow Ranged Taken, Generic Heal Taken, Generic Hostile Spell Taken, Magic Heal Taken, Magic Hostile Spell Taken, Periodic Taken, Helpful Periodic Taken
 Affecting Spells : Guardian Druid (137010 effect#10), Starfall (191034 effect#2), Survival of the Fittest (203965 effect#1), Verdant Heart (301768 effect#2), Improved Barkskin (327993 effect#1), The Natural Order's Will (339063 effect#1), Ursoc's Endurance (393611 effect#1), Reinforced Fur (393618 effect#2), Flower Walk (439901 effect#1), Oakskin (449191 effect#1), Ward of the Forest (1250923 effect#1)
 Family Flags     : 50
-Attributes       : No Threat (42), Allow While Stunned (163), Extra Initial Period (169), Allow While Fleeing (177), Aura Points On Client (268), Allow Class Ability Procs (416), Nameplate Personal Buffs/Debuffs (423)
+Attributes       : No Threat (42), Allow While Stunned (163), Extra Initial Period (169), Allow While Fleeing (177), Aura Points On Client (268), Allow Class Ability Procs (416), Nameplate Personal Buffs/Debuffs (423), Unknown (491), Unknown (512)
 Aura Interrupt   : Raid Encounter End or M+ Start (41)
 Effects          :
 #1 (id=13023)    : Apply Aura (6) | Modify Damage Taken% (87)
@@ -2403,7 +2403,7 @@ Labels           : 16: Class Spells
                  : 292
 Affecting Spells : Starfall (191034 effect#2), Dual Determination (208228 effect#3), Oakskin (449191 effect#1)
 Family Flags     : 71
-Attributes       : Do Not Display (Spellbook, Aura Icon, Combat Log) (7), No Threat (42), Immunity Purges Effect (47), No Aura Icon (60), Not In Spellbook (143), Allow While Stunned (163), Allow While Fleeing (177), Aura Points On Client (268), Allow Class Ability Procs (416)
+Attributes       : Do Not Display (Spellbook, Aura Icon, Combat Log) (7), No Threat (42), Immunity Purges Effect (47), No Aura Icon (60), Not In Spellbook (143), Allow While Stunned (163), Allow While Fleeing (177), Aura Points On Client (268), Allow Class Ability Procs (416), Unknown (512)
 Effects          :
 #1 (id=42499)    : Apply Aura (6) | Modify Damage Taken% (87)
                    Base Value: -50 | Scaled Value: -50 | Misc Value: 0x7f | Target: Self (1)
@@ -2430,7 +2430,7 @@ Labels           : 16: Class Spells
 Category Cooldown: 180 seconds
 Affecting Spells : Starfall (191034 effect#2), Legacy of the Sleeper (339062 effect#1)
 Family Flags     : 84
-Attributes       : Is Ability (4), Allow While Stealthed (37), No Threat (42), No AutoCast (AI) (49), Aura Points On Client (268), Reset cooldown upon ending an encounter (333), Allow Class Ability Procs (416)
+Attributes       : Is Ability (4), Allow While Stealthed (37), No Threat (42), No AutoCast (AI) (49), Aura Points On Client (268), Reset cooldown upon ending an encounter (333), Allow Class Ability Procs (416), Unknown (491)
 Aura Interrupt   : Leave World (19), Change Specialization (38), Change Talent (46)
 Effects          :
 #1 (id=42515)    : Apply Aura (6) | Add Percent Modifier (108): Spell Cooldown (11)
@@ -2497,7 +2497,7 @@ Proc Chance      : 101%
 Proc Flags       : White Melee Taken, Yellow Melee Taken, White Ranged Taken, Yellow Ranged Taken, Generic Hostile Spell Taken, Magic Hostile Spell Taken
 Affecting Spells : Improved Conjuration (1244025 effect#1)
 Family Flags     : 53
-Attributes       : Not Shapeshifted (16), No Aura Cancel (31), No Threat (42), No AutoCast (AI) (49), Reset cooldown upon ending an encounter (333), Allow Class Ability Procs (416)
+Attributes       : Not Shapeshifted (16), No Aura Cancel (31), No Threat (42), No AutoCast (AI) (49), Reset cooldown upon ending an encounter (333), Allow Class Ability Procs (416), Unknown (491)
 Aura Interrupt   : Leave World (19), Enter World (22), Raid Encounter End or M+ Start (41)
 Effects          :
 #1 (id=48273)    : Apply Aura (6) | Temporary Thread Reduction (103)
@@ -3531,7 +3531,7 @@ Proc Chance      : 100%
 Proc Flags       : White Melee Taken, Yellow Melee Taken, White Ranged Taken, Yellow Ranged Taken, Generic Heal Taken, Generic Hostile Spell Taken, Magic Heal Taken, Magic Hostile Spell Taken, Periodic Taken, Helpful Periodic Taken
 Affecting Spells : Starfall (191034 effect#2), Stonebark (197061 effect#1), Astral Influence (197524 effect#1), Ekowraith, Creator of Worlds (210667 effect#1), X'oni's Caress (235039 effect#2), Improved Ironbark (382552 effect#1), Regenerative Heartwood (392116 effect#2)
 Family Flags     : 104
-Attributes       : Include In Advanced Combat Log (72), PvP Enabling (96), Vehicle Immunity Category (218), Aura Points On Client (268), Allow Class Ability Procs (416)
+Attributes       : Include In Advanced Combat Log (72), PvP Enabling (96), Vehicle Immunity Category (218), Aura Points On Client (268), Allow Class Ability Procs (416), Unknown (499), Unknown (512)
 Aura Interrupt   : Raid Encounter End or M+ Start (41)
 Effects          :
 #1 (id=111070)   : Apply Aura (6) | Modify Damage Taken% (87)
@@ -3688,7 +3688,7 @@ Category Cooldown: 180 seconds
 Proc Chance      : 101%
 Affecting Spells : Metamorphosis Rune (23724 effect#1), Cheaper Druid Shapeshifting (38314 effect#1), Incarnation (117679 effect#1), Druid (137009 effect#4), Wildcat Celerity (184877 effect#1), Starfall (191034 effect#2), Berserk (343223 effect#1), Orbital Strike (390378 effect#2), Berserk: Heart of the Lion (391174 effect#1), Whirling Stars (468743 effects: #1, #4), Ashamane's Guidance (1244546 effect#1)
 Family Flags     : 31, 43
-Attributes       : Is Ability (4), Do Not Sheath (18), Allow While Stealthed (37), No Threat (42), Immunity to Hostile & Friendly Effects (48), Allow Entering Arena (149), Aura Points On Client (268), Spellcast Override In Spellbook (310), Reset cooldown upon ending an encounter (333), Allow Class Ability Procs (416), Nameplate Personal Buffs/Debuffs (423), Allow Aura On Level Scale (444)
+Attributes       : Is Ability (4), Do Not Sheath (18), Allow While Stealthed (37), No Threat (42), Immunity to Hostile & Friendly Effects (48), Allow Entering Arena (149), Aura Points On Client (268), Spellcast Override In Spellbook (310), Reset cooldown upon ending an encounter (333), Allow Class Ability Procs (416), Nameplate Personal Buffs/Debuffs (423), Allow Aura On Level Scale (444), Unknown (491)
 Aura Interrupt   : Raid Encounter End or M+ Start (41)
 Effects          :
 #1 (id=111355)   : Apply Aura (6) | Periodic Trigger Spell (23): Berserk every 1.5 seconds
@@ -3775,7 +3775,7 @@ Labels           : 16: Class Spells
 Category Cooldown: 180 seconds
 Affecting Spells : Metamorphosis Rune (23724 effect#1), Cheaper Druid Shapeshifting (38314 effect#1), Incarnation (117679 effect#1), Druid (137009 effect#4), Wildcat Celerity (184877 effect#1), Starfall (191034 effect#2), Legacy of the Sleeper (339062 effect#1), Berserk (343223 effect#1), Orbital Strike (390378 effect#2), Berserk: Heart of the Lion (391174 effect#1), Whirling Stars (468743 effects: #1, #4), Ashamane's Guidance (1244546 effect#1)
 Family Flags     : 30, 43, 96
-Attributes       : Is Ability (4), Do Not Sheath (18), No Threat (42), Immunity to Hostile & Friendly Effects (48), Allow Entering Arena (149), Aura Points On Client (268), Reset cooldown upon ending an encounter (333), Allow Class Ability Procs (416), Allow Aura On Level Scale (444)
+Attributes       : Is Ability (4), Do Not Sheath (18), No Threat (42), Immunity to Hostile & Friendly Effects (48), Allow Entering Arena (149), Aura Points On Client (268), Reset cooldown upon ending an encounter (333), Allow Class Ability Procs (416), Allow Aura On Level Scale (444), Unknown (491)
 Aura Interrupt   : Leave World (19)
 Effects          :
 #1 (id=111383)   : Apply Aura (6) | Add Percent Modifier (108): Spell Cooldown (11)
@@ -3865,7 +3865,7 @@ Labels           : 16: Class Spells
 Proc Chance      : 101%
 Affecting Spells : Incarnation (117679 effect#1), Druid (137009 effect#4), Wildcat Celerity (184877 effect#1), Starfall (191034 effect#2), Berserk (343223 effect#1), Orbital Strike (390378 effect#2), Berserk: Heart of the Lion (391174 effect#1), Whirling Stars (468743 effects: #1, #4), Ashamane's Guidance (1244546 effect#1)
 Family Flags     : 43
-Attributes       : Is Ability (4), Do Not Sheath (18), No Threat (42), Immunity to Hostile & Friendly Effects (48), Allow Entering Arena (149), Aura Points On Client (268), Spellcast Override In Spellbook (310), Reset cooldown upon ending an encounter (333), Allow Class Ability Procs (416), Allow Aura On Level Scale (444)
+Attributes       : Is Ability (4), Do Not Sheath (18), No Threat (42), Immunity to Hostile & Friendly Effects (48), Allow Entering Arena (149), Aura Points On Client (268), Spellcast Override In Spellbook (310), Reset cooldown upon ending an encounter (333), Allow Class Ability Procs (416), Allow Aura On Level Scale (444), Unknown (491)
 Effects          :
 #1 (id=111387)   : Apply Aura (6) | Modify All Haste% (193)
                    Base Value: 10 | Scaled Value: 10 | Target: Self (1)
@@ -4157,7 +4157,7 @@ Labels           : 16: Class Spells
 Category Cooldown: 180 seconds
 Affecting Spells : Wildcat Celerity (184877 effect#1), Starfall (191034 effect#2), Berserk (343223 effect#1), Berserk: Heart of the Lion (391174 effect#1)
 Family Flags     : 70
-Attributes       : Is Ability (4), Allow While Stealthed (37), No Threat (42), No AutoCast (AI) (49), Aura Points On Client (268), Reset cooldown upon ending an encounter (333), Allow Class Ability Procs (416), Nameplate Personal Buffs/Debuffs (423)
+Attributes       : Is Ability (4), Allow While Stealthed (37), No Threat (42), No AutoCast (AI) (49), Aura Points On Client (268), Reset cooldown upon ending an encounter (333), Allow Class Ability Procs (416), Nameplate Personal Buffs/Debuffs (423), Unknown (491)
 Aura Interrupt   : Change Specialization (38), Raid Encounter End or M+ Start (41), Change Talent (46)
 Effects          :
 #1 (id=117476)   : Apply Aura (6) | Periodic Trigger Spell (23): Berserk every 1.5 seconds
@@ -6314,7 +6314,7 @@ Labels           : 16: Class Spells
                  : 690: Major Cooldowns
 Affecting Spells : Starfall (191034 effect#2), Astral Influence (197524 effect#1), Orbital Strike (390378 effect#1), Whirling Stars (468743 effects: #1, #4)
 Family Flags     : 113
-Attributes       : No Threat (42), Aura Points On Client (268), Reset cooldown upon ending an encounter (333), Allow Class Ability Procs (416)
+Attributes       : No Threat (42), Aura Points On Client (268), Reset cooldown upon ending an encounter (333), Allow Class Ability Procs (416), Unknown (491)
 Aura Interrupt   : Leave World (19), Change Specialization (38), Change Talent (46), Change Glyph (47)
 Effects          :
 #1 (id=285082)   : Apply Aura (6) | Modify All Haste% (193)
@@ -15319,7 +15319,7 @@ Labels           : 16: Class Spells
                  : 690: Major Cooldowns
 Affecting Spells : Starfall (191034 effect#2), Astral Influence (197524 effect#1), Orbital Strike (390378 effect#1), Whirling Stars (468743 effects: #1, #4)
 Family Flags     : 113
-Attributes       : No Threat (42), Aura Points On Client (268), Spellcast Override In Spellbook (310), Reset cooldown upon ending an encounter (333), Allow Class Ability Procs (416), Unknown (458)
+Attributes       : No Threat (42), Aura Points On Client (268), Spellcast Override In Spellbook (310), Reset cooldown upon ending an encounter (333), Allow Class Ability Procs (416), Unknown (458), Unknown (491)
 Aura Interrupt   : Leave World (19), Change Specialization (38), Change Talent (46), Change Glyph (47)
 Effects          :
 #1 (id=1015322)  : Apply Aura (6) | Modify All Haste% (193)
@@ -15505,7 +15505,7 @@ Labels           : 16: Class Spells
 Proc Chance      : 101%
 Affecting Spells : Incarnation (117679 effect#1), Druid (137009 effect#4), Wildcat Celerity (184877 effect#1), Starfall (191034 effect#2), Berserk (343223 effect#1), Orbital Strike (390378 effect#2), Berserk: Heart of the Lion (391174 effect#1), Whirling Stars (468743 effects: #1, #4), Ashamane's Guidance (1244546 effect#1)
 Family Flags     : 43
-Attributes       : Is Ability (4), Do Not Sheath (18), No Threat (42), Immunity to Hostile & Friendly Effects (48), Allow Entering Arena (149), Aura Points On Client (268), Spellcast Override In Spellbook (310), Reset cooldown upon ending an encounter (333), Allow Class Ability Procs (416), Allow Aura On Level Scale (444), Unknown (458)
+Attributes       : Is Ability (4), Do Not Sheath (18), No Threat (42), Immunity to Hostile & Friendly Effects (48), Allow Entering Arena (149), Aura Points On Client (268), Spellcast Override In Spellbook (310), Reset cooldown upon ending an encounter (333), Allow Class Ability Procs (416), Allow Aura On Level Scale (444), Unknown (458), Unknown (491)
 Effects          :
 #1 (id=1027223)  : Apply Aura (6) | Modify All Haste% (193)
                    Base Value: 10 | Scaled Value: 10 | Target: Self (1)
@@ -23308,7 +23308,7 @@ Labels           : 16: Class Spells
                  : 690: Major Cooldowns
 Affecting Spells : Starfall (191034 effect#2), Inner Peace (197073 effect#1), Astral Influence (197524 effects: #1, #3), Ekowraith, Creator of Worlds (210667 effects: #1, #7)
 Family Flags     : 53
-Attributes       : Not Shapeshifted (16), Is Channelled (34), Is Self Channelled (38), No Threat (42), No Aura Icon (60), Name in Channel Bar (61), Active Threat (94), Extra Initial Period (169), Spell Haste Affects Periodic (173), Vehicle Immunity Category (218), Haste Affects Duration (273), Reset cooldown upon ending an encounter (333), Allow Class Ability Procs (416), Periodic Refresh Extends Duration (436)
+Attributes       : Not Shapeshifted (16), Is Channelled (34), Is Self Channelled (38), No Threat (42), No Aura Icon (60), Name in Channel Bar (61), Active Threat (94), Extra Initial Period (169), Spell Haste Affects Periodic (173), Vehicle Immunity Category (218), Haste Affects Duration (273), Reset cooldown upon ending an encounter (333), Allow Class Ability Procs (416), Periodic Refresh Extends Duration (436), Unknown (491)
 Channel Interrupt: Damage (2), Action (3), Sheathing (10), Interacting (11), Looting (12), Attacking (13)
 Effects          :
 #1 (id=1232618)  : Apply Aura (6) | Periodic Trigger Spell (23): Tranquility every 1.25 seconds
@@ -25253,7 +25253,7 @@ Proc Chance      : 101%
 Stance Mask      : 0x00000010
 Affecting Spells : Berserk (50334 effect#3), Incarnation: Guardian of Ursoc (102558 effect#3), Heart of the Wild (108293 effect#2), Starfall (191034 effect#2), Gory Fur (201671 effect#1), Guardian of Elune (213680 effect#1), Ironfur (231070 effect#1), Guardian's Wrath (279541 effect#1), Master Shapeshifter (289237 effect#1), Ursine Adept (300346 effect#3), Call of the Elder Druid (319454 effect#8), Ursoc's Endurance (393611 effect#1), Reinforced Fur (393618 effect#1), Killing Strikes (441825 effect#2)
 Family Flags     : 78
-Attributes       : No Threat (42), Aura Points On Client (268), Allow Class Ability Procs (416), Nameplate Personal Buffs/Debuffs (423)
+Attributes       : No Threat (42), Aura Points On Client (268), Allow Class Ability Procs (416), Nameplate Personal Buffs/Debuffs (423), Unknown (490)
 Aura Interrupt   : Raid Encounter End or M+ Start (41)
 Effects          :
 #1 (id=1281576)  : Apply Aura (6) | Modify Armor by Primary Stat% (268)
