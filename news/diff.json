@@ -1,33 +1,16 @@
 {
   "delta": [
     {
-      "type": "removed",
-      "name": "Tranquility",
-      "id": 1236574
-    },
-    {
-      "type": "removed",
-      "name": "Regrowth",
-      "id": 1236647
-    },
-    {
-      "type": "removed",
-      "name": "Tranquility",
-      "id": 1264623
-    },
-    {
-      "type": "removed",
-      "name": "Tranquility",
-      "id": 1264659
-    },
-    {
-      "type": "removed",
-      "name": "Battle Resurrection Highlight",
-      "id": 1271400
-    },
-    {
-      "type": "added",
-      "id": 1280133
+      "name": "Grove Guardians",
+      "id": 102693,
+      "type": "modified",
+      "fields": [
+        {
+          "field": "resource",
+          "prev": "1.2% Base Mana (0) (id=305377)"
+        }
+      ],
+      "effects": []
     }
   ]
 }
