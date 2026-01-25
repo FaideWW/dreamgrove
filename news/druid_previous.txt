@@ -1,4 +1,4 @@
-SimulationCraft 1200-01 for World of Warcraft 12.0.0.65512 midnight-BETA
+SimulationCraft 1200-01 for World of Warcraft 12.0.0.65560 midnight-BETA
 Name             : Incapacitating Roar (id=99) [Spell Family (7)] 
 Talent Entry     : Generic [tree=class, row=9, col=1, max_rank=1, req_points=20, select_idx=100]
 Class            : Druid
@@ -3911,7 +3911,6 @@ Name             : Grove Guardians (id=102693) [Spell Family (7)]
 Class            : Druid
 School           : Nature
 Spell Type       : None
-Resource         : 1.2% Base Mana (0) (id=305377)
 Range            : 40 yards
 Duration         : 8 seconds
 Cooldown         : 1 seconds

@@ -1,16 +1,3 @@
 {
-  "delta": [
-    {
-      "name": "Grove Guardians",
-      "id": 102693,
-      "type": "modified",
-      "fields": [
-        {
-          "field": "resource",
-          "prev": "1.2% Base Mana (0) (id=305377)"
-        }
-      ],
-      "effects": []
-    }
-  ]
+  "delta": []
 }
