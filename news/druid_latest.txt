@@ -3331,7 +3331,7 @@ Attributes       : Not Shapeshifted (16), No Aura Cancel (31), No Aura Icon (60)
 Aura Interrupt   : Leave World (19), Enter World (22)
 Effects          :
 #1 (id=91238)    : Trigger Spell (64): Wild Mushroom
-                   Base Value: 0 | Scaled Value: 0 | Misc Value: 1000 | Trigger Spell: 88751 | Target: At Enemy (53)
+                   Base Value: 0 | Scaled Value: 0 | Delay: 1000_ms | Trigger Spell: 88751 | Target: At Enemy (53)
 #2 (id=1043162)  : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 0 | Target: Self (1)
 Description      : Grow a magical mushroom at the target enemy's location. After $d, the mushroom detonates, dealing $88751s1 Nature damage and then an additional $81281o1 Nature damage over $81281d. Affected targets are slowed by ${$81281s2*-1}%.
@@ -7319,13 +7319,13 @@ Effects          :
                    Base Value: 3 | Scaled Value: 3 | Radius: 8 yards | Target: at Area (87)
                    Modified By: Bounteous Bloom (429215 effect#2)
 #2 (id=303839)   : Trigger Spell (64): Force of Nature
-                   Base Value: 0 | Scaled Value: 0 | Misc Value: 10 | Trigger Spell: 248280 | Target: at Area (87)
+                   Base Value: 0 | Scaled Value: 0 | Delay: 10_ms | Trigger Spell: 248280 | Target: at Area (87)
 #3 (id=465061)   : Trigger Spell (64): Force of Nature
-                   Base Value: 0 | Scaled Value: 0 | Misc Value: 155 | Trigger Spell: 248280 | Target: at Area (87)
+                   Base Value: 0 | Scaled Value: 0 | Delay: 155_ms | Trigger Spell: 248280 | Target: at Area (87)
 #4 (id=465062)   : Trigger Spell (64): Force of Nature
-                   Base Value: 0 | Scaled Value: 0 | Misc Value: 300 | Trigger Spell: 248280 | Target: at Area (87)
+                   Base Value: 0 | Scaled Value: 0 | Delay: 300_ms | Trigger Spell: 248280 | Target: at Area (87)
 #5 (id=736032)   : Trigger Spell (64): Force of Nature
-                   Base Value: 0 | Scaled Value: 0 | Misc Value: 445 | Trigger Spell: 248280 | Target: at Area (87)
+                   Base Value: 0 | Scaled Value: 0 | Delay: 445_ms | Trigger Spell: 248280 | Target: at Area (87)
                    Modified By: Sylvan Beckoning (1264618 effect#6), Sylvan Beckoning (1264618 effect#8), Spirit of the Thicket (1264911 effect#6), Spirit of the Thicket (1264911 effect#8)
 #6 (id=1293022)  : Energize Power (30)
                    Base Value: 200 | Scaled Value: 200 | Resource: astral_power | Target: Self (1)
@@ -22219,7 +22219,7 @@ Attributes       : Aura Points On Client (268), Allow Class Ability Procs (416)
 Aura Interrupt   : Leave World (19), Enter World (22)
 Effects          :
 #1 (id=1182954)  : Trigger Spell (64): Sunseeker Mushroom
-                   Base Value: 0 | Scaled Value: 0 | Misc Value: 1000 | Trigger Spell: 1280212 | Target: At Enemy (53)
+                   Base Value: 0 | Scaled Value: 0 | Delay: 1000_ms | Trigger Spell: 1280212 | Target: At Enemy (53)
 #2 (id=1190414)  : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 0 | Target: Self (1)
 Description      : $@spelldesc468936
@@ -23122,7 +23122,7 @@ Labels           : 4874
 Attributes       : Cancels Auto Attack Combat (20), Allow While Sitting (27), Not In Combat (Only Peaceful) (28), No Aura Icon (60), Allow Cast While Casting (135), Not In Arena or Rated Battleground (144), Force Display Castbar (155), No Cooldown On Tooltip (192), No Aura Log (202), Allow Cast While Channeling (308)
 Effects          :
 #1 (id=1223435)  : Trigger Spell (64): Recuperate
-                   Base Value: 0 | Scaled Value: 0 | Misc Value: 10 | Trigger Spell: 1231418 | Target: Self (1)
+                   Base Value: 0 | Scaled Value: 0 | Delay: 10_ms | Trigger Spell: 1231418 | Target: Self (1)
 #2 (id=1223444)  : Create Area Trigger (179)
                    Base Value: 0 | Scaled Value: 0 | Misc Value: 38187 | Radius: 1.5 yards | Target: Front of Self (47)
 #3 (id=1238524)  : Apply Aura (6) | Dummy (4)
