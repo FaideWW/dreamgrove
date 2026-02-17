@@ -1,26 +1,82 @@
 {
   "delta": [
     {
-      "name": "Dream Guide",
-      "id": 1278914,
+      "name": "Fury of Nature",
+      "id": 370701,
       "type": "modified",
       "fields": [],
       "effects": [
         {
-          "type": "removed",
-          "id": "1291245"
+          "type": "added",
+          "effect": {
+            "idx": "4",
+            "id": "1307667",
+            "type": "Apply Aura",
+            "subtype": "Apply Percent Modifier w/ Label : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "10"
+              },
+              {
+                "Scaled Value": "10"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Misc Value 2": "2691 (Label)"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ],
+            "affected_spells": [
+              "Moonfire (8921)",
+              "Moonfire (164812)",
+              "Fury of Elune (211545)",
+              "Fury of Elune (394111)",
+              "Moonless Night (400360)",
+              "Lunar Beam (414613)",
+              "Red Moon (1252871)",
+              "Lunar Beam (1270292)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lunar Calling",
+      "id": 429523,
+      "type": "modified",
+      "talent_entry": "Elune's Chosen (Balance, Guardian)",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "5",
+          "type": "Apply Aura",
+          "subtype": "Apply Flat Modifier w/ Label : Spell Effect 2",
+          "affected_spells": [
+            "Fury of Nature (370701)",
+            "Fury of Nature (370704)"
+          ],
+          "id": "1204429",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "10",
+              "new": "0"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "10",
+              "new": "0"
+            }
+          ]
         },
         {
           "type": "removed",
-          "id": "1291246"
-        },
-        {
-          "type": "removed",
-          "id": "1291247"
-        },
-        {
-          "type": "removed",
-          "id": "1291248"
+          "id": "1204430"
         }
       ]
     }
