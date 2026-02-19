@@ -1,3 +1,1034 @@
 {
-  "delta": []
+  "delta": [
+    {
+      "type": "removed",
+      "name": "Arcane Resistance",
+      "id": 822
+    },
+    {
+      "type": "removed",
+      "name": "Touch of the Grave",
+      "id": 5227
+    },
+    {
+      "type": "removed",
+      "name": "Heroic Presence",
+      "id": 6562
+    },
+    {
+      "type": "removed",
+      "name": "Will of the Forsaken",
+      "id": 7744
+    },
+    {
+      "type": "removed",
+      "name": "War Stomp",
+      "id": 20549
+    },
+    {
+      "type": "removed",
+      "name": "Endurance",
+      "id": 20550
+    },
+    {
+      "type": "removed",
+      "name": "Nature Resistance",
+      "id": 20551
+    },
+    {
+      "type": "removed",
+      "name": "Cultivation",
+      "id": 20552
+    },
+    {
+      "type": "removed",
+      "name": "Regeneration",
+      "id": 20555
+    },
+    {
+      "type": "removed",
+      "name": "Beast Slaying",
+      "id": 20557
+    },
+    {
+      "type": "removed",
+      "name": "Hardiness",
+      "id": 20573
+    },
+    {
+      "type": "removed",
+      "name": "Cannibalize",
+      "id": 20577
+    },
+    {
+      "type": "removed",
+      "name": "Cannibalize",
+      "id": 20578
+    },
+    {
+      "type": "removed",
+      "name": "Shadow Resistance",
+      "id": 20579
+    },
+    {
+      "type": "removed",
+      "name": "Quickness",
+      "id": 20582
+    },
+    {
+      "type": "removed",
+      "name": "Nature Resistance",
+      "id": 20583
+    },
+    {
+      "type": "removed",
+      "name": "Escape Artist",
+      "id": 20589
+    },
+    {
+      "type": "removed",
+      "name": "Arcane Resistance",
+      "id": 20592
+    },
+    {
+      "type": "removed",
+      "name": "Stoneform",
+      "id": 20594
+    },
+    {
+      "type": "removed",
+      "name": "Frost Resistance",
+      "id": 20596
+    },
+    {
+      "type": "removed",
+      "name": "The Human Spirit",
+      "id": 20598
+    },
+    {
+      "type": "removed",
+      "name": "Elusiveness",
+      "id": 21009
+    },
+    {
+      "type": "removed",
+      "name": "Command",
+      "id": 21563
+    },
+    {
+      "type": "removed",
+      "name": "Berserking",
+      "id": 26297
+    },
+    {
+      "type": "removed",
+      "name": "Mirror Image",
+      "id": 55342
+    },
+    {
+      "type": "removed",
+      "name": "Da Voodoo Shuffle",
+      "id": 58943
+    },
+    {
+      "type": "removed",
+      "name": "Shadowmeld",
+      "id": 58984
+    },
+    {
+      "type": "removed",
+      "name": "Shadow Resistance",
+      "id": 59221
+    },
+    {
+      "type": "removed",
+      "name": "Might of the Mountain",
+      "id": 59224
+    },
+    {
+      "type": "removed",
+      "name": "Will to Survive",
+      "id": 59752
+    },
+    {
+      "type": "removed",
+      "name": "Stoneform",
+      "id": 65116
+    },
+    {
+      "type": "removed",
+      "name": "Viciousness",
+      "id": 68975
+    },
+    {
+      "type": "removed",
+      "name": "Aberration",
+      "id": 68976
+    },
+    {
+      "type": "removed",
+      "name": "Darkflight",
+      "id": 68992
+    },
+    {
+      "type": "removed",
+      "name": "Rocket Barrage",
+      "id": 69041
+    },
+    {
+      "type": "removed",
+      "name": "Time is Money",
+      "id": 69042
+    },
+    {
+      "type": "removed",
+      "name": "Rocket Jump",
+      "id": 69070
+    },
+    {
+      "type": "removed",
+      "name": "No Feather Fall",
+      "id": 79636
+    },
+    {
+      "type": "removed",
+      "name": "Nimble Fingers",
+      "id": 92680
+    },
+    {
+      "type": "removed",
+      "name": "Explorer",
+      "id": 92682
+    },
+    {
+      "type": "removed",
+      "name": "Altered Form",
+      "id": 94293
+    },
+    {
+      "type": "removed",
+      "name": "Epicurean",
+      "id": 107072
+    },
+    {
+      "type": "removed",
+      "name": "Inner Peace",
+      "id": 107074
+    },
+    {
+      "type": "removed",
+      "name": "Bouncy",
+      "id": 107076
+    },
+    {
+      "type": "removed",
+      "name": "Quaking Palm",
+      "id": 107079
+    },
+    {
+      "type": "removed",
+      "name": "Forward Thrust",
+      "id": 126408
+    },
+    {
+      "type": "removed",
+      "name": "Touch of the Grave",
+      "id": 127802
+    },
+    {
+      "type": "removed",
+      "name": "Arcane Acuity",
+      "id": 154742
+    },
+    {
+      "type": "removed",
+      "name": "Brawn",
+      "id": 154743
+    },
+    {
+      "type": "removed",
+      "name": "Touch of Elune",
+      "id": 154748
+    },
+    {
+      "type": "removed",
+      "name": "Stat Negation Aura - Agility DPS",
+      "id": 162697
+    },
+    {
+      "type": "removed",
+      "name": "Stat Negation Aura - Strength DPS",
+      "id": 162698
+    },
+    {
+      "type": "removed",
+      "name": "Stat Negation Aura - Intellect DPS",
+      "id": 162699
+    },
+    {
+      "type": "removed",
+      "name": "Stat Negation Aura - Agility Tank",
+      "id": 162700
+    },
+    {
+      "type": "removed",
+      "name": "Stat Negation Aura - Intellect Healer",
+      "id": 162701
+    },
+    {
+      "type": "removed",
+      "name": "Stat Negation Aura - Strength Tank",
+      "id": 162702
+    },
+    {
+      "type": "removed",
+      "name": "Honorable Medallion",
+      "id": 195710
+    },
+    {
+      "type": "removed",
+      "name": "Activating Specialization",
+      "id": 200749
+    },
+    {
+      "type": "removed",
+      "name": "Vindicaar Matrix Crystal",
+      "id": 251463
+    },
+    {
+      "type": "removed",
+      "name": "Vindicaar Matrix Crystal",
+      "id": 255529
+    },
+    {
+      "type": "removed",
+      "name": "Light's Judgment",
+      "id": 255647
+    },
+    {
+      "type": "removed",
+      "name": "Holy Providence",
+      "id": 255651
+    },
+    {
+      "type": "removed",
+      "name": "Light's Reckoning",
+      "id": 255652
+    },
+    {
+      "type": "removed",
+      "name": "Demonbane",
+      "id": 255653
+    },
+    {
+      "type": "removed",
+      "name": "Bull Rush",
+      "id": 255654
+    },
+    {
+      "type": "removed",
+      "name": "Pride of Ironhorn",
+      "id": 255655
+    },
+    {
+      "type": "removed",
+      "name": "Waste Not, Want Not",
+      "id": 255656
+    },
+    {
+      "type": "removed",
+      "name": "Mountaineer",
+      "id": 255658
+    },
+    {
+      "type": "removed",
+      "name": "Rugged Tenacity",
+      "id": 255659
+    },
+    {
+      "type": "removed",
+      "name": "Cantrips",
+      "id": 255661
+    },
+    {
+      "type": "removed",
+      "name": "Arcane Resistance",
+      "id": 255664
+    },
+    {
+      "type": "removed",
+      "name": "Magical Affinity",
+      "id": 255665
+    },
+    {
+      "type": "removed",
+      "name": "Ethereal Connection",
+      "id": 255667
+    },
+    {
+      "type": "removed",
+      "name": "Chill of Night",
+      "id": 255668
+    },
+    {
+      "type": "removed",
+      "name": "Entropic Embrace",
+      "id": 255669
+    },
+    {
+      "type": "removed",
+      "name": "Preternatural Calm",
+      "id": 255670
+    },
+    {
+      "type": "removed",
+      "name": "Bull Rush",
+      "id": 255723
+    },
+    {
+      "type": "removed",
+      "name": "Entropic Embrace",
+      "id": 256374
+    },
+    {
+      "type": "removed",
+      "name": "Light's Judgment",
+      "id": 256893
+    },
+    {
+      "type": "removed",
+      "name": "Light's Reckoning",
+      "id": 256896
+    },
+    {
+      "type": "removed",
+      "name": "Spatial Rift",
+      "id": 256948
+    },
+    {
+      "type": "removed",
+      "name": "Spatial Rift",
+      "id": 257040
+    },
+    {
+      "type": "removed",
+      "name": "Entropic Embrace",
+      "id": 259756
+    },
+    {
+      "type": "removed",
+      "name": "Entropic Embrace",
+      "id": 259760
+    },
+    {
+      "type": "removed",
+      "name": "Arcane Pulse",
+      "id": 260364
+    },
+    {
+      "type": "removed",
+      "name": "Arcane Pulse",
+      "id": 260369
+    },
+    {
+      "type": "removed",
+      "name": "Fireblood",
+      "id": 265221
+    },
+    {
+      "type": "removed",
+      "name": "Mass Production",
+      "id": 265222
+    },
+    {
+      "type": "removed",
+      "name": "Dungeon Delver",
+      "id": 265223
+    },
+    {
+      "type": "removed",
+      "name": "Forged in Flames",
+      "id": 265224
+    },
+    {
+      "type": "removed",
+      "name": "Mole Machine",
+      "id": 265225
+    },
+    {
+      "type": "removed",
+      "name": "Fireblood",
+      "id": 265226
+    },
+    {
+      "type": "removed",
+      "name": "Long Night",
+      "id": 269379
+    },
+    {
+      "type": "removed",
+      "name": "Streaking Stars",
+      "id": 272871
+    },
+    {
+      "type": "removed",
+      "name": "Open Skies",
+      "id": 273216
+    },
+    {
+      "type": "removed",
+      "name": "Sympathetic Vigor",
+      "id": 273217
+    },
+    {
+      "type": "removed",
+      "name": "Savage Blood",
+      "id": 273220
+    },
+    {
+      "type": "removed",
+      "name": "Untamed Ferocity",
+      "id": 273338
+    },
+    {
+      "type": "removed",
+      "name": "Masterful Instincts",
+      "id": 273344
+    },
+    {
+      "type": "removed",
+      "name": "Power of the Moon",
+      "id": 273367
+    },
+    {
+      "type": "removed",
+      "name": "Jungle Fury",
+      "id": 274424
+    },
+    {
+      "type": "removed",
+      "name": "Autumn Leaves",
+      "id": 274432
+    },
+    {
+      "type": "removed",
+      "name": "Ancestral Call",
+      "id": 274738
+    },
+    {
+      "type": "removed",
+      "name": "Rictus of the Laughing Skull",
+      "id": 274739
+    },
+    {
+      "type": "removed",
+      "name": "Ferocity of the Frostwolf",
+      "id": 274741
+    },
+    {
+      "type": "removed",
+      "name": "Twisted Claws",
+      "id": 275906
+    },
+    {
+      "type": "removed",
+      "name": "Iron Jaws",
+      "id": 276021
+    },
+    {
+      "type": "removed",
+      "name": "Dawning Sun",
+      "id": 276152
+    },
+    {
+      "type": "removed",
+      "name": "High Noon",
+      "id": 278505
+    },
+    {
+      "type": "removed",
+      "name": "Lunar Shrapnel",
+      "id": 278507
+    },
+    {
+      "type": "removed",
+      "name": "Gushing Lacerations",
+      "id": 278509
+    },
+    {
+      "type": "removed",
+      "name": "Gory Regeneration",
+      "id": 278510
+    },
+    {
+      "type": "removed",
+      "name": "Guardian's Wrath",
+      "id": 278511
+    },
+    {
+      "type": "removed",
+      "name": "Waking Dream",
+      "id": 278513
+    },
+    {
+      "type": "removed",
+      "name": "Rampant Growth",
+      "id": 278515
+    },
+    {
+      "type": "removed",
+      "name": "Blood Mist",
+      "id": 279524
+    },
+    {
+      "type": "removed",
+      "name": "Wild Fleshrending",
+      "id": 279527
+    },
+    {
+      "type": "removed",
+      "name": "Layered Mane",
+      "id": 279552
+    },
+    {
+      "type": "removed",
+      "name": "Lively Spirit",
+      "id": 279642
+    },
+    {
+      "type": "removed",
+      "name": "Grove Tending",
+      "id": 279778
+    },
+    {
+      "type": "removed",
+      "name": "Ursoc's Endurance",
+      "id": 280013
+    },
+    {
+      "type": "removed",
+      "name": "Synaptic Spark Capacitor",
+      "id": 280174
+    },
+    {
+      "type": "removed",
+      "name": "Pterrordax Swoop",
+      "id": 281954
+    },
+    {
+      "type": "removed",
+      "name": "Early Harvest",
+      "id": 287251
+    },
+    {
+      "type": "removed",
+      "name": "Haymaker",
+      "id": 287712
+    },
+    {
+      "type": "removed",
+      "name": "Arcanic Pulsar",
+      "id": 287773
+    },
+    {
+      "type": "removed",
+      "name": "Burst of Savagery",
+      "id": 289314
+    },
+    {
+      "type": "removed",
+      "name": "Rime of the Ancient Mariner",
+      "id": 291417
+    },
+    {
+      "type": "removed",
+      "name": "City of Gold",
+      "id": 291619
+    },
+    {
+      "type": "removed",
+      "name": "Child of the Sea",
+      "id": 291622
+    },
+    {
+      "type": "removed",
+      "name": "Brush It Off",
+      "id": 291628
+    },
+    {
+      "type": "removed",
+      "name": "Brush It Off",
+      "id": 291843
+    },
+    {
+      "type": "removed",
+      "name": "Test Spell",
+      "id": 291861
+    },
+    {
+      "type": "removed",
+      "name": "Regeneratin'",
+      "id": 291944
+    },
+    {
+      "type": "removed",
+      "name": "Embrace of the Loa",
+      "id": 292751
+    },
+    {
+      "type": "removed",
+      "name": "Embrace of the Loa",
+      "id": 292752
+    },
+    {
+      "type": "removed",
+      "name": "Fire Resistance",
+      "id": 312198
+    },
+    {
+      "type": "removed",
+      "name": "Nose For Trouble",
+      "id": 312215
+    },
+    {
+      "type": "removed",
+      "name": "Make Camp",
+      "id": 312370
+    },
+    {
+      "type": "removed",
+      "name": "Return to Camp",
+      "id": 312372
+    },
+    {
+      "type": "removed",
+      "name": "Bag of Tricks",
+      "id": 312411
+    },
+    {
+      "type": "removed",
+      "name": "Rummage Your Bag",
+      "id": 312425
+    },
+    {
+      "type": "removed",
+      "name": "Skeleton Pinkie",
+      "id": 312890
+    },
+    {
+      "type": "removed",
+      "name": "Mastercraft",
+      "id": 312896
+    },
+    {
+      "type": "removed",
+      "name": "Emergency Failsafe",
+      "id": 312916
+    },
+    {
+      "type": "removed",
+      "name": "Combat Analysis",
+      "id": 312923
+    },
+    {
+      "type": "removed",
+      "name": "Hyper Organic Light Originator",
+      "id": 312924
+    },
+    {
+      "type": "removed",
+      "name": "Emergency Failsafe",
+      "id": 313010
+    },
+    {
+      "type": "removed",
+      "name": "Recently Failed",
+      "id": 313015
+    },
+    {
+      "type": "removed",
+      "name": "Camp Location",
+      "id": 313055
+    },
+    {
+      "type": "removed",
+      "name": "Combat Analysis",
+      "id": 313424
+    },
+    {
+      "type": "removed",
+      "name": "Hyper Organic Light Originator",
+      "id": 313514
+    },
+    {
+      "type": "removed",
+      "name": "Hyper Organic Light Originator",
+      "id": 313531
+    },
+    {
+      "type": "removed",
+      "name": "Flames of Fury",
+      "id": 315084
+    },
+    {
+      "type": "removed",
+      "name": "Camping",
+      "id": 315322
+    },
+    {
+      "type": "removed",
+      "name": "Camping",
+      "id": 315327
+    },
+    {
+      "type": "removed",
+      "name": "Campfire",
+      "id": 315335
+    },
+    {
+      "type": "removed",
+      "name": "Mount Changer",
+      "id": 315357
+    },
+    {
+      "type": "removed",
+      "name": "Holy Relic",
+      "id": 315879
+    },
+    {
+      "type": "removed",
+      "name": "Alpaca Saddlebags",
+      "id": 317795
+    },
+    {
+      "type": "removed",
+      "name": "Healing Vial",
+      "id": 317821
+    },
+    {
+      "type": "removed",
+      "name": "Holy Relic",
+      "id": 317829
+    },
+    {
+      "type": "removed",
+      "name": "Mirror Image",
+      "id": 321677
+    },
+    {
+      "type": "removed",
+      "name": "Mirror Image",
+      "id": 321685
+    },
+    {
+      "type": "removed",
+      "name": "Mirror Image",
+      "id": 321686
+    },
+    {
+      "type": "removed",
+      "name": "Mirror Image",
+      "id": 321695
+    },
+    {
+      "type": "removed",
+      "name": "Mirror Image",
+      "id": 321701
+    },
+    {
+      "type": "removed",
+      "name": "Mirror Image",
+      "id": 344921
+    },
+    {
+      "type": "removed",
+      "name": "Hyper Organic Light Originator",
+      "id": 351978
+    },
+    {
+      "type": "removed",
+      "name": "Hyper Organic Light Originator",
+      "id": 351985
+    },
+    {
+      "type": "removed",
+      "name": "Wing Buffet",
+      "id": 357214
+    },
+    {
+      "type": "removed",
+      "name": "Glide",
+      "id": 358731
+    },
+    {
+      "type": "removed",
+      "name": "Glide",
+      "id": 358733
+    },
+    {
+      "type": "removed",
+      "name": "Glide",
+      "id": 358734
+    },
+    {
+      "type": "removed",
+      "name": "Familiar Skies",
+      "id": 360009
+    },
+    {
+      "type": "removed",
+      "name": "Awakened",
+      "id": 365575
+    },
+    {
+      "type": "removed",
+      "name": "Discerning Eye",
+      "id": 366489
+    },
+    {
+      "type": "removed",
+      "name": "Familiar Skies",
+      "id": 366646
+    },
+    {
+      "type": "removed",
+      "name": "Visage",
+      "id": 368437
+    },
+    {
+      "type": "removed",
+      "name": "Surge Forward",
+      "id": 376743
+    },
+    {
+      "type": "removed",
+      "name": "Skyward Ascent",
+      "id": 376744
+    },
+    {
+      "type": "removed",
+      "name": "Principles of Soaring",
+      "id": 381451
+    },
+    {
+      "type": "removed",
+      "name": "Surge Forward",
+      "id": 386449
+    },
+    {
+      "type": "removed",
+      "name": "Skyward Ascent",
+      "id": 386451
+    },
+    {
+      "type": "removed",
+      "name": "Calm the Wolf",
+      "id": 406087
+    },
+    {
+      "type": "removed",
+      "name": "Calm the Wolf",
+      "id": 406088
+    },
+    {
+      "type": "removed",
+      "name": "Calm the Wolf",
+      "id": 406090
+    },
+    {
+      "type": "removed",
+      "name": "Calm the Wolf",
+      "id": 406096
+    },
+    {
+      "type": "removed",
+      "name": "Hyper Productive",
+      "id": 436339
+    },
+    {
+      "type": "removed",
+      "name": "Titan-Wrought Frame",
+      "id": 436340
+    },
+    {
+      "type": "removed",
+      "name": "Ingest Minerals",
+      "id": 436341
+    },
+    {
+      "type": "removed",
+      "name": "Azerite Surge",
+      "id": 436344
+    },
+    {
+      "type": "removed",
+      "name": "Wide-Eyed Wonder",
+      "id": 448924
+    },
+    {
+      "type": "removed",
+      "name": "Azerite Surge",
+      "id": 451897
+    },
+    {
+      "type": "removed",
+      "name": "Azerite Surge",
+      "id": 451903
+    },
+    {
+      "type": "removed",
+      "name": "Azerite Surge: III",
+      "id": 451934
+    },
+    {
+      "type": "removed",
+      "name": "No Place Like Home",
+      "id": 458619
+    },
+    {
+      "type": "removed",
+      "name": "Quiet Contemplation",
+      "id": 461063
+    },
+    {
+      "type": "removed",
+      "name": "Overflowing Power",
+      "id": 1232189
+    },
+    {
+      "type": "removed",
+      "name": "Equip Transmog Outfit",
+      "id": 1247613
+    },
+    {
+      "type": "removed",
+      "name": "Clear Current Transmogrifications",
+      "id": 1247917
+    },
+    {
+      "type": "removed",
+      "name": "Mirror Image",
+      "id": 1259905
+    },
+    {
+      "type": "removed",
+      "name": "Equip Transmog Outfit",
+      "id": 1263886
+    },
+    {
+      "type": "removed",
+      "name": "Clear Transmog Outfit",
+      "id": 1272615
+    },
+    {
+      "type": "removed",
+      "name": "Clear Transmog Outfit",
+      "id": 1283375
+    },
+    {
+      "type": "removed",
+      "name": "Equip Transmog Outfit",
+      "id": 1283376
+    }
+  ]
 }
