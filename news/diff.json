@@ -1,1034 +1,1651 @@
 {
   "delta": [
     {
-      "type": "removed",
-      "name": "Arcane Resistance",
-      "id": 822
-    },
-    {
-      "type": "removed",
-      "name": "Touch of the Grave",
-      "id": 5227
-    },
-    {
-      "type": "removed",
-      "name": "Heroic Presence",
-      "id": 6562
-    },
-    {
-      "type": "removed",
-      "name": "Will of the Forsaken",
-      "id": 7744
-    },
-    {
-      "type": "removed",
-      "name": "War Stomp",
-      "id": 20549
-    },
-    {
-      "type": "removed",
-      "name": "Endurance",
-      "id": 20550
-    },
-    {
-      "type": "removed",
-      "name": "Nature Resistance",
-      "id": 20551
-    },
-    {
-      "type": "removed",
-      "name": "Cultivation",
-      "id": 20552
-    },
-    {
-      "type": "removed",
-      "name": "Regeneration",
-      "id": 20555
-    },
-    {
-      "type": "removed",
-      "name": "Beast Slaying",
-      "id": 20557
-    },
-    {
-      "type": "removed",
-      "name": "Hardiness",
-      "id": 20573
-    },
-    {
-      "type": "removed",
-      "name": "Cannibalize",
-      "id": 20577
-    },
-    {
-      "type": "removed",
-      "name": "Cannibalize",
-      "id": 20578
-    },
-    {
-      "type": "removed",
-      "name": "Shadow Resistance",
-      "id": 20579
-    },
-    {
-      "type": "removed",
-      "name": "Quickness",
-      "id": 20582
-    },
-    {
-      "type": "removed",
-      "name": "Nature Resistance",
-      "id": 20583
-    },
-    {
-      "type": "removed",
-      "name": "Escape Artist",
-      "id": 20589
-    },
-    {
-      "type": "removed",
-      "name": "Arcane Resistance",
-      "id": 20592
-    },
-    {
-      "type": "removed",
-      "name": "Stoneform",
-      "id": 20594
-    },
-    {
-      "type": "removed",
-      "name": "Frost Resistance",
-      "id": 20596
-    },
-    {
-      "type": "removed",
-      "name": "The Human Spirit",
-      "id": 20598
-    },
-    {
-      "type": "removed",
-      "name": "Elusiveness",
-      "id": 21009
-    },
-    {
-      "type": "removed",
-      "name": "Command",
-      "id": 21563
-    },
-    {
-      "type": "removed",
-      "name": "Berserking",
-      "id": 26297
-    },
-    {
-      "type": "removed",
-      "name": "Mirror Image",
-      "id": 55342
-    },
-    {
-      "type": "removed",
-      "name": "Da Voodoo Shuffle",
-      "id": 58943
-    },
-    {
-      "type": "removed",
-      "name": "Shadowmeld",
-      "id": 58984
-    },
-    {
-      "type": "removed",
-      "name": "Shadow Resistance",
-      "id": 59221
-    },
-    {
-      "type": "removed",
-      "name": "Might of the Mountain",
-      "id": 59224
-    },
-    {
-      "type": "removed",
-      "name": "Will to Survive",
-      "id": 59752
-    },
-    {
-      "type": "removed",
-      "name": "Stoneform",
-      "id": 65116
-    },
-    {
-      "type": "removed",
-      "name": "Viciousness",
-      "id": 68975
-    },
-    {
-      "type": "removed",
-      "name": "Aberration",
-      "id": 68976
-    },
-    {
-      "type": "removed",
-      "name": "Darkflight",
-      "id": 68992
-    },
-    {
-      "type": "removed",
-      "name": "Rocket Barrage",
-      "id": 69041
-    },
-    {
-      "type": "removed",
-      "name": "Time is Money",
-      "id": 69042
-    },
-    {
-      "type": "removed",
-      "name": "Rocket Jump",
-      "id": 69070
-    },
-    {
-      "type": "removed",
-      "name": "No Feather Fall",
-      "id": 79636
-    },
-    {
-      "type": "removed",
-      "name": "Nimble Fingers",
-      "id": 92680
-    },
-    {
-      "type": "removed",
-      "name": "Explorer",
-      "id": 92682
-    },
-    {
-      "type": "removed",
-      "name": "Altered Form",
-      "id": 94293
-    },
-    {
-      "type": "removed",
-      "name": "Epicurean",
-      "id": 107072
-    },
-    {
-      "type": "removed",
-      "name": "Inner Peace",
-      "id": 107074
-    },
-    {
-      "type": "removed",
-      "name": "Bouncy",
-      "id": 107076
-    },
-    {
-      "type": "removed",
-      "name": "Quaking Palm",
-      "id": 107079
-    },
-    {
-      "type": "removed",
-      "name": "Forward Thrust",
-      "id": 126408
-    },
-    {
-      "type": "removed",
-      "name": "Touch of the Grave",
-      "id": 127802
-    },
-    {
-      "type": "removed",
-      "name": "Arcane Acuity",
-      "id": 154742
-    },
-    {
-      "type": "removed",
-      "name": "Brawn",
-      "id": 154743
-    },
-    {
-      "type": "removed",
-      "name": "Touch of Elune",
-      "id": 154748
-    },
-    {
-      "type": "removed",
-      "name": "Stat Negation Aura - Agility DPS",
-      "id": 162697
-    },
-    {
-      "type": "removed",
-      "name": "Stat Negation Aura - Strength DPS",
-      "id": 162698
-    },
-    {
-      "type": "removed",
-      "name": "Stat Negation Aura - Intellect DPS",
-      "id": 162699
-    },
-    {
-      "type": "removed",
-      "name": "Stat Negation Aura - Agility Tank",
-      "id": 162700
-    },
-    {
-      "type": "removed",
-      "name": "Stat Negation Aura - Intellect Healer",
-      "id": 162701
-    },
-    {
-      "type": "removed",
-      "name": "Stat Negation Aura - Strength Tank",
-      "id": 162702
-    },
-    {
-      "type": "removed",
-      "name": "Honorable Medallion",
-      "id": 195710
-    },
-    {
-      "type": "removed",
-      "name": "Activating Specialization",
-      "id": 200749
-    },
-    {
-      "type": "removed",
-      "name": "Vindicaar Matrix Crystal",
-      "id": 251463
-    },
-    {
-      "type": "removed",
-      "name": "Vindicaar Matrix Crystal",
-      "id": 255529
-    },
-    {
-      "type": "removed",
-      "name": "Light's Judgment",
-      "id": 255647
-    },
-    {
-      "type": "removed",
-      "name": "Holy Providence",
-      "id": 255651
-    },
-    {
-      "type": "removed",
-      "name": "Light's Reckoning",
-      "id": 255652
-    },
-    {
-      "type": "removed",
-      "name": "Demonbane",
-      "id": 255653
-    },
-    {
-      "type": "removed",
-      "name": "Bull Rush",
-      "id": 255654
-    },
-    {
-      "type": "removed",
-      "name": "Pride of Ironhorn",
-      "id": 255655
-    },
-    {
-      "type": "removed",
-      "name": "Waste Not, Want Not",
-      "id": 255656
-    },
-    {
-      "type": "removed",
-      "name": "Mountaineer",
-      "id": 255658
-    },
-    {
-      "type": "removed",
-      "name": "Rugged Tenacity",
-      "id": 255659
-    },
-    {
-      "type": "removed",
-      "name": "Cantrips",
-      "id": 255661
-    },
-    {
-      "type": "removed",
-      "name": "Arcane Resistance",
-      "id": 255664
-    },
-    {
-      "type": "removed",
-      "name": "Magical Affinity",
-      "id": 255665
-    },
-    {
-      "type": "removed",
-      "name": "Ethereal Connection",
-      "id": 255667
-    },
-    {
-      "type": "removed",
-      "name": "Chill of Night",
-      "id": 255668
-    },
-    {
-      "type": "removed",
-      "name": "Entropic Embrace",
-      "id": 255669
-    },
-    {
-      "type": "removed",
-      "name": "Preternatural Calm",
-      "id": 255670
-    },
-    {
-      "type": "removed",
-      "name": "Bull Rush",
-      "id": 255723
-    },
-    {
-      "type": "removed",
-      "name": "Entropic Embrace",
-      "id": 256374
-    },
-    {
-      "type": "removed",
-      "name": "Light's Judgment",
-      "id": 256893
-    },
-    {
-      "type": "removed",
-      "name": "Light's Reckoning",
-      "id": 256896
-    },
-    {
-      "type": "removed",
-      "name": "Spatial Rift",
-      "id": 256948
-    },
-    {
-      "type": "removed",
-      "name": "Spatial Rift",
-      "id": 257040
-    },
-    {
-      "type": "removed",
-      "name": "Entropic Embrace",
-      "id": 259756
-    },
-    {
-      "type": "removed",
-      "name": "Entropic Embrace",
-      "id": 259760
-    },
-    {
-      "type": "removed",
-      "name": "Arcane Pulse",
-      "id": 260364
-    },
-    {
-      "type": "removed",
-      "name": "Arcane Pulse",
-      "id": 260369
-    },
-    {
-      "type": "removed",
-      "name": "Fireblood",
-      "id": 265221
-    },
-    {
-      "type": "removed",
-      "name": "Mass Production",
-      "id": 265222
-    },
-    {
-      "type": "removed",
-      "name": "Dungeon Delver",
-      "id": 265223
-    },
-    {
-      "type": "removed",
-      "name": "Forged in Flames",
-      "id": 265224
-    },
-    {
-      "type": "removed",
-      "name": "Mole Machine",
-      "id": 265225
-    },
-    {
-      "type": "removed",
-      "name": "Fireblood",
-      "id": 265226
-    },
-    {
-      "type": "removed",
-      "name": "Long Night",
-      "id": 269379
-    },
-    {
-      "type": "removed",
-      "name": "Streaking Stars",
-      "id": 272871
-    },
-    {
-      "type": "removed",
-      "name": "Open Skies",
-      "id": 273216
-    },
-    {
-      "type": "removed",
-      "name": "Sympathetic Vigor",
-      "id": 273217
-    },
-    {
-      "type": "removed",
-      "name": "Savage Blood",
-      "id": 273220
-    },
-    {
-      "type": "removed",
-      "name": "Untamed Ferocity",
-      "id": 273338
-    },
-    {
-      "type": "removed",
-      "name": "Masterful Instincts",
-      "id": 273344
-    },
-    {
-      "type": "removed",
-      "name": "Power of the Moon",
-      "id": 273367
-    },
-    {
-      "type": "removed",
-      "name": "Jungle Fury",
-      "id": 274424
-    },
-    {
-      "type": "removed",
-      "name": "Autumn Leaves",
-      "id": 274432
-    },
-    {
-      "type": "removed",
-      "name": "Ancestral Call",
-      "id": 274738
-    },
-    {
-      "type": "removed",
-      "name": "Rictus of the Laughing Skull",
-      "id": 274739
-    },
-    {
-      "type": "removed",
-      "name": "Ferocity of the Frostwolf",
-      "id": 274741
-    },
-    {
-      "type": "removed",
-      "name": "Twisted Claws",
-      "id": 275906
-    },
-    {
-      "type": "removed",
-      "name": "Iron Jaws",
-      "id": 276021
-    },
-    {
-      "type": "removed",
-      "name": "Dawning Sun",
-      "id": 276152
-    },
-    {
-      "type": "removed",
-      "name": "High Noon",
-      "id": 278505
-    },
-    {
-      "type": "removed",
-      "name": "Lunar Shrapnel",
-      "id": 278507
-    },
-    {
-      "type": "removed",
-      "name": "Gushing Lacerations",
-      "id": 278509
-    },
-    {
-      "type": "removed",
-      "name": "Gory Regeneration",
-      "id": 278510
-    },
-    {
-      "type": "removed",
-      "name": "Guardian's Wrath",
-      "id": 278511
-    },
-    {
-      "type": "removed",
-      "name": "Waking Dream",
-      "id": 278513
-    },
-    {
-      "type": "removed",
-      "name": "Rampant Growth",
-      "id": 278515
-    },
-    {
-      "type": "removed",
-      "name": "Blood Mist",
-      "id": 279524
-    },
-    {
-      "type": "removed",
-      "name": "Wild Fleshrending",
-      "id": 279527
-    },
-    {
-      "type": "removed",
-      "name": "Layered Mane",
-      "id": 279552
-    },
-    {
-      "type": "removed",
-      "name": "Lively Spirit",
-      "id": 279642
-    },
-    {
-      "type": "removed",
-      "name": "Grove Tending",
-      "id": 279778
-    },
-    {
-      "type": "removed",
-      "name": "Ursoc's Endurance",
-      "id": 280013
-    },
-    {
-      "type": "removed",
-      "name": "Synaptic Spark Capacitor",
-      "id": 280174
-    },
-    {
-      "type": "removed",
-      "name": "Pterrordax Swoop",
-      "id": 281954
-    },
-    {
-      "type": "removed",
-      "name": "Early Harvest",
-      "id": 287251
-    },
-    {
-      "type": "removed",
-      "name": "Haymaker",
-      "id": 287712
-    },
-    {
-      "type": "removed",
-      "name": "Arcanic Pulsar",
-      "id": 287773
-    },
-    {
-      "type": "removed",
-      "name": "Burst of Savagery",
-      "id": 289314
-    },
-    {
-      "type": "removed",
-      "name": "Rime of the Ancient Mariner",
-      "id": 291417
-    },
-    {
-      "type": "removed",
-      "name": "City of Gold",
-      "id": 291619
-    },
-    {
-      "type": "removed",
-      "name": "Child of the Sea",
-      "id": 291622
-    },
-    {
-      "type": "removed",
-      "name": "Brush It Off",
-      "id": 291628
-    },
-    {
-      "type": "removed",
-      "name": "Brush It Off",
-      "id": 291843
-    },
-    {
-      "type": "removed",
-      "name": "Test Spell",
-      "id": 291861
-    },
-    {
-      "type": "removed",
-      "name": "Regeneratin'",
-      "id": 291944
-    },
-    {
-      "type": "removed",
-      "name": "Embrace of the Loa",
-      "id": 292751
-    },
-    {
-      "type": "removed",
-      "name": "Embrace of the Loa",
-      "id": 292752
-    },
-    {
-      "type": "removed",
-      "name": "Fire Resistance",
-      "id": 312198
-    },
-    {
-      "type": "removed",
-      "name": "Nose For Trouble",
-      "id": 312215
-    },
-    {
-      "type": "removed",
-      "name": "Make Camp",
-      "id": 312370
-    },
-    {
-      "type": "removed",
-      "name": "Return to Camp",
-      "id": 312372
-    },
-    {
-      "type": "removed",
-      "name": "Bag of Tricks",
-      "id": 312411
-    },
-    {
-      "type": "removed",
-      "name": "Rummage Your Bag",
-      "id": 312425
-    },
-    {
-      "type": "removed",
-      "name": "Skeleton Pinkie",
-      "id": 312890
-    },
-    {
-      "type": "removed",
-      "name": "Mastercraft",
-      "id": 312896
-    },
-    {
-      "type": "removed",
-      "name": "Emergency Failsafe",
-      "id": 312916
-    },
-    {
-      "type": "removed",
-      "name": "Combat Analysis",
-      "id": 312923
-    },
-    {
-      "type": "removed",
-      "name": "Hyper Organic Light Originator",
-      "id": 312924
-    },
-    {
-      "type": "removed",
-      "name": "Emergency Failsafe",
-      "id": 313010
-    },
-    {
-      "type": "removed",
-      "name": "Recently Failed",
-      "id": 313015
-    },
-    {
-      "type": "removed",
-      "name": "Camp Location",
-      "id": 313055
-    },
-    {
-      "type": "removed",
-      "name": "Combat Analysis",
-      "id": 313424
-    },
-    {
-      "type": "removed",
-      "name": "Hyper Organic Light Originator",
-      "id": 313514
-    },
-    {
-      "type": "removed",
-      "name": "Hyper Organic Light Originator",
-      "id": 313531
-    },
-    {
-      "type": "removed",
-      "name": "Flames of Fury",
-      "id": 315084
-    },
-    {
-      "type": "removed",
-      "name": "Camping",
-      "id": 315322
-    },
-    {
-      "type": "removed",
-      "name": "Camping",
-      "id": 315327
-    },
-    {
-      "type": "removed",
-      "name": "Campfire",
-      "id": 315335
-    },
-    {
-      "type": "removed",
-      "name": "Mount Changer",
-      "id": 315357
-    },
-    {
-      "type": "removed",
-      "name": "Holy Relic",
-      "id": 315879
-    },
-    {
-      "type": "removed",
-      "name": "Alpaca Saddlebags",
-      "id": 317795
-    },
-    {
-      "type": "removed",
-      "name": "Healing Vial",
-      "id": 317821
-    },
-    {
-      "type": "removed",
-      "name": "Holy Relic",
-      "id": 317829
-    },
-    {
-      "type": "removed",
-      "name": "Mirror Image",
-      "id": 321677
-    },
-    {
-      "type": "removed",
-      "name": "Mirror Image",
-      "id": 321685
-    },
-    {
-      "type": "removed",
-      "name": "Mirror Image",
-      "id": 321686
-    },
-    {
-      "type": "removed",
-      "name": "Mirror Image",
-      "id": 321695
-    },
-    {
-      "type": "removed",
-      "name": "Mirror Image",
-      "id": 321701
-    },
-    {
-      "type": "removed",
-      "name": "Mirror Image",
-      "id": 344921
-    },
-    {
-      "type": "removed",
-      "name": "Hyper Organic Light Originator",
-      "id": 351978
-    },
-    {
-      "type": "removed",
-      "name": "Hyper Organic Light Originator",
-      "id": 351985
-    },
-    {
-      "type": "removed",
-      "name": "Wing Buffet",
-      "id": 357214
-    },
-    {
-      "type": "removed",
-      "name": "Glide",
-      "id": 358731
-    },
-    {
-      "type": "removed",
-      "name": "Glide",
-      "id": 358733
-    },
-    {
-      "type": "removed",
-      "name": "Glide",
-      "id": 358734
-    },
-    {
-      "type": "removed",
-      "name": "Familiar Skies",
-      "id": 360009
-    },
-    {
-      "type": "removed",
-      "name": "Awakened",
-      "id": 365575
-    },
-    {
-      "type": "removed",
-      "name": "Discerning Eye",
-      "id": 366489
-    },
-    {
-      "type": "removed",
-      "name": "Familiar Skies",
-      "id": 366646
-    },
-    {
-      "type": "removed",
-      "name": "Visage",
-      "id": 368437
-    },
-    {
-      "type": "removed",
-      "name": "Surge Forward",
-      "id": 376743
-    },
-    {
-      "type": "removed",
-      "name": "Skyward Ascent",
-      "id": 376744
-    },
-    {
-      "type": "removed",
-      "name": "Principles of Soaring",
-      "id": 381451
-    },
-    {
-      "type": "removed",
-      "name": "Surge Forward",
-      "id": 386449
-    },
-    {
-      "type": "removed",
-      "name": "Skyward Ascent",
-      "id": 386451
-    },
-    {
-      "type": "removed",
-      "name": "Calm the Wolf",
-      "id": 406087
-    },
-    {
-      "type": "removed",
-      "name": "Calm the Wolf",
-      "id": 406088
-    },
-    {
-      "type": "removed",
-      "name": "Calm the Wolf",
-      "id": 406090
-    },
-    {
-      "type": "removed",
-      "name": "Calm the Wolf",
-      "id": 406096
-    },
-    {
-      "type": "removed",
-      "name": "Hyper Productive",
-      "id": 436339
-    },
-    {
-      "type": "removed",
-      "name": "Titan-Wrought Frame",
-      "id": 436340
-    },
-    {
-      "type": "removed",
-      "name": "Ingest Minerals",
-      "id": 436341
-    },
-    {
-      "type": "removed",
-      "name": "Azerite Surge",
-      "id": 436344
-    },
-    {
-      "type": "removed",
-      "name": "Wide-Eyed Wonder",
-      "id": 448924
-    },
-    {
-      "type": "removed",
-      "name": "Azerite Surge",
-      "id": 451897
-    },
-    {
-      "type": "removed",
-      "name": "Azerite Surge",
-      "id": 451903
-    },
-    {
-      "type": "removed",
-      "name": "Azerite Surge: III",
-      "id": 451934
-    },
-    {
-      "type": "removed",
-      "name": "No Place Like Home",
-      "id": 458619
-    },
-    {
-      "type": "removed",
-      "name": "Quiet Contemplation",
-      "id": 461063
-    },
-    {
-      "type": "removed",
-      "name": "Overflowing Power",
-      "id": 1232189
-    },
-    {
-      "type": "removed",
-      "name": "Equip Transmog Outfit",
-      "id": 1247613
-    },
-    {
-      "type": "removed",
-      "name": "Clear Current Transmogrifications",
-      "id": 1247917
-    },
-    {
-      "type": "removed",
-      "name": "Mirror Image",
-      "id": 1259905
-    },
-    {
-      "type": "removed",
-      "name": "Equip Transmog Outfit",
-      "id": 1263886
-    },
-    {
-      "type": "removed",
-      "name": "Clear Transmog Outfit",
-      "id": 1272615
-    },
-    {
-      "type": "removed",
-      "name": "Clear Transmog Outfit",
-      "id": 1283375
-    },
-    {
-      "type": "removed",
-      "name": "Equip Transmog Outfit",
-      "id": 1283376
+      "name": "Feral Druid",
+      "id": 137011,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "191154",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "34"
+              },
+              {
+                "Scaled Value": "34"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "98"
+              }
+            ],
+            "affected_spells": [
+              "Rip (1079)",
+              "Rake (1822)",
+              "Shred (5221)",
+              "Ferocious Bite (22568)",
+              "Maim (22570)",
+              "Swipe (106785)",
+              "Thrash (106830)",
+              "Moonfire (155625)",
+              "Rake (155722)",
+              "Brutal Slash (202028)",
+              "Feral Frenzy (274838)",
+              "Primal Wrath (285381)",
+              "Rampant Ferocity (391710)",
+              "Thrash (405233)",
+              "Bloodseeker Vines (439531)",
+              "Bursting Growth (440122)",
+              "Ravage (441591)",
+              "Dreadful Wound (441812)",
+              "Frantic Frenzy (1244079)",
+              "Chomp (1244258)",
+              "Unseen Slash (1263890)",
+              "Unseen Swipe (1263908)",
+              "Twin Claw (1271636)",
+              "Unseen Slash (1271863)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "3",
+            "id": "191155",
+            "type": "Apply Aura",
+            "subtype": "Modify Guardian Damage Done%",
+            "values": [
+              {
+                "Base Value": "34"
+              },
+              {
+                "Scaled Value": "34"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "4",
+            "id": "191156",
+            "type": "Apply Aura",
+            "subtype": "Modify Pet Damage Done%",
+            "values": [
+              {
+                "Base Value": "34"
+              },
+              {
+                "Scaled Value": "34"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "5",
+            "id": "191157",
+            "type": "Apply Aura",
+            "subtype": "Modify Auto Attack Damage Done%",
+            "values": [
+              {
+                "Base Value": "343"
+              },
+              {
+                "Scaled Value": "343"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "6",
+            "id": "260767",
+            "type": "Apply Aura",
+            "subtype": "Modify Mana Regen%",
+            "values": [
+              {
+                "Base Value": "60"
+              },
+              {
+                "Scaled Value": "60"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "7",
+            "id": "260768",
+            "type": "Apply Aura",
+            "subtype": "Override Spell Power per Attack Power%",
+            "values": [
+              {
+                "Base Value": "96"
+              },
+              {
+                "Scaled Value": "96"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "8",
+            "id": "260769",
+            "type": "Apply Aura",
+            "subtype": "Modify Power Regen",
+            "values": [
+              {
+                "Base Value": "10"
+              },
+              {
+                "Scaled Value": "10"
+              },
+              {
+                "Resource": "energy"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "9",
+            "id": "260770",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "33"
+              }
+            ],
+            "affected_spells": [
+              "Swiftmend (18562)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "10",
+            "id": "1032347",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "150"
+              },
+              {
+                "Scaled Value": "150"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "4, 58"
+              }
+            ],
+            "affected_spells": [
+              "Rejuvenation (774)",
+              "Wild Growth (48438)",
+              "Rejuvenation (Germination) (155777)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "11",
+            "id": "1032348",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "75"
+              },
+              {
+                "Scaled Value": "75"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "6"
+              }
+            ],
+            "affected_spells": [
+              "Regrowth (8936)",
+              "Regrowth (1264664)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "12",
+            "id": "1049862",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "75"
+              },
+              {
+                "Scaled Value": "75"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "6"
+              }
+            ],
+            "affected_spells": [
+              "Regrowth (8936)",
+              "Regrowth (1264664)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "13",
+            "id": "1049863",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "12"
+              }
+            ],
+            "affected_spells": [
+              "Rake (1822)",
+              "Rake (155722)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "14",
+            "id": "1080962",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "85"
+              }
+            ],
+            "affected_spells": [
+              "Rip (1079)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "15",
+            "id": "1088944",
+            "type": "Apply Aura",
+            "subtype": "Apply Flat Modifier w/ Label : Spell Effect 1",
+            "values": [
+              {
+                "Base Value": "-10"
+              },
+              {
+                "Scaled Value": "-10"
+              },
+              {
+                "Misc Value": "3"
+              },
+              {
+                "Misc Value 2": "3962 (Label)"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ],
+            "affected_spells": [
+              "Harmonious Constitution (440116)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "16",
+            "id": "1174663",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "-40"
+              },
+              {
+                "Scaled Value": "-40"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "127"
+              }
+            ],
+            "affected_spells": [
+              "Sunfire (164815)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Restoration Druid",
+      "id": 137012,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "4",
+            "id": "191152",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "90"
+              },
+              {
+                "Points Per Level": "1"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "0, 2, 12, 15, 38, 40, 52, 74, 85, 89, 91, 92, 108, 126, 127"
+              }
+            ],
+            "affected_spells": [
+              "Rip (1079)",
+              "Rake (1822)",
+              "Wrath (5176)",
+              "Shred (5221)",
+              "Ferocious Bite (22568)",
+              "Mangle (33917)",
+              "Thrash (77758)",
+              "Starsurge (78674)",
+              "Swipe (106785)",
+              "Thrash (106830)",
+              "Rake (155722)",
+              "Moonfire (164812)",
+              "Sunfire (164815)",
+              "Wrath (190984)",
+              "Thrash (192090)",
+              "Starfire (194153)",
+              "Starsurge (197626)",
+              "Starfire (197628)",
+              "Swipe (213771)",
+              "Thrash (405233)",
+              "Ravage (441591)",
+              "Red Moon (1252871)",
+              "Dire Echo (1253489)",
+              "Red Moon (1253582)",
+              "Lunar Wrath (1253609)",
+              "Starsurge (1271222)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "5",
+            "id": "191153",
+            "type": "Apply Aura",
+            "subtype": "Modify Pet Damage Done%",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "90"
+              },
+              {
+                "Points Per Level": "1"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "6",
+            "id": "260747",
+            "type": "Apply Aura",
+            "subtype": "Modify Guardian Damage Done%",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "90"
+              },
+              {
+                "Points Per Level": "1"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "7",
+            "id": "260748",
+            "type": "Apply Aura",
+            "subtype": "Modify Mana Regen%",
+            "values": [
+              {
+                "Base Value": "25"
+              },
+              {
+                "Scaled Value": "25"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "8",
+            "id": "260749",
+            "type": "Apply Aura",
+            "subtype": "Override Attack Power per Spell Power%",
+            "values": [
+              {
+                "Base Value": "104"
+              },
+              {
+                "Scaled Value": "104"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "9",
+            "id": "872913",
+            "type": "Apply Aura",
+            "subtype": "Add Flat Modifier : Spell Effect 2",
+            "values": [
+              {
+                "Base Value": "-5"
+              },
+              {
+                "Scaled Value": "-5"
+              },
+              {
+                "Misc Value": "12"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "22"
+              }
+            ],
+            "affected_spells": [
+              "Adaptive Swarm (325733)",
+              "Adaptive Swarm (325748)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "10",
+            "id": "876348",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "-20"
+              },
+              {
+                "Scaled Value": "-20"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "127"
+              }
+            ],
+            "affected_spells": [
+              "Sunfire (164815)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "11",
+            "id": "876349",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "-20"
+              },
+              {
+                "Scaled Value": "-20"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "127"
+              }
+            ],
+            "affected_spells": [
+              "Sunfire (164815)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "12",
+            "id": "1032349",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "169"
+              },
+              {
+                "Scaled Value": "169"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "0, 2"
+              }
+            ],
+            "affected_spells": [
+              "Wrath (5176)",
+              "Wrath (190984)",
+              "Starfire (194153)",
+              "Starfire (197628)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "13",
+            "id": "1032350",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "68"
+              },
+              {
+                "Scaled Value": "68"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "89"
+              }
+            ],
+            "affected_spells": [
+              "Starsurge (78674)",
+              "Starsurge (197626)",
+              "Starsurge (1271222)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "14",
+            "id": "1039258",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "48"
+              },
+              {
+                "Scaled Value": "48"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "15"
+              }
+            ],
+            "affected_spells": [
+              "Shred (5221)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "15",
+            "id": "1039259",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "-5"
+              },
+              {
+                "Scaled Value": "-5"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "12"
+              }
+            ],
+            "affected_spells": [
+              "Rake (1822)",
+              "Rake (155722)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "16",
+            "id": "1039291",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "11"
+              },
+              {
+                "Scaled Value": "11"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "12"
+              }
+            ],
+            "affected_spells": [
+              "Rake (1822)",
+              "Rake (155722)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "17",
+            "id": "1049694",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "47"
+              },
+              {
+                "Scaled Value": "47"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "108"
+              }
+            ],
+            "affected_spells": [
+              "Ferocious Bite (22568)",
+              "Ravage (441591)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "18",
+            "id": "1049860",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "36"
+              },
+              {
+                "Scaled Value": "36"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "85"
+              }
+            ],
+            "affected_spells": [
+              "Rip (1079)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "19",
+            "id": "1049861",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "6"
+              }
+            ],
+            "affected_spells": [
+              "Regrowth (8936)",
+              "Regrowth (1264664)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "20",
+            "id": "1080082",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "6"
+              }
+            ],
+            "affected_spells": [
+              "Regrowth (8936)",
+              "Regrowth (1264664)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "21",
+            "id": "1081594",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "4"
+              }
+            ],
+            "affected_spells": [
+              "Rejuvenation (774)",
+              "Rejuvenation (Germination) (155777)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "22",
+            "id": "1099906",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "44"
+              },
+              {
+                "Scaled Value": "44"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "58"
+              }
+            ],
+            "affected_spells": [
+              "Wild Growth (48438)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "23",
+            "id": "1099956",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "-10"
+              },
+              {
+                "Scaled Value": "-10"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "33"
+              }
+            ],
+            "affected_spells": [
+              "Swiftmend (18562)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "24",
+            "id": "1307595",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "30"
+              },
+              {
+                "Scaled Value": "30"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "92"
+              }
+            ],
+            "affected_spells": [
+              "Moonfire (164812)",
+              "Red Moon (1252871)",
+              "Red Moon (1253582)",
+              "Lunar Wrath (1253609)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "25",
+            "id": "1307596",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "30"
+              },
+              {
+                "Scaled Value": "30"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "92"
+              }
+            ],
+            "affected_spells": [
+              "Moonfire (164812)",
+              "Red Moon (1252871)",
+              "Red Moon (1253582)",
+              "Lunar Wrath (1253609)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Balance Druid",
+      "id": 137013,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "191146",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "9"
+              },
+              {
+                "Scaled Value": "9"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "18"
+              }
+            ],
+            "affected_spells": [
+              "Starsurge (78674)",
+              "Fungal Growth (81281)",
+              "Wild Mushroom (88751)",
+              "Moonfire (164812)",
+              "Sunfire (164815)",
+              "Fey Missile (188046)",
+              "Wrath (190984)",
+              "Starfall (191037)",
+              "Starfire (194153)",
+              "Stellar Flare (202347)",
+              "Shooting Stars (202497)",
+              "Fury of Elune (211545)",
+              "Streaking Star (272873)",
+              "New Moon (274281)",
+              "Half Moon (274282)",
+              "Full Moon (274283)",
+              "Lunar Shrapnel (279641)",
+              "Thorns (305496)",
+              "Adaptive Swarm (325733)",
+              "Star Burst (356474)",
+              "Orbital Strike (361237)",
+              "Fury of Elune (365640)",
+              "Goldrinn's Fang (394047)",
+              "Fury of Elune (394111)",
+              "Star Burst (406430)",
+              "Crashing Star (408310)",
+              "Minor Moon (424588)",
+              "Boundless Moonlight (428682)",
+              "Dream Burst (433850)",
+              "Meteorites (1240913)",
+              "Solar Bolt (1261573)",
+              "Lunar Bolt (1263137)",
+              "Starsurge (1271222)",
+              "Shooting Stars (1272339)",
+              "Sunseeker Mushroom (1280212)",
+              "Fungal Growth (1280213)",
+              "Starfall (1286243)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "3",
+            "id": "191147",
+            "type": "Apply Aura",
+            "subtype": "Modify Pet Damage Done%",
+            "values": [
+              {
+                "Base Value": "9"
+              },
+              {
+                "Scaled Value": "9"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "4",
+            "id": "191148",
+            "type": "Apply Aura",
+            "subtype": "Modify Guardian Damage Done%",
+            "values": [
+              {
+                "Base Value": "9"
+              },
+              {
+                "Scaled Value": "9"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "5",
+            "id": "191149",
+            "type": "Apply Aura",
+            "subtype": "Override Attack Power per Spell Power%",
+            "values": [
+              {
+                "Base Value": "104"
+              },
+              {
+                "Scaled Value": "104"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "6",
+            "id": "260777",
+            "type": "Apply Aura",
+            "subtype": "Modify Mana Regen%",
+            "values": [
+              {
+                "Base Value": "60"
+              },
+              {
+                "Scaled Value": "60"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "7",
+            "id": "260778",
+            "type": "Apply Aura",
+            "subtype": "Apply Flat Modifier w/ Label : Spell Effect 1",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Misc Value": "3"
+              },
+              {
+                "Misc Value 2": "3141 (Label)"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ],
+            "affected_spells": [
+              "Cenarius' Might (455801)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "8",
+            "id": "872569",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Resource Cost 1",
+            "values": [
+              {
+                "Base Value": "47"
+              },
+              {
+                "Scaled Value": "47"
+              },
+              {
+                "Misc Value": "14"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "6"
+              }
+            ],
+            "affected_spells": [
+              "Regrowth (8936)",
+              "Regrowth (1264664)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "9",
+            "id": "1080967",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "75"
+              },
+              {
+                "Scaled Value": "75"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "6"
+              }
+            ],
+            "affected_spells": [
+              "Regrowth (8936)",
+              "Regrowth (1264664)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "10",
+            "id": "1080968",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "75"
+              },
+              {
+                "Scaled Value": "75"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "6"
+              }
+            ],
+            "affected_spells": [
+              "Regrowth (8936)",
+              "Regrowth (1264664)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "11",
+            "id": "1088945",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "128"
+              },
+              {
+                "Scaled Value": "128"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "4, 58"
+              }
+            ],
+            "affected_spells": [
+              "Rejuvenation (774)",
+              "Wild Growth (48438)",
+              "Rejuvenation (Germination) (155777)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "12",
+            "id": "1177983",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "110"
+              },
+              {
+                "Scaled Value": "110"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "127"
+              }
+            ],
+            "affected_spells": [
+              "Sunfire (164815)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "13",
+            "id": "1177984",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "110"
+              },
+              {
+                "Scaled Value": "110"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "127"
+              }
+            ],
+            "affected_spells": [
+              "Sunfire (164815)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "14",
+            "id": "1177985",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "110"
+              },
+              {
+                "Scaled Value": "110"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "92"
+              }
+            ],
+            "affected_spells": [
+              "Moonfire (164812)",
+              "Red Moon (1252871)",
+              "Red Moon (1253582)",
+              "Lunar Wrath (1253609)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lunar Calling",
+      "id": 429523,
+      "type": "modified",
+      "talent_entry": "Elune's Chosen (Balance, Guardian)",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "6",
+            "id": "1204430",
+            "type": "Apply Aura",
+            "subtype": "Apply Flat Modifier w/ Label : Spell Effect 3",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Misc Value": "23"
+              },
+              {
+                "Misc Value 2": "4367 (Label)"
+              }
+            ],
+            "affected_spells": [
+              "Fury of Nature (370701)",
+              "Fury of Nature (370704)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Feral Druid",
+      "id": 1256992,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "1266733",
+            "type": "Apply Aura",
+            "subtype": "Modify Percent PVP Multiplier : Periodic Amount",
+            "values": [
+              {
+                "Base Value": "-2"
+              },
+              {
+                "Scaled Value": "-2"
+              },
+              {
+                "Misc Value": "1"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "98"
+              }
+            ],
+            "affected_spells": [
+              "Rip (1079)",
+              "Rake (1822)",
+              "Shred (5221)",
+              "Ferocious Bite (22568)",
+              "Maim (22570)",
+              "Swipe (106785)",
+              "Thrash (106830)",
+              "Moonfire (155625)",
+              "Rake (155722)",
+              "Brutal Slash (202028)",
+              "Feral Frenzy (274838)",
+              "Primal Wrath (285381)",
+              "Rampant Ferocity (391710)",
+              "Thrash (405233)",
+              "Bloodseeker Vines (439531)",
+              "Bursting Growth (440122)",
+              "Ravage (441591)",
+              "Dreadful Wound (441812)",
+              "Frantic Frenzy (1244079)",
+              "Chomp (1244258)",
+              "Unseen Slash (1263890)",
+              "Unseen Swipe (1263908)",
+              "Twin Claw (1271636)",
+              "Unseen Slash (1271863)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dream Guide",
+      "id": 1278914,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "1291245",
+            "type": "Apply Aura",
+            "subtype": "Modify Stance Mask",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Trigger Spell": "8936"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "6"
+              }
+            ],
+            "affected_spells": [
+              "Regrowth (8936)",
+              "Regrowth (1264664)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "3",
+            "id": "1291246",
+            "type": "Apply Aura",
+            "subtype": "Modify Mana Cost%",
+            "values": [
+              {
+                "Base Value": "-100"
+              },
+              {
+                "Scaled Value": "-100"
+              },
+              {
+                "Misc Value 2": "-100"
+              },
+              {
+                "Trigger Spell": "8936"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "4",
+            "id": "1291247",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "6"
+              }
+            ],
+            "affected_spells": [
+              "Regrowth (8936)",
+              "Regrowth (1264664)"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "5",
+            "id": "1291248",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "6"
+              }
+            ],
+            "affected_spells": [
+              "Regrowth (8936)",
+              "Regrowth (1264664)"
+            ]
+          }
+        }
+      ]
     }
   ]
 }
