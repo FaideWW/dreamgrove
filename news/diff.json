@@ -1,3 +1,62 @@
 {
-  "delta": []
+  "delta": [
+    {
+      "name": "Stellar Flare",
+      "id": 202347,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "3",
+          "type": "Energize Power",
+          "id": "739525",
+          "modifications": [],
+          "values": [
+            {
+              "type": "added",
+              "key": "Modified By",
+              "new": "Sylvan Beckoning (1264618 effect#13)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sylvan Beckoning",
+      "id": 1264618,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "13",
+            "id": "1309304",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Effect 3",
+            "values": [
+              {
+                "Base Value": "10"
+              },
+              {
+                "Scaled Value": "10"
+              },
+              {
+                "Misc Value": "23"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "105"
+              }
+            ],
+            "affected_spells": [
+              "Stellar Flare (202347)"
+            ]
+          }
+        }
+      ]
+    }
+  ]
 }
