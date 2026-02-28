@@ -1,29 +1,3 @@
 {
-  "delta": [
-    {
-      "name": "Treant Form",
-      "id": 114282,
-      "type": "modified",
-      "fields": [],
-      "effects": [
-        {
-          "type": "added",
-          "effect": {
-            "idx": "2",
-            "id": "1309860",
-            "type": "Apply Aura",
-            "subtype": "Dummy",
-            "values": [
-              {
-                "Base Value": "0"
-              },
-              {
-                "Scaled Value": "0"
-              }
-            ]
-          }
-        }
-      ]
-    }
-  ]
+  "delta": []
 }
