@@ -1,3 +1,17 @@
 {
-  "delta": []
+  "delta": [
+    {
+      "name": "Ravage",
+      "id": 441605,
+      "type": "modified",
+      "fields": [
+        {
+          "field": "gcd",
+          "prev": "1 seconds",
+          "new": "1.5 seconds"
+        }
+      ],
+      "effects": []
+    }
+  ]
 }
