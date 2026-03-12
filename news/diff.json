@@ -1,37 +1,61 @@
 {
   "delta": [
     {
-      "name": "Druid",
-      "id": 137009,
+      "name": "The Eternal Moon",
+      "id": 424113,
       "type": "modified",
+      "talent_entry": "Elune's Chosen (Balance, Guardian)",
       "fields": [],
       "effects": [
         {
           "type": "added",
           "effect": {
-            "idx": "6",
-            "id": "1072297",
+            "idx": "8",
+            "id": "1312423",
             "type": "Apply Aura",
-            "subtype": "Apply Hasted GCD to Spells in Label",
+            "subtype": "Apply Flat Modifier w/ Label : Spell Duration",
             "values": [
               {
-                "Base Value": "0"
+                "Base Value": "3000"
               },
               {
-                "Scaled Value": "0"
+                "Scaled Value": "3000"
               },
               {
-                "Misc Value": "6517 (Label)"
+                "Misc Value": "1"
+              },
+              {
+                "Misc Value 2": "5960 (Label)"
               },
               {
                 "Target": "Self (1)"
               }
             ],
             "affected_spells": [
-              "Bristling Fur (155835)",
-              "Sundering Roar (1253799)"
+              "Lunar Beam (1270292)"
             ]
           }
+        }
+      ]
+    },
+    {
+      "name": "Lunar Wrath",
+      "id": 1253600,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "1259466",
+          "modifications": [],
+          "values": [
+            {
+              "type": "removed",
+              "key": "Trigger Spell"
+            }
+          ]
         }
       ]
     }
