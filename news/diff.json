@@ -1,3 +1,39 @@
 {
-  "delta": []
+  "delta": [
+    {
+      "name": "Druid",
+      "id": 137009,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "6",
+            "id": "1072297",
+            "type": "Apply Aura",
+            "subtype": "Apply Hasted GCD to Spells in Label",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Misc Value": "6517 (Label)"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ],
+            "affected_spells": [
+              "Bristling Fur (155835)",
+              "Sundering Roar (1253799)"
+            ]
+          }
+        }
+      ]
+    }
+  ]
 }
