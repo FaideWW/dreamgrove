@@ -1,140 +1,16 @@
 {
   "delta": [
     {
-      "name": "Dream of Cenarius",
-      "id": 372152,
+      "name": "Druid",
+      "id": 137009,
       "type": "modified",
       "fields": [],
       "effects": [
         {
           "type": "removed",
-          "id": "996623"
-        },
-        {
-          "type": "removed",
-          "id": "996624"
-        },
-        {
-          "type": "removed",
-          "id": "1041487"
-        },
-        {
-          "type": "removed",
-          "id": "1041740"
+          "id": "1072297"
         }
       ]
-    },
-    {
-      "name": "Stellar Command",
-      "id": 429668,
-      "type": "modified",
-      "talent_entry": "Elune's Chosen (Balance, Guardian)",
-      "fields": [],
-      "effects": [
-        {
-          "type": "added",
-          "effect": {
-            "idx": "4",
-            "id": "1311874",
-            "type": "Apply Aura",
-            "subtype": "Add Percent Modifier : Spell Periodic Amount",
-            "values": [
-              {
-                "Base Value": "30"
-              },
-              {
-                "Scaled Value": "30"
-              },
-              {
-                "Misc Value": "22"
-              },
-              {
-                "Target": "Self (1)"
-              },
-              {
-                "Family Flags": "109"
-              }
-            ],
-            "affected_spells": [
-              "Lunar Beam (414613)",
-              "Lunar Beam (1270292)"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "name": "Bask in Moonlight",
-      "id": 1271305,
-      "type": "modified",
-      "talent_entry": "Elune's Chosen (Balance, Guardian)",
-      "fields": [],
-      "effects": [
-        {
-          "idx": "4",
-          "type": "Apply Aura",
-          "subtype": "Apply Percent Modifier w/ Label : Spell Direct Amount",
-          "affected_spells": [
-            "Lunar Beam (1270292)"
-          ],
-          "id": "1283931",
-          "modifications": [],
-          "values": [
-            {
-              "type": "added",
-              "key": "Misc Value",
-              "new": "22"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Dream Guide",
-      "id": 1278914,
-      "type": "modified",
-      "fields": [],
-      "effects": [
-        {
-          "idx": "1",
-          "type": "Apply Aura Raid",
-          "subtype": "Trigger Spell Based on Health% : Regrowth",
-          "id": "1291244",
-          "modifications": [],
-          "values": [
-            {
-              "key": "Trigger Spell",
-              "prev": "8936",
-              "new": "1292031"
-            },
-            {
-              "type": "added",
-              "key": "Radius",
-              "new": "40 yards"
-            }
-          ]
-        },
-        {
-          "type": "removed",
-          "id": "1291245"
-        },
-        {
-          "type": "removed",
-          "id": "1291246"
-        },
-        {
-          "type": "removed",
-          "id": "1291247"
-        },
-        {
-          "type": "removed",
-          "id": "1291248"
-        }
-      ]
-    },
-    {
-      "type": "added",
-      "id": 1292031
     }
   ]
 }
