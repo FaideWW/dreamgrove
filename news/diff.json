@@ -1,3 +1,188 @@
 {
-  "delta": []
+  "delta": [
+    {
+      "name": "Stellar Flare",
+      "id": 202347,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "3",
+          "type": "Energize Power",
+          "id": "739525",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Modified By",
+              "prev": "Sylvan Beckoning (1264618 effect#13)",
+              "new": "Sylvan Beckoning (1264618 effect#12)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fury of Elune",
+      "id": 202770,
+      "type": "modified",
+      "talent_entry": "Balance",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "3",
+          "type": "Apply Aura",
+          "subtype": "Periodic Energize Power : every 0.5 seconds",
+          "id": "726656",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Modified By",
+              "prev": "Sylvan Beckoning (1264618 effect#12), Spirit of the Thicket (1264911 effect#12)",
+              "new": "Sylvan Beckoning (1264618 effect#11), Spirit of the Thicket (1264911 effect#12)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Force of Nature",
+      "id": 205636,
+      "type": "modified",
+      "talent_entry": "Balance",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "5",
+          "type": "Trigger Spell : Force of Nature",
+          "id": "736032",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Modified By",
+              "prev": "Sylvan Beckoning (1264618 effect#6), Sylvan Beckoning (1264618 effect#8), Spirit of the Thicket (1264911 effect#6), Spirit of the Thicket (1264911 effect#8)",
+              "new": "Sylvan Beckoning (1264618 effect#6), Spirit of the Thicket (1264911 effect#6), Spirit of the Thicket (1264911 effect#8)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "New Moon",
+      "id": 274281,
+      "type": "modified",
+      "talent_entry": "Balance",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "3",
+          "type": "Energize Power",
+          "id": "726524",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Modified By",
+              "prev": "Sylvan Beckoning (1264618 effect#9), Spirit of the Thicket (1264911 effect#9)",
+              "new": "Sylvan Beckoning (1264618 effect#8), Spirit of the Thicket (1264911 effect#9)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Half Moon",
+      "id": 274282,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "3",
+          "type": "Energize Power",
+          "id": "726527",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Modified By",
+              "prev": "Sylvan Beckoning (1264618 effect#10), Spirit of the Thicket (1264911 effect#10)",
+              "new": "Sylvan Beckoning (1264618 effect#9), Spirit of the Thicket (1264911 effect#10)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Full Moon",
+      "id": 274283,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "2",
+          "type": "Energize Power",
+          "id": "726529",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Modified By",
+              "prev": "Sylvan Beckoning (1264618 effect#11), Spirit of the Thicket (1264911 effect#11)",
+              "new": "Sylvan Beckoning (1264618 effect#10), Spirit of the Thicket (1264911 effect#11)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sylvan Beckoning",
+      "id": 1264618,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "8",
+          "type": "Apply Aura",
+          "subtype": "Add Percent Modifier : Spell Effect 5",
+          "affected_spells": [
+            "New Moon (274281)"
+          ],
+          "id": "1276417",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Misc Value",
+              "prev": "33",
+              "new": "23"
+            },
+            {
+              "type": "removed",
+              "key": "Family Flags"
+            },
+            {
+              "type": "added",
+              "key": "Misc Value 2",
+              "new": "5831 (Label)"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "1276418"
+        },
+        {
+          "type": "removed",
+          "id": "1276419"
+        },
+        {
+          "type": "removed",
+          "id": "1276420"
+        },
+        {
+          "type": "removed",
+          "id": "1276427"
+        },
+        {
+          "type": "removed",
+          "id": "1309304"
+        }
+      ]
+    }
+  ]
 }
