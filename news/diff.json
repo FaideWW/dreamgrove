@@ -1,51 +1,6 @@
 {
   "delta": [
     {
-      "name": "Rejuvenation",
-      "id": 774,
-      "type": "modified",
-      "talent_entry": "Generic",
-      "fields": [],
-      "effects": [
-        {
-          "idx": "1",
-          "type": "Apply Aura",
-          "subtype": "Periodic Heal : every 3 seconds",
-          "id": "311",
-          "modifications": [],
-          "values": [
-            {
-              "key": "SP Coefficient",
-              "prev": "0.73",
-              "new": "0.803"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Maul",
-      "id": 6807,
-      "type": "modified",
-      "talent_entry": "Guardian",
-      "fields": [],
-      "effects": [
-        {
-          "idx": "2",
-          "type": "School Damage : physical",
-          "id": "2457",
-          "modifications": [],
-          "values": [
-            {
-              "key": "AP Coefficient",
-              "prev": "3.12",
-              "new": "2.5"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Wild Growth",
       "id": 48438,
       "type": "modified",
@@ -53,22 +8,23 @@
       "fields": [],
       "effects": [
         {
-          "idx": "1",
-          "type": "Apply Aura",
-          "subtype": "Periodic Heal : every 1 seconds",
-          "id": "40640",
-          "modifications": [],
-          "values": [
-            {
-              "key": "SP Coefficient",
-              "prev": "0.331",
-              "new": "0.3641"
-            }
-          ]
-        },
-        {
-          "type": "removed",
-          "id": "40641"
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "40641",
+            "type": "Dummy",
+            "values": [
+              {
+                "Base Value": "5"
+              },
+              {
+                "Scaled Value": "5"
+              },
+              {
+                "Modified By": "Improved Wild Growth (328025 effect#1)"
+              }
+            ]
+          }
         }
       ]
     },
@@ -79,106 +35,150 @@
       "fields": [],
       "effects": [
         {
-          "idx": "22",
-          "type": "Apply Aura",
-          "subtype": "Add Percent Modifier : Spell Direct Amount",
-          "affected_spells": [
-            "Moonfire (8921)",
-            "Moonfire (164812)",
-            "Red Moon (1252871)",
-            "Red Moon (1253582)",
-            "Lunar Wrath (1253609)"
-          ],
-          "id": "1176395",
-          "modifications": [],
-          "values": [
-            {
-              "key": "Base Value",
-              "prev": "130",
-              "new": "105"
-            },
-            {
-              "key": "Scaled Value",
-              "prev": "130",
-              "new": "105"
-            }
-          ]
+          "type": "added",
+          "effect": {
+            "idx": "23",
+            "id": "1176396",
+            "type": "Apply Aura",
+            "subtype": "Add Percent Modifier : Spell Periodic Amount",
+            "values": [
+              {
+                "Base Value": "105"
+              },
+              {
+                "Scaled Value": "105"
+              },
+              {
+                "Misc Value": "22"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "21, 92"
+              }
+            ],
+            "affected_spells": [
+              "Moonfire (8921)",
+              "Moonfire (164812)",
+              "Red Moon (1252871)",
+              "Red Moon (1253582)",
+              "Lunar Wrath (1253609)"
+            ]
+          }
         },
         {
-          "type": "removed",
-          "id": "1176396"
+          "type": "added",
+          "effect": {
+            "idx": "24",
+            "id": "1220204",
+            "type": "Apply Aura",
+            "subtype": "Apply Percent Modifier w/ Label : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "80"
+              },
+              {
+                "Scaled Value": "80"
+              },
+              {
+                "Misc Value 2": "4781 (Label)"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ],
+            "affected_spells": [
+              "Fury of Elune (211545)",
+              "Boundless Moonlight (428682)"
+            ]
+          }
         },
         {
-          "type": "removed",
-          "id": "1220204"
+          "type": "added",
+          "effect": {
+            "idx": "25",
+            "id": "1228424",
+            "type": "Apply Aura",
+            "subtype": "Apply Percent Modifier w/ Label : Spell Direct Amount",
+            "values": [
+              {
+                "Base Value": "-66.667"
+              },
+              {
+                "Scaled Value": "-66.667"
+              },
+              {
+                "PvP Coefficient": "1.05"
+              },
+              {
+                "Misc Value 2": "3880 (Label)"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ],
+            "affected_spells": [
+              "Boundless Moonlight (428682)"
+            ]
+          }
         },
         {
-          "type": "removed",
-          "id": "1228424"
-        }
-      ]
-    },
-    {
-      "name": "Rejuvenation",
-      "id": 155777,
-      "type": "modified",
-      "fields": [],
-      "effects": [
+          "type": "added",
+          "effect": {
+            "idx": "26",
+            "id": "1305145",
+            "type": "Apply Aura",
+            "subtype": "Modify Recharge Time (Category)",
+            "values": [
+              {
+                "Base Value": "-10000"
+              },
+              {
+                "Scaled Value": "-10000"
+              },
+              {
+                "Misc Value": "1568 (Category)"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ],
+            "affected_spells": [
+              "Frenzied Regeneration (22842)"
+            ]
+          }
+        },
         {
-          "idx": "1",
-          "type": "Apply Aura",
-          "subtype": "Periodic Heal : every 3 seconds",
-          "id": "216513",
-          "modifications": [],
-          "values": [
-            {
-              "key": "SP Coefficient",
-              "prev": "0.73",
-              "new": "0.803"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Tranquility",
-      "id": 157982,
-      "type": "modified",
-      "fields": [],
-      "effects": [
-        {
-          "idx": "1",
-          "type": "Direct Heal",
-          "id": "220365",
-          "modifications": [],
-          "values": [
-            {
-              "key": "SP Coefficient",
-              "prev": "9.272",
-              "new": "10.1992"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Embrace of the Dream",
-      "id": 392147,
-      "type": "modified",
-      "fields": [],
-      "effects": [
-        {
-          "idx": "1",
-          "type": "Direct Heal",
-          "id": "1030097",
-          "modifications": [],
-          "values": [
-            {
-              "key": "SP Coefficient",
-              "prev": "1.6",
-              "new": "2.16"
-            }
-          ]
+          "type": "added",
+          "effect": {
+            "idx": "27",
+            "id": "1314736",
+            "type": "Apply Aura",
+            "subtype": "Apply Percent Modifier w/ Label : Spell Effect 2",
+            "values": [
+              {
+                "Base Value": "-20"
+              },
+              {
+                "Scaled Value": "-20"
+              },
+              {
+                "Misc Value": "12"
+              },
+              {
+                "Misc Value 2": "6558 (Label)"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ],
+            "affected_spells": [
+              "Starfall (191037)",
+              "Heart of the Wild (1261867)",
+              "Starfall (1286243)"
+            ]
+          }
         }
       ]
     },
@@ -190,25 +190,48 @@
       "fields": [],
       "effects": [
         {
-          "idx": "1",
-          "type": "School Damage : physical",
-          "id": "1045055",
-          "modifications": [],
-          "values": [
-            {
-              "key": "AP Coefficient",
-              "prev": "3.12",
-              "new": "2.5"
-            }
-          ]
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "1188876",
+            "type": "School Damage : physical",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0 (delta=0.05)"
+              },
+              {
+                "AP Coefficient": "1.36"
+              },
+              {
+                "Radius": "8 yards"
+              },
+              {
+                "Target": "Enemies in Cone to Targeted Enemy (104)"
+              }
+            ]
+          }
         },
         {
-          "type": "removed",
-          "id": "1188876"
-        },
-        {
-          "type": "removed",
-          "id": "1188877"
+          "type": "added",
+          "effect": {
+            "idx": "3",
+            "id": "1188877",
+            "type": "Dummy",
+            "values": [
+              {
+                "Base Value": "5"
+              },
+              {
+                "Scaled Value": "5"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
         }
       ]
     },
@@ -219,43 +242,29 @@
       "fields": [],
       "effects": [
         {
-          "idx": "1",
-          "type": "School Damage : physical",
-          "id": "1136169",
-          "modifications": [],
-          "values": [
-            {
-              "key": "AP Coefficient",
-              "prev": "4",
-              "new": "3.2"
-            }
-          ]
-        },
-        {
-          "type": "removed",
-          "id": "1136170"
-        }
-      ]
-    },
-    {
-      "name": "Reactive Resin",
-      "id": 468152,
-      "type": "modified",
-      "fields": [],
-      "effects": [
-        {
-          "idx": "1",
-          "type": "Apply Aura",
-          "subtype": "Periodic Heal : every 2 seconds",
-          "id": "1181629",
-          "modifications": [],
-          "values": [
-            {
-              "key": "SP Coefficient",
-              "prev": "0.6588",
-              "new": "1"
-            }
-          ]
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "1136170",
+            "type": "School Damage : physical",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0 (delta=0.05)"
+              },
+              {
+                "AP Coefficient": "1.68"
+              },
+              {
+                "Radius": "8 yards"
+              },
+              {
+                "Target": "Enemies in Cone to Targeted Enemy (104)"
+              }
+            ]
+          }
         }
       ]
     },
@@ -266,57 +275,85 @@
       "fields": [],
       "effects": [
         {
-          "idx": "1",
-          "type": "Apply Aura",
-          "subtype": "Modify Percent PVP Multiplier : Direct Amount",
-          "affected_spells": [
-            "Rip (1079)",
-            "Rake (1822)",
-            "Shred (5221)",
-            "Ferocious Bite (22568)",
-            "Maim (22570)",
-            "Swipe (106785)",
-            "Thrash (106830)",
-            "Moonfire (155625)",
-            "Rake (155722)",
-            "Brutal Slash (202028)",
-            "Feral Frenzy (274838)",
-            "Primal Wrath (285381)",
-            "Rampant Ferocity (391710)",
-            "Thrash (405233)",
-            "Bloodseeker Vines (439531)",
-            "Bursting Growth (440122)",
-            "Ravage (441591)",
-            "Dreadful Wound (441812)",
-            "Frantic Frenzy (1244079)",
-            "Chomp (1244258)",
-            "Unseen Slash (1263890)",
-            "Unseen Swipe (1263908)",
-            "Twin Claw (1271636)",
-            "Unseen Slash (1271863)"
-          ],
-          "id": "1264726",
-          "modifications": [],
-          "values": [
-            {
-              "key": "Base Value",
-              "prev": "-8",
-              "new": "0"
-            },
-            {
-              "key": "Scaled Value",
-              "prev": "-8",
-              "new": "0"
-            }
-          ]
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "1266733",
+            "type": "Apply Aura",
+            "subtype": "Modify Percent PVP Multiplier : Periodic Amount",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Misc Value": "1"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "98"
+              }
+            ],
+            "affected_spells": [
+              "Rip (1079)",
+              "Rake (1822)",
+              "Shred (5221)",
+              "Ferocious Bite (22568)",
+              "Maim (22570)",
+              "Swipe (106785)",
+              "Thrash (106830)",
+              "Moonfire (155625)",
+              "Rake (155722)",
+              "Brutal Slash (202028)",
+              "Feral Frenzy (274838)",
+              "Primal Wrath (285381)",
+              "Rampant Ferocity (391710)",
+              "Thrash (405233)",
+              "Bloodseeker Vines (439531)",
+              "Bursting Growth (440122)",
+              "Ravage (441591)",
+              "Dreadful Wound (441812)",
+              "Frantic Frenzy (1244079)",
+              "Chomp (1244258)",
+              "Unseen Slash (1263890)",
+              "Unseen Swipe (1263908)",
+              "Twin Claw (1271636)",
+              "Unseen Slash (1271863)"
+            ]
+          }
         },
         {
-          "type": "removed",
-          "id": "1266733"
-        },
-        {
-          "type": "removed",
-          "id": "1266734"
+          "type": "added",
+          "effect": {
+            "idx": "3",
+            "id": "1266734",
+            "type": "Apply Aura",
+            "subtype": "Modify Percent PVP Multiplier : Periodic Amount",
+            "values": [
+              {
+                "Base Value": "-21"
+              },
+              {
+                "Scaled Value": "-21"
+              },
+              {
+                "Misc Value": "1"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "85"
+              }
+            ],
+            "affected_spells": [
+              "Rip (1079)"
+            ]
+          }
         }
       ]
     },
@@ -327,144 +364,336 @@
       "fields": [],
       "effects": [
         {
-          "idx": "1",
-          "type": "Apply Aura",
-          "subtype": "Modify Percent PVP Multiplier : Direct Amount",
-          "affected_spells": [
-            "Rejuvenation (774)",
-            "Regrowth (8936)",
-            "Swiftmend (18562)",
-            "Lifebloom (33763)",
-            "Lifebloom (33778)",
-            "Wild Growth (48438)",
-            "Efflorescence (81269)",
-            "Cenarion Ward (102352)",
-            "Rejuvenation (Germination) (155777)",
-            "Tranquility (157982)",
-            "Lifebloom (188550)",
-            "Cultivation (200389)",
-            "Reactive Resin (203406)",
-            "Grove Tending (279793)",
-            "Early Harvest (287255)",
-            "Adaptive Swarm (325748)",
-            "Renewing Bloom (364686)",
-            "Ephemeral Profusion (367330)",
-            "Embrace of the Dream (392147)",
-            "Verdancy (392329)",
-            "Nourish (422090)",
-            "Nourish (423618)",
-            "Dream Bloom (434141)",
-            "Symbiotic Blooms (439530)",
-            "Bursting Growth (440121)",
-            "Reactive Resin (468152)",
-            "Blossom Burst (473919)",
-            "Mass Blooming (474149)",
-            "Insurance! (1215515)",
-            "Insurance! (1215518)",
-            "Tranquility (1236573)",
-            "Regrowth (1264664)",
-            "Spirit of the Thicket (1264905)"
-          ],
-          "id": "1264729",
-          "modifications": [],
-          "values": [
-            {
-              "key": "Base Value",
-              "prev": "0",
-              "new": "5"
-            },
-            {
-              "key": "Scaled Value",
-              "prev": "0",
-              "new": "5"
-            }
-          ]
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "1266737",
+            "type": "Apply Aura",
+            "subtype": "Modify Percent PVP Multiplier : Periodic Amount",
+            "values": [
+              {
+                "Base Value": "5"
+              },
+              {
+                "Scaled Value": "5"
+              },
+              {
+                "Misc Value": "1"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "118"
+              }
+            ],
+            "affected_spells": [
+              "Rejuvenation (774)",
+              "Regrowth (8936)",
+              "Swiftmend (18562)",
+              "Lifebloom (33763)",
+              "Lifebloom (33778)",
+              "Wild Growth (48438)",
+              "Efflorescence (81269)",
+              "Cenarion Ward (102352)",
+              "Rejuvenation (Germination) (155777)",
+              "Tranquility (157982)",
+              "Lifebloom (188550)",
+              "Cultivation (200389)",
+              "Reactive Resin (203406)",
+              "Grove Tending (279793)",
+              "Early Harvest (287255)",
+              "Adaptive Swarm (325748)",
+              "Renewing Bloom (364686)",
+              "Ephemeral Profusion (367330)",
+              "Embrace of the Dream (392147)",
+              "Verdancy (392329)",
+              "Nourish (422090)",
+              "Nourish (423618)",
+              "Dream Bloom (434141)",
+              "Symbiotic Blooms (439530)",
+              "Bursting Growth (440121)",
+              "Reactive Resin (468152)",
+              "Blossom Burst (473919)",
+              "Mass Blooming (474149)",
+              "Insurance! (1215515)",
+              "Insurance! (1215518)",
+              "Tranquility (1236573)",
+              "Regrowth (1264664)",
+              "Spirit of the Thicket (1264905)"
+            ]
+          }
         },
         {
-          "type": "removed",
-          "id": "1266737"
+          "type": "added",
+          "effect": {
+            "idx": "3",
+            "id": "1266738",
+            "type": "Apply Aura",
+            "subtype": "Modify Percent PVP Multiplier : Direct Amount",
+            "values": [
+              {
+                "Base Value": "16"
+              },
+              {
+                "Scaled Value": "16"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "0, 2, 12, 15, 38, 40, 52, 74, 85, 89, 91, 92, 108, 126, 127"
+              }
+            ],
+            "affected_spells": [
+              "Rip (1079)",
+              "Rake (1822)",
+              "Wrath (5176)",
+              "Shred (5221)",
+              "Ferocious Bite (22568)",
+              "Mangle (33917)",
+              "Thrash (77758)",
+              "Starsurge (78674)",
+              "Swipe (106785)",
+              "Thrash (106830)",
+              "Rake (155722)",
+              "Moonfire (164812)",
+              "Sunfire (164815)",
+              "Wrath (190984)",
+              "Thrash (192090)",
+              "Starfire (194153)",
+              "Starsurge (197626)",
+              "Starfire (197628)",
+              "Swipe (213771)",
+              "Thrash (405233)",
+              "Ravage (441591)",
+              "Red Moon (1252871)",
+              "Dire Echo (1253489)",
+              "Red Moon (1253582)",
+              "Lunar Wrath (1253609)",
+              "Starsurge (1271222)"
+            ]
+          }
         },
         {
-          "type": "removed",
-          "id": "1266738"
+          "type": "added",
+          "effect": {
+            "idx": "4",
+            "id": "1266739",
+            "type": "Apply Aura",
+            "subtype": "Modify Percent PVP Multiplier : Periodic Amount",
+            "values": [
+              {
+                "Base Value": "16"
+              },
+              {
+                "Scaled Value": "16"
+              },
+              {
+                "Misc Value": "1"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "0, 2, 12, 15, 38, 40, 52, 74, 85, 89, 91, 92, 108, 126, 127"
+              }
+            ],
+            "affected_spells": [
+              "Rip (1079)",
+              "Rake (1822)",
+              "Wrath (5176)",
+              "Shred (5221)",
+              "Ferocious Bite (22568)",
+              "Mangle (33917)",
+              "Thrash (77758)",
+              "Starsurge (78674)",
+              "Swipe (106785)",
+              "Thrash (106830)",
+              "Rake (155722)",
+              "Moonfire (164812)",
+              "Sunfire (164815)",
+              "Wrath (190984)",
+              "Thrash (192090)",
+              "Starfire (194153)",
+              "Starsurge (197626)",
+              "Starfire (197628)",
+              "Swipe (213771)",
+              "Thrash (405233)",
+              "Ravage (441591)",
+              "Red Moon (1252871)",
+              "Dire Echo (1253489)",
+              "Red Moon (1253582)",
+              "Lunar Wrath (1253609)",
+              "Starsurge (1271222)"
+            ]
+          }
         },
         {
-          "type": "removed",
-          "id": "1266739"
+          "type": "added",
+          "effect": {
+            "idx": "5",
+            "id": "1266740",
+            "type": "Apply Aura",
+            "subtype": "Apply Flat Modifier w/ Label : Spell Effect 1",
+            "values": [
+              {
+                "Base Value": "-2"
+              },
+              {
+                "Scaled Value": "-2"
+              },
+              {
+                "Misc Value": "3"
+              },
+              {
+                "Misc Value 2": "2672 (Label)"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
         },
         {
-          "type": "removed",
-          "id": "1266740"
+          "type": "added",
+          "effect": {
+            "idx": "6",
+            "id": "1266741",
+            "type": "Apply Aura",
+            "subtype": "Apply Flat Modifier w/ Label : Spell Effect 2",
+            "values": [
+              {
+                "Base Value": "5"
+              },
+              {
+                "Scaled Value": "5"
+              },
+              {
+                "Misc Value": "12"
+              },
+              {
+                "Misc Value 2": "2672 (Label)"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
         },
         {
-          "type": "removed",
-          "id": "1266741"
+          "type": "added",
+          "effect": {
+            "idx": "7",
+            "id": "1266742",
+            "type": "Apply Aura",
+            "subtype": "Modify Cooldown Time (Category)",
+            "values": [
+              {
+                "Base Value": "-30000"
+              },
+              {
+                "Scaled Value": "-30000"
+              },
+              {
+                "Misc Value": "1182 (Category)"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ],
+            "affected_spells": [
+              "PvP Trinket (42292)",
+              "Honorable Medallion (195710)",
+              "Gladiator's Medallion (336126)",
+              "Gladiator's Fastidious Resolve (363117)"
+            ]
+          }
         },
         {
-          "type": "removed",
-          "id": "1266742"
+          "type": "added",
+          "effect": {
+            "idx": "8",
+            "id": "1266743",
+            "type": "Apply Aura",
+            "subtype": "Modify Percent PVP Multiplier : Direct Amount",
+            "values": [
+              {
+                "Base Value": "-32"
+              },
+              {
+                "Scaled Value": "-32"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "0, 2"
+              }
+            ],
+            "affected_spells": [
+              "Wrath (5176)",
+              "Wrath (190984)",
+              "Starfire (194153)",
+              "Starfire (197628)"
+            ]
+          }
         },
         {
-          "type": "removed",
-          "id": "1266743"
+          "type": "added",
+          "effect": {
+            "idx": "9",
+            "id": "1266744",
+            "type": "Apply Aura",
+            "subtype": "Modify Percent PVP Multiplier : Direct Amount",
+            "values": [
+              {
+                "Base Value": "-26"
+              },
+              {
+                "Scaled Value": "-26"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "108"
+              }
+            ],
+            "affected_spells": [
+              "Ferocious Bite (22568)",
+              "Ravage (441591)"
+            ]
+          }
         },
         {
-          "type": "removed",
-          "id": "1266744"
-        },
-        {
-          "type": "removed",
-          "id": "1266745"
-        }
-      ]
-    },
-    {
-      "name": "Heart of the Wild",
-      "id": 1261867,
-      "type": "modified",
-      "talent_entry": "Generic",
-      "fields": [],
-      "effects": [
-        {
-          "idx": "2",
-          "type": "Apply Aura",
-          "subtype": "Dummy",
-          "id": "1271760",
-          "modifications": [],
-          "values": [
-            {
-              "type": "added",
-              "key": "Modified By",
-              "new": "Guardian Druid (137010 effect#27)"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Celestial Might",
-      "id": 1272376,
-      "type": "modified",
-      "fields": [],
-      "effects": [
-        {
-          "idx": "1",
-          "type": "Apply Aura",
-          "subtype": "Dummy",
-          "id": "1285589",
-          "modifications": [],
-          "values": [
-            {
-              "key": "Base Value",
-              "prev": "100",
-              "new": "50"
-            },
-            {
-              "key": "Scaled Value",
-              "prev": "100",
-              "new": "50"
-            }
-          ]
+          "type": "added",
+          "effect": {
+            "idx": "10",
+            "id": "1266745",
+            "type": "Apply Aura",
+            "subtype": "Modify Percent PVP Multiplier : Periodic Amount",
+            "values": [
+              {
+                "Base Value": "0"
+              },
+              {
+                "Scaled Value": "0"
+              },
+              {
+                "Misc Value": "1"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Family Flags": "85"
+              }
+            ],
+            "affected_spells": [
+              "Rip (1079)"
+            ]
+          }
         }
       ]
     }
