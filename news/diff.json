@@ -15,58 +15,9 @@
           "modifications": [],
           "values": [
             {
-              "type": "removed",
-              "key": "Misc Value"
-            },
-            {
-              "type": "removed",
-              "key": "Misc Value 2"
-            },
-            {
-              "type": "added",
               "key": "Stat",
-              "new": "Attack Power (3)"
-            },
-            {
-              "type": "added",
-              "key": "NPC ID",
-              "new": "54983"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Durability of Nature",
-      "id": 429227,
-      "type": "modified",
-      "talent_entry": "Keeper of the Grove (Balance, Restoration)",
-      "fields": [],
-      "effects": [
-        {
-          "idx": "1",
-          "type": "Apply Aura",
-          "subtype": "Modify Pet Stat",
-          "id": "1113301",
-          "modifications": [],
-          "values": [
-            {
-              "type": "removed",
-              "key": "Misc Value"
-            },
-            {
-              "type": "removed",
-              "key": "Misc Value 2"
-            },
-            {
-              "type": "added",
-              "key": "Stat",
-              "new": "Health (1)"
-            },
-            {
-              "type": "added",
-              "key": "NPC ID",
-              "new": "103822"
+              "prev": "Attack Power (3)",
+              "new": "Spell Power Inheritence (3)"
             }
           ]
         }
