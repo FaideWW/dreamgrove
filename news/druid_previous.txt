@@ -2267,6 +2267,7 @@ School           : Nature
 Spell Type       : Magic
 Spell Level      : 1
 Range            : 15 yards
+Cone Angle       : 90 degrees
 Duration         : 6 seconds
 Labels           : 16: Class Spells
                  : 21: Druid Spells
@@ -14663,6 +14664,7 @@ School           : Physical
 Spell Type       : Melee
 Resource         : 40 Rage (1) (id=265764)
 Range            : 5 yards
+Cone Angle       : 110 degrees
 GCD              : 1.5 seconds
 Labels           : 16: Class Spells
                  : 21: Druid Spells
@@ -17432,6 +17434,7 @@ Spell Type       : Melee
 Resource         : 25 Energy (3) (id=306429)
 Resource         : 1 - 5 Combo Points (4) (id=306430)
 Range            : 5 yards
+Cone Angle       : 110 degrees
 GCD              : 1 seconds
 Labels           : 16: Class Spells
                  : 21: Druid Spells
@@ -17485,6 +17488,7 @@ School           : Physical
 Spell Type       : Melee
 Resource         : 40 Rage (1) (id=306431)
 Range            : 5 yards
+Cone Angle       : 110 degrees
 GCD              : 1.5 seconds
 Labels           : 16: Class Spells
                  : 21: Druid Spells
@@ -20462,6 +20466,7 @@ School           : Physical
 Spell Type       : Melee
 Resource         : 25 Energy (3) (id=311056)
 Range            : 5 yards
+Line Width       : 16 yards
 GCD              : 1 seconds
 Duration         : 1.5 seconds
 Cooldown         : 45 seconds
@@ -22733,6 +22738,7 @@ Class            : Druid
 School           : Physical
 Spell Type       : Melee
 Range            : 5 yards
+Cone Angle       : 110 degrees
 Labels           : 16: Class Spells
                  : 21: Druid Spells
                  : 292
@@ -22753,6 +22759,7 @@ Class            : Druid
 School           : Physical
 Spell Type       : Melee
 Range            : 5 yards
+Cone Angle       : 110 degrees
 Labels           : 16: Class Spells
                  : 21: Druid Spells
                  : 292
