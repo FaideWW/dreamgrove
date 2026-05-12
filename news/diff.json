@@ -1,3 +1,95 @@
 {
-  "delta": []
+  "delta": [
+    {
+      "name": "Guardian Druid",
+      "id": 137010,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "19",
+          "type": "Apply Aura",
+          "subtype": "Add Percent Modifier : Spell Direct Amount",
+          "affected_spells": [
+            "Thrash (77758)",
+            "Dire Echo (1253489)"
+          ],
+          "id": "1091200",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "200",
+              "new": "125"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "200",
+              "new": "125"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "1091201"
+        },
+        {
+          "type": "removed",
+          "id": "1176394"
+        },
+        {
+          "type": "removed",
+          "id": "1176395"
+        },
+        {
+          "type": "removed",
+          "id": "1176396"
+        },
+        {
+          "type": "removed",
+          "id": "1220204"
+        },
+        {
+          "type": "removed",
+          "id": "1228424"
+        },
+        {
+          "type": "removed",
+          "id": "1305145"
+        },
+        {
+          "type": "removed",
+          "id": "1314736"
+        }
+      ]
+    },
+    {
+      "name": "Elune's Favored",
+      "id": 370586,
+      "type": "modified",
+      "talent_entry": "Guardian",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Dummy",
+          "id": "981995",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "25",
+              "new": "15"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "25",
+              "new": "15"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
