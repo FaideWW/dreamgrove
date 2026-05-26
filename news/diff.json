@@ -1,240 +1,191 @@
 {
   "delta": [
     {
-      "name": "Guardian Druid",
-      "id": 137010,
+      "name": "Feral Druid",
+      "id": 137011,
       "type": "modified",
       "fields": [],
       "effects": [
         {
-          "type": "added",
-          "effect": {
-            "idx": "20",
-            "id": "1091201",
-            "type": "Apply Aura",
-            "subtype": "Add Percent Modifier : Spell Periodic Amount",
-            "values": [
-              {
-                "Base Value": "100"
-              },
-              {
-                "Scaled Value": "100"
-              },
-              {
-                "Misc Value": "22"
-              },
-              {
-                "Target": "Self (1)"
-              },
-              {
-                "Family Flags": "40"
-              }
-            ],
-            "affected_spells": [
-              "Thrash (192090)"
-            ]
-          }
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Add Percent Modifier : Spell Direct Amount",
+          "affected_spells": [
+            "Rip (1079)",
+            "Rake (1822)",
+            "Shred (5221)",
+            "Ferocious Bite (22568)",
+            "Maim (22570)",
+            "Swipe (106785)",
+            "Thrash (106830)",
+            "Moonfire (155625)",
+            "Rake (155722)",
+            "Brutal Slash (202028)",
+            "Feral Frenzy (274838)",
+            "Primal Wrath (285381)",
+            "Rampant Ferocity (391710)",
+            "Thrash (405233)",
+            "Bloodseeker Vines (439531)",
+            "Bursting Growth (440122)",
+            "Ravage (441591)",
+            "Dreadful Wound (441812)",
+            "Frantic Frenzy (1244079)",
+            "Chomp (1244258)",
+            "Unseen Slash (1263890)",
+            "Unseen Swipe (1263908)",
+            "Twin Claw (1271636)",
+            "Unseen Slash (1271863)"
+          ],
+          "id": "179694",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "47",
+              "new": "53"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "47",
+              "new": "53"
+            }
+          ]
         },
         {
-          "type": "added",
-          "effect": {
-            "idx": "21",
-            "id": "1176394",
-            "type": "Apply Aura",
-            "subtype": "Add Percent Modifier : Spell Direct Amount",
-            "values": [
-              {
-                "Base Value": "30"
-              },
-              {
-                "Scaled Value": "30"
-              },
-              {
-                "Target": "Self (1)"
-              },
-              {
-                "Family Flags": "38"
-              }
-            ],
-            "affected_spells": [
-              "Mangle (33917)"
-            ]
-          }
+          "type": "removed",
+          "id": "191154"
         },
         {
-          "type": "added",
-          "effect": {
-            "idx": "22",
-            "id": "1176395",
-            "type": "Apply Aura",
-            "subtype": "Add Percent Modifier : Spell Direct Amount",
-            "values": [
-              {
-                "Base Value": "105"
-              },
-              {
-                "Scaled Value": "105"
-              },
-              {
-                "Target": "Self (1)"
-              },
-              {
-                "Family Flags": "21, 92"
-              }
-            ],
-            "affected_spells": [
-              "Moonfire (8921)",
-              "Moonfire (164812)",
-              "Red Moon (1252871)",
-              "Red Moon (1253582)",
-              "Lunar Wrath (1253609)"
-            ]
-          }
+          "type": "removed",
+          "id": "191155"
         },
         {
-          "type": "added",
-          "effect": {
-            "idx": "23",
-            "id": "1176396",
-            "type": "Apply Aura",
-            "subtype": "Add Percent Modifier : Spell Periodic Amount",
-            "values": [
-              {
-                "Base Value": "105"
-              },
-              {
-                "Scaled Value": "105"
-              },
-              {
-                "Misc Value": "22"
-              },
-              {
-                "Target": "Self (1)"
-              },
-              {
-                "Family Flags": "21, 92"
-              }
-            ],
-            "affected_spells": [
-              "Moonfire (8921)",
-              "Moonfire (164812)",
-              "Red Moon (1252871)",
-              "Red Moon (1253582)",
-              "Lunar Wrath (1253609)"
-            ]
-          }
+          "type": "removed",
+          "id": "191156"
         },
         {
-          "type": "added",
-          "effect": {
-            "idx": "24",
-            "id": "1220204",
-            "type": "Apply Aura",
-            "subtype": "Apply Percent Modifier w/ Label : Spell Direct Amount",
-            "values": [
-              {
-                "Base Value": "80"
-              },
-              {
-                "Scaled Value": "80"
-              },
-              {
-                "Misc Value 2": "4781 (Label)"
-              },
-              {
-                "Target": "Self (1)"
-              }
-            ],
-            "affected_spells": [
-              "Fury of Elune (211545)",
-              "Boundless Moonlight (428682)"
-            ]
-          }
+          "type": "removed",
+          "id": "191157"
         },
         {
-          "type": "added",
-          "effect": {
-            "idx": "25",
-            "id": "1228424",
-            "type": "Apply Aura",
-            "subtype": "Apply Percent Modifier w/ Label : Spell Direct Amount",
-            "values": [
-              {
-                "Base Value": "-66.667"
-              },
-              {
-                "Scaled Value": "-66.667"
-              },
-              {
-                "PvP Coefficient": "1.05"
-              },
-              {
-                "Misc Value 2": "3880 (Label)"
-              },
-              {
-                "Target": "Self (1)"
-              }
-            ],
-            "affected_spells": [
-              "Boundless Moonlight (428682)"
-            ]
-          }
+          "type": "removed",
+          "id": "260767"
         },
         {
-          "type": "added",
-          "effect": {
-            "idx": "26",
-            "id": "1305145",
-            "type": "Apply Aura",
-            "subtype": "Modify Recharge Time (Category)",
-            "values": [
-              {
-                "Base Value": "-10000"
-              },
-              {
-                "Scaled Value": "-10000"
-              },
-              {
-                "Misc Value": "1568 (Category)"
-              },
-              {
-                "Target": "Self (1)"
-              }
-            ],
-            "affected_spells": [
-              "Frenzied Regeneration (22842)"
-            ]
-          }
+          "type": "removed",
+          "id": "260768"
         },
         {
-          "type": "added",
-          "effect": {
-            "idx": "27",
-            "id": "1314736",
-            "type": "Apply Aura",
-            "subtype": "Apply Percent Modifier w/ Label : Spell Effect 2",
-            "values": [
-              {
-                "Base Value": "-20"
-              },
-              {
-                "Scaled Value": "-20"
-              },
-              {
-                "Misc Value": "12"
-              },
-              {
-                "Misc Value 2": "6558 (Label)"
-              },
-              {
-                "Target": "Self (1)"
-              }
-            ],
-            "affected_spells": [
-              "Starfall (191037)",
-              "Starfall (1286243)"
-            ]
-          }
+          "type": "removed",
+          "id": "260769"
+        },
+        {
+          "type": "removed",
+          "id": "260770"
+        },
+        {
+          "type": "removed",
+          "id": "1032347"
+        },
+        {
+          "type": "removed",
+          "id": "1032348"
+        },
+        {
+          "type": "removed",
+          "id": "1049862"
+        },
+        {
+          "type": "removed",
+          "id": "1049863"
+        },
+        {
+          "type": "removed",
+          "id": "1080962"
+        },
+        {
+          "type": "removed",
+          "id": "1088944"
+        },
+        {
+          "type": "removed",
+          "id": "1174663"
+        }
+      ]
+    },
+    {
+      "name": "Lunar Calling",
+      "id": 429523,
+      "type": "modified",
+      "talent_entry": "Elune's Chosen (Balance, Guardian)",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Add Percent Modifier : Spell Direct Amount",
+          "affected_spells": [
+            "Starfire (194153)",
+            "Starfire (197628)"
+          ],
+          "id": "1113818",
+          "modifications": [],
+          "values": [
+            {
+              "key": "PvP Coefficient",
+              "prev": "0.4167",
+              "new": "0.5"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "1118640"
+        },
+        {
+          "type": "removed",
+          "id": "1118641"
+        },
+        {
+          "type": "removed",
+          "id": "1118642"
+        },
+        {
+          "type": "removed",
+          "id": "1204429"
+        },
+        {
+          "type": "removed",
+          "id": "1204430"
+        }
+      ]
+    },
+    {
+      "name": "Ravage",
+      "id": 441591,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "1136153",
+          "modifications": [],
+          "values": [
+            {
+              "key": "PvP Coefficient",
+              "prev": "0.6",
+              "new": "0.72"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "1136154"
+        },
+        {
+          "type": "removed",
+          "id": "1137019"
         }
       ]
     }
