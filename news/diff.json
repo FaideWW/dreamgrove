@@ -1,3 +1,158 @@
 {
-  "delta": []
+  "delta": [
+    {
+      "name": "Wrath",
+      "id": 18104,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : nature",
+          "subtype": "Scaling Class: Replace Primary (-8)",
+          "id": "9714",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Scaled Value",
+              "prev": "345.0981 - 491.5034 (coefficient=3.273, delta=0.35)",
+              "new": "759.2159 - 1081.307 (coefficient=3.273, delta=0.35)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Regeneration",
+      "id": 38324,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 3 seconds",
+          "id": "29068",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Scaled Value",
+              "prev": "213.0484 (coefficient=1.667)",
+              "new": "468.7065 (coefficient=1.667)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Regeneration",
+      "id": 38325,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 3 seconds",
+          "id": "29069",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Scaled Value",
+              "prev": "553.7725 (coefficient=4.333)",
+              "new": "1218.299 (coefficient=4.333)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fecundity",
+      "id": 38333,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Modify Healing Received",
+          "id": "29077",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Scaled Value",
+              "prev": "60.83445 (coefficient=0.476)",
+              "new": "133.8358 (coefficient=0.476)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Touched by a Troll",
+      "id": 60518,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Modify Healing Received",
+          "id": "54226",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Scaled Value",
+              "prev": "50.09896 (coefficient=0.392)",
+              "new": "110.2177 (coefficient=0.392)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Forethought Talisman",
+      "id": 60530,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Heal : every 3 seconds",
+          "id": "54242",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Scaled Value",
+              "prev": "683.3652 (coefficient=5.347)",
+              "new": "1503.403 (coefficient=5.347)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gjallar's Horn",
+      "id": 228136,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : fire",
+          "subtype": "Scaling Class: Replace Primary (-8)",
+          "id": "343350",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Scaled Value",
+              "prev": "1215.548 - 1644.565 (coefficient=235.433, delta=0.3)",
+              "new": "2674.205 - 3618.043 (coefficient=235.433, delta=0.3)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
