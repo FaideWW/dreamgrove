@@ -1,3 +1,63 @@
 {
-  "delta": []
+  "delta": [
+    {
+      "name": "Ravage",
+      "id": 441591,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "1136153",
+          "modifications": [],
+          "values": [
+            {
+              "key": "PvP Coefficient",
+              "prev": "0.72",
+              "new": "0.864"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "1136154"
+        },
+        {
+          "type": "removed",
+          "id": "1137019"
+        }
+      ]
+    },
+    {
+      "name": "Feral Druid",
+      "id": 1256992,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "3",
+          "type": "Apply Aura",
+          "subtype": "Modify Percent PVP Multiplier : Periodic Amount",
+          "affected_spells": [
+            "Rip (1079)"
+          ],
+          "id": "1266734",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "-25",
+              "new": "-14"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "-25",
+              "new": "-14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
