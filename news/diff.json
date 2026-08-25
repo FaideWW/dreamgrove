@@ -1,59 +1,57 @@
 {
   "delta": [
     {
-      "name": "Ravage",
-      "id": 441591,
+      "name": "Genesis",
+      "id": 1302255,
       "type": "modified",
       "fields": [],
       "effects": [
         {
           "idx": "1",
-          "type": "School Damage : physical",
-          "id": "1136153",
-          "modifications": [],
-          "values": [
-            {
-              "key": "PvP Coefficient",
-              "prev": "0.72",
-              "new": "0.864"
-            }
-          ]
-        },
-        {
-          "type": "removed",
-          "id": "1136154"
-        },
-        {
-          "type": "removed",
-          "id": "1137019"
-        }
-      ]
-    },
-    {
-      "name": "Feral Druid",
-      "id": 1256992,
-      "type": "modified",
-      "fields": [],
-      "effects": [
-        {
-          "idx": "3",
           "type": "Apply Aura",
-          "subtype": "Modify Percent PVP Multiplier : Periodic Amount",
+          "subtype": "Add Percent Modifier : Spell Periodic Amount",
           "affected_spells": [
-            "Rip (1079)"
+            "Rejuvenation (774)",
+            "Regrowth (8936)",
+            "Swiftmend (18562)",
+            "Lifebloom (33763)",
+            "Lifebloom (33778)",
+            "Wild Growth (48438)",
+            "Efflorescence (81269)",
+            "Cenarion Ward (102352)",
+            "Rejuvenation (Germination) (155777)",
+            "Tranquility (157982)",
+            "Lifebloom (188550)",
+            "Cultivation (200389)",
+            "Reactive Resin (203406)",
+            "Grove Tending (279793)",
+            "Early Harvest (287255)",
+            "Adaptive Swarm (325748)",
+            "Renewing Bloom (364686)",
+            "Ephemeral Profusion (367330)",
+            "Embrace of the Dream (392147)",
+            "Verdancy (392329)",
+            "Nourish (422090)",
+            "Nourish (423618)",
+            "Dream Bloom (434141)",
+            "Symbiotic Blooms (439530)",
+            "Bursting Growth (440121)",
+            "Reactive Resin (468152)",
+            "Blossom Burst (473919)",
+            "Mass Blooming (474149)",
+            "Insurance! (1215515)",
+            "Insurance! (1215518)",
+            "Tranquility (1236573)",
+            "Regrowth (1264664)",
+            "Spirit of the Thicket (1264905)"
           ],
-          "id": "1266734",
+          "id": "1327783",
           "modifications": [],
           "values": [
             {
-              "key": "Base Value",
-              "prev": "-25",
-              "new": "-14"
-            },
-            {
-              "key": "Scaled Value",
-              "prev": "-25",
-              "new": "-14"
+              "type": "added",
+              "key": "PvP Coefficient",
+              "new": "0.5"
             }
           ]
         }
