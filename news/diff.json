@@ -1,12 +1,17 @@
 {
   "delta": [
     {
-      "type": "added",
-      "id": 1308448
-    },
-    {
-      "type": "added",
-      "id": 1308653
+      "name": "Everbloom",
+      "id": 1244341,
+      "type": "modified",
+      "fields": [
+        {
+          "field": "max_targets",
+          "prev": "6",
+          "new": "5"
+        }
+      ],
+      "effects": []
     }
   ]
 }
