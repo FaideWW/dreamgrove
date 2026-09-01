@@ -1,17 +1,856 @@
 {
   "delta": [
     {
-      "name": "Everbloom",
-      "id": 1244341,
+      "name": "Shred",
+      "id": 5221,
       "type": "modified",
-      "fields": [
+      "fields": [],
+      "effects": [
         {
-          "field": "max_targets",
-          "prev": "6",
-          "new": "5"
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "1859",
+          "modifications": [],
+          "values": [
+            {
+              "key": "AP Coefficient",
+              "prev": "2.368",
+              "new": "2.6048"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "1860"
+        },
+        {
+          "type": "removed",
+          "id": "1861"
         }
-      ],
-      "effects": []
+      ]
+    },
+    {
+      "name": "Swiftmend",
+      "id": 18562,
+      "type": "modified",
+      "talent_entry": "Restoration",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Direct Heal",
+          "id": "10065",
+          "modifications": [],
+          "values": [
+            {
+              "type": "removed",
+              "key": "PvP Coefficient"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "1326779"
+        }
+      ]
+    },
+    {
+      "name": "Ferocious Bite",
+      "id": 22568,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "12790",
+          "modifications": [],
+          "values": [
+            {
+              "key": "AP Coefficient",
+              "prev": "1.32",
+              "new": "1.452"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "12791"
+        }
+      ]
+    },
+    {
+      "name": "Innervate",
+      "id": 29166,
+      "type": "modified",
+      "talent_entry": "Generic",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Power% Regen",
+          "id": "18680",
+          "modifications": [],
+          "values": [
+            {
+              "type": "added",
+              "key": "PvP Coefficient",
+              "new": "0.8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wild Growth",
+      "id": 48438,
+      "type": "modified",
+      "talent_entry": "Generic",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "40641",
+            "type": "Dummy",
+            "values": [
+              {
+                "Base Value": "5"
+              },
+              {
+                "Scaled Value": "5"
+              },
+              {
+                "Modified By": "Improved Wild Growth (328025 effect#1)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Feral Druid",
+      "id": 137011,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Add Percent Modifier : Spell Direct Amount",
+          "affected_spells": [
+            "Rip (1079)",
+            "Rake (1822)",
+            "Shred (5221)",
+            "Ferocious Bite (22568)",
+            "Maim (22570)",
+            "Swipe (106785)",
+            "Thrash (106830)",
+            "Moonfire (155625)",
+            "Rake (155722)",
+            "Brutal Slash (202028)",
+            "Feral Frenzy (274838)",
+            "Primal Wrath (285381)",
+            "Rampant Ferocity (391710)",
+            "Thrash (405233)",
+            "Bloodseeker Vines (439531)",
+            "Bursting Growth (440122)",
+            "Ravage (441591)",
+            "Dreadful Wound (441812)",
+            "Frantic Frenzy (1244079)",
+            "Chomp (1244258)",
+            "Unseen Slash (1263890)",
+            "Unseen Swipe (1263908)",
+            "Twin Claw (1271636)",
+            "Unseen Slash (1271863)"
+          ],
+          "id": "179694",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "62",
+              "new": "70"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "62",
+              "new": "70"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "191154"
+        },
+        {
+          "type": "removed",
+          "id": "191155"
+        },
+        {
+          "type": "removed",
+          "id": "191156"
+        },
+        {
+          "type": "removed",
+          "id": "191157"
+        },
+        {
+          "type": "removed",
+          "id": "260767"
+        },
+        {
+          "type": "removed",
+          "id": "260768"
+        },
+        {
+          "type": "removed",
+          "id": "260769"
+        },
+        {
+          "type": "removed",
+          "id": "260770"
+        },
+        {
+          "type": "removed",
+          "id": "1032347"
+        },
+        {
+          "type": "removed",
+          "id": "1032348"
+        },
+        {
+          "type": "removed",
+          "id": "1049862"
+        },
+        {
+          "type": "removed",
+          "id": "1049863"
+        },
+        {
+          "type": "removed",
+          "id": "1080962"
+        },
+        {
+          "type": "removed",
+          "id": "1088944"
+        },
+        {
+          "type": "removed",
+          "id": "1174663"
+        }
+      ]
+    },
+    {
+      "name": "Restoration Druid",
+      "id": 137012,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Add Percent Modifier : Spell Direct Amount",
+          "affected_spells": [
+            "Rejuvenation (774)",
+            "Regrowth (8936)",
+            "Swiftmend (18562)",
+            "Lifebloom (33763)",
+            "Lifebloom (33778)",
+            "Wild Growth (48438)",
+            "Efflorescence (81269)",
+            "Cenarion Ward (102352)",
+            "Rejuvenation (Germination) (155777)",
+            "Tranquility (157982)",
+            "Lifebloom (188550)",
+            "Cultivation (200389)",
+            "Reactive Resin (203406)",
+            "Grove Tending (279793)",
+            "Early Harvest (287255)",
+            "Adaptive Swarm (325748)",
+            "Renewing Bloom (364686)",
+            "Ephemeral Profusion (367330)",
+            "Embrace of the Dream (392147)",
+            "Verdancy (392329)",
+            "Nourish (422090)",
+            "Nourish (423618)",
+            "Dream Bloom (434141)",
+            "Symbiotic Blooms (439530)",
+            "Bursting Growth (440121)",
+            "Reactive Resin (468152)",
+            "Blossom Burst (473919)",
+            "Mass Blooming (474149)",
+            "Insurance! (1215515)",
+            "Insurance! (1215518)",
+            "Tranquility (1236573)",
+            "Regrowth (1264664)",
+            "Spirit of the Thicket (1264905)"
+          ],
+          "id": "179695",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "0",
+              "new": "4"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "0",
+              "new": "4"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "191150"
+        },
+        {
+          "type": "removed",
+          "id": "191151"
+        },
+        {
+          "type": "removed",
+          "id": "191152"
+        },
+        {
+          "type": "removed",
+          "id": "191153"
+        },
+        {
+          "type": "removed",
+          "id": "260747"
+        },
+        {
+          "type": "removed",
+          "id": "260748"
+        },
+        {
+          "type": "removed",
+          "id": "260749"
+        },
+        {
+          "type": "removed",
+          "id": "872913"
+        },
+        {
+          "type": "removed",
+          "id": "876348"
+        },
+        {
+          "type": "removed",
+          "id": "876349"
+        },
+        {
+          "type": "removed",
+          "id": "1032349"
+        },
+        {
+          "type": "removed",
+          "id": "1032350"
+        },
+        {
+          "type": "removed",
+          "id": "1039258"
+        },
+        {
+          "type": "removed",
+          "id": "1039259"
+        },
+        {
+          "type": "removed",
+          "id": "1039291"
+        },
+        {
+          "type": "removed",
+          "id": "1049694"
+        },
+        {
+          "type": "removed",
+          "id": "1049860"
+        },
+        {
+          "type": "removed",
+          "id": "1049861"
+        },
+        {
+          "type": "removed",
+          "id": "1080082"
+        },
+        {
+          "type": "removed",
+          "id": "1081594"
+        },
+        {
+          "type": "removed",
+          "id": "1099906"
+        },
+        {
+          "type": "removed",
+          "id": "1099956"
+        },
+        {
+          "type": "removed",
+          "id": "1307595"
+        },
+        {
+          "type": "removed",
+          "id": "1307596"
+        },
+        {
+          "type": "removed",
+          "id": "1339074"
+        },
+        {
+          "type": "removed",
+          "id": "1339075"
+        }
+      ]
+    },
+    {
+      "name": "Balance Druid",
+      "id": 137013,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Add Percent Modifier : Spell Direct Amount",
+          "affected_spells": [
+            "Wrath (5176)",
+            "Starsurge (78674)",
+            "Fungal Growth (81281)",
+            "Wild Mushroom (88751)",
+            "Moonfire (164812)",
+            "Sunfire (164815)",
+            "Fey Missile (188046)",
+            "Wrath (190984)",
+            "Starfall (191037)",
+            "Starfire (194153)",
+            "Starsurge (197626)",
+            "Starfire (197628)",
+            "Stellar Flare (202347)",
+            "Shooting Stars (202497)",
+            "Fury of Elune (211545)",
+            "Streaking Star (272873)",
+            "New Moon (274281)",
+            "Half Moon (274282)",
+            "Full Moon (274283)",
+            "Lunar Shrapnel (279641)",
+            "Thorns (305496)",
+            "Adaptive Swarm (325733)",
+            "Star Burst (356474)",
+            "Orbital Strike (361237)",
+            "Fury of Elune (365640)",
+            "Goldrinn's Fang (394047)",
+            "Fury of Elune (394111)",
+            "Star Burst (406430)",
+            "Crashing Star (408310)",
+            "Minor Moon (424588)",
+            "Boundless Moonlight (428682)",
+            "Dream Burst (433850)",
+            "Meteorites (1240913)",
+            "Solar Bolt (1261573)",
+            "Lunar Bolt (1263137)",
+            "Starsurge (1271222)",
+            "Shooting Stars (1272339)",
+            "Sunseeker Mushroom (1280212)",
+            "Fungal Growth (1280213)",
+            "Starfall (1286243)",
+            "Starfall (1301742)"
+          ],
+          "id": "179696",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "46",
+              "new": "52"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "46",
+              "new": "52"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "191146"
+        },
+        {
+          "type": "removed",
+          "id": "191147"
+        },
+        {
+          "type": "removed",
+          "id": "191148"
+        },
+        {
+          "type": "removed",
+          "id": "191149"
+        },
+        {
+          "type": "removed",
+          "id": "260777"
+        },
+        {
+          "type": "removed",
+          "id": "260778"
+        },
+        {
+          "type": "removed",
+          "id": "872569"
+        },
+        {
+          "type": "removed",
+          "id": "1080967"
+        },
+        {
+          "type": "removed",
+          "id": "1080968"
+        },
+        {
+          "type": "removed",
+          "id": "1088945"
+        },
+        {
+          "type": "removed",
+          "id": "1177983"
+        },
+        {
+          "type": "removed",
+          "id": "1177984"
+        },
+        {
+          "type": "removed",
+          "id": "1177985"
+        }
+      ]
+    },
+    {
+      "name": "Reforestation",
+      "id": 392356,
+      "type": "modified",
+      "talent_entry": "Restoration",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "2",
+          "type": "Dummy",
+          "subtype": "Attributes: Suppress Points Stacking",
+          "id": "1030500",
+          "modifications": [],
+          "values": [
+            {
+              "type": "removed",
+              "key": "Modified By"
+            },
+            {
+              "type": "added",
+              "key": "PvP Coefficient",
+              "new": "0.8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Potent Enchantments",
+      "id": 429420,
+      "type": "modified",
+      "talent_entry": "Keeper of the Grove (Balance, Restoration)",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "5",
+          "type": "Apply Aura",
+          "subtype": "Apply Flat Modifier w/ Label : Spell Effect 2",
+          "affected_spells": [
+            "Reforestation (392356)"
+          ],
+          "id": "1293034",
+          "modifications": [],
+          "values": [
+            {
+              "type": "added",
+              "key": "PvP Coefficient",
+              "new": "0.666667"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ravage",
+      "id": 441591,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "1136153",
+          "modifications": [],
+          "values": [
+            {
+              "key": "AP Coefficient",
+              "prev": "1.856",
+              "new": "2.0416"
+            },
+            {
+              "type": "removed",
+              "key": "PvP Coefficient"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Everbloom",
+      "id": 1244331,
+      "type": "modified",
+      "talent_entry": "Restoration",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "3",
+            "id": "1314559",
+            "type": "Apply Aura",
+            "subtype": "Dummy",
+            "values": [
+              {
+                "Base Value": "5"
+              },
+              {
+                "Scaled Value": "5"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Feral Druid",
+      "id": 1256992,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Modify Percent PVP Multiplier : Direct Amount",
+          "affected_spells": [
+            "Rip (1079)",
+            "Rake (1822)",
+            "Shred (5221)",
+            "Ferocious Bite (22568)",
+            "Maim (22570)",
+            "Swipe (106785)",
+            "Thrash (106830)",
+            "Moonfire (155625)",
+            "Rake (155722)",
+            "Brutal Slash (202028)",
+            "Feral Frenzy (274838)",
+            "Primal Wrath (285381)",
+            "Rampant Ferocity (391710)",
+            "Thrash (405233)",
+            "Bloodseeker Vines (439531)",
+            "Bursting Growth (440122)",
+            "Ravage (441591)",
+            "Dreadful Wound (441812)",
+            "Frantic Frenzy (1244079)",
+            "Chomp (1244258)",
+            "Unseen Slash (1263890)",
+            "Unseen Swipe (1263908)",
+            "Twin Claw (1271636)",
+            "Unseen Slash (1271863)"
+          ],
+          "id": "1264726",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "-7",
+              "new": "-12"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "-7",
+              "new": "-12"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "1266733"
+        },
+        {
+          "type": "removed",
+          "id": "1266734"
+        }
+      ]
+    },
+    {
+      "name": "Restoration Druid",
+      "id": 1256995,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "5",
+          "type": "Apply Aura",
+          "subtype": "Apply Flat Modifier w/ Label : Spell Effect 1",
+          "id": "1266740",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "-10",
+              "new": "-15"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "-10",
+              "new": "-15"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "1266741"
+        },
+        {
+          "type": "removed",
+          "id": "1266742"
+        },
+        {
+          "type": "removed",
+          "id": "1266743"
+        },
+        {
+          "type": "removed",
+          "id": "1266744"
+        },
+        {
+          "type": "removed",
+          "id": "1266745"
+        },
+        {
+          "type": "removed",
+          "id": "1315889"
+        }
+      ]
+    },
+    {
+      "name": "Balance Druid",
+      "id": 1256996,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Modify Percent PVP Multiplier : Direct Amount",
+          "affected_spells": [
+            "Wrath (5176)",
+            "Starsurge (78674)",
+            "Fungal Growth (81281)",
+            "Wild Mushroom (88751)",
+            "Moonfire (164812)",
+            "Sunfire (164815)",
+            "Fey Missile (188046)",
+            "Wrath (190984)",
+            "Starfall (191037)",
+            "Starfire (194153)",
+            "Starsurge (197626)",
+            "Starfire (197628)",
+            "Stellar Flare (202347)",
+            "Shooting Stars (202497)",
+            "Fury of Elune (211545)",
+            "Streaking Star (272873)",
+            "New Moon (274281)",
+            "Half Moon (274282)",
+            "Full Moon (274283)",
+            "Lunar Shrapnel (279641)",
+            "Thorns (305496)",
+            "Adaptive Swarm (325733)",
+            "Star Burst (356474)",
+            "Orbital Strike (361237)",
+            "Fury of Elune (365640)",
+            "Goldrinn's Fang (394047)",
+            "Fury of Elune (394111)",
+            "Star Burst (406430)",
+            "Crashing Star (408310)",
+            "Minor Moon (424588)",
+            "Boundless Moonlight (428682)",
+            "Dream Burst (433850)",
+            "Meteorites (1240913)",
+            "Solar Bolt (1261573)",
+            "Lunar Bolt (1263137)",
+            "Starsurge (1271222)",
+            "Shooting Stars (1272339)",
+            "Sunseeker Mushroom (1280212)",
+            "Fungal Growth (1280213)",
+            "Starfall (1286243)",
+            "Starfall (1301742)"
+          ],
+          "id": "1264731",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "-17",
+              "new": "-20"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "-17",
+              "new": "-20"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "1266735"
+        }
+      ]
+    },
+    {
+      "name": "Druid Restoration 12.1 Class Set 4pc",
+      "id": 1296610,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "type": "added",
+          "effect": {
+            "idx": "2",
+            "id": "1339852",
+            "type": "Apply Aura",
+            "subtype": "Dummy",
+            "values": [
+              {
+                "Base Value": "100"
+              },
+              {
+                "Scaled Value": "100"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }
