@@ -1,3 +1,457 @@
 {
-  "delta": []
+  "delta": [
+    {
+      "name": "Restoration Druid",
+      "id": 137012,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Add Percent Modifier : Spell Direct Amount",
+          "affected_spells": [
+            "Rejuvenation (774)",
+            "Regrowth (8936)",
+            "Swiftmend (18562)",
+            "Lifebloom (33763)",
+            "Lifebloom (33778)",
+            "Wild Growth (48438)",
+            "Efflorescence (81269)",
+            "Cenarion Ward (102352)",
+            "Rejuvenation (Germination) (155777)",
+            "Tranquility (157982)",
+            "Lifebloom (188550)",
+            "Cultivation (200389)",
+            "Reactive Resin (203406)",
+            "Grove Tending (279793)",
+            "Early Harvest (287255)",
+            "Adaptive Swarm (325748)",
+            "Renewing Bloom (364686)",
+            "Ephemeral Profusion (367330)",
+            "Embrace of the Dream (392147)",
+            "Verdancy (392329)",
+            "Nourish (422090)",
+            "Nourish (423618)",
+            "Dream Bloom (434141)",
+            "Symbiotic Blooms (439530)",
+            "Bursting Growth (440121)",
+            "Reactive Resin (468152)",
+            "Blossom Burst (473919)",
+            "Mass Blooming (474149)",
+            "Insurance! (1215515)",
+            "Insurance! (1215518)",
+            "Tranquility (1236573)",
+            "Regrowth (1264664)",
+            "Spirit of the Thicket (1264905)"
+          ],
+          "id": "179695",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "4",
+              "new": "8"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "4",
+              "new": "8"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "191150"
+        },
+        {
+          "type": "removed",
+          "id": "191151"
+        },
+        {
+          "type": "removed",
+          "id": "191152"
+        },
+        {
+          "type": "removed",
+          "id": "191153"
+        },
+        {
+          "type": "removed",
+          "id": "260747"
+        },
+        {
+          "type": "removed",
+          "id": "260748"
+        },
+        {
+          "type": "removed",
+          "id": "260749"
+        },
+        {
+          "type": "removed",
+          "id": "872913"
+        },
+        {
+          "type": "removed",
+          "id": "876348"
+        },
+        {
+          "type": "removed",
+          "id": "876349"
+        },
+        {
+          "type": "removed",
+          "id": "1032349"
+        },
+        {
+          "type": "removed",
+          "id": "1032350"
+        },
+        {
+          "type": "removed",
+          "id": "1039258"
+        },
+        {
+          "type": "removed",
+          "id": "1039259"
+        },
+        {
+          "type": "removed",
+          "id": "1039291"
+        },
+        {
+          "type": "removed",
+          "id": "1049694"
+        },
+        {
+          "type": "removed",
+          "id": "1049860"
+        },
+        {
+          "type": "removed",
+          "id": "1049861"
+        },
+        {
+          "type": "removed",
+          "id": "1080082"
+        },
+        {
+          "type": "removed",
+          "id": "1081594"
+        },
+        {
+          "type": "removed",
+          "id": "1099906"
+        },
+        {
+          "type": "removed",
+          "id": "1099956"
+        },
+        {
+          "type": "removed",
+          "id": "1307595"
+        },
+        {
+          "type": "removed",
+          "id": "1307596"
+        },
+        {
+          "type": "removed",
+          "id": "1339074"
+        },
+        {
+          "type": "removed",
+          "id": "1339075"
+        }
+      ]
+    },
+    {
+      "name": "Bursting Growth",
+      "id": 440122,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "1133810",
+          "modifications": [],
+          "values": [
+            {
+              "key": "AP Coefficient",
+              "prev": "0.864",
+              "new": "1"
+            },
+            {
+              "type": "added",
+              "key": "PvP Coefficient",
+              "new": "0.87"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ravage",
+      "id": 441591,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "School Damage : physical",
+          "id": "1136153",
+          "modifications": [],
+          "values": [
+            {
+              "type": "added",
+              "key": "PvP Coefficient",
+              "new": "1.2"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "1136154"
+        },
+        {
+          "type": "removed",
+          "id": "1137019"
+        }
+      ]
+    },
+    {
+      "name": "Dreadful Wound",
+      "id": 441812,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Periodic Damage : physical every 2 seconds",
+          "id": "1136537",
+          "modifications": [],
+          "values": [
+            {
+              "type": "added",
+              "key": "PvP Coefficient",
+              "new": "1.25"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "1136538"
+        },
+        {
+          "type": "removed",
+          "id": "1284873"
+        },
+        {
+          "type": "removed",
+          "id": "1284874"
+        }
+      ]
+    },
+    {
+      "name": "Restoration Druid",
+      "id": 1256995,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Modify Percent PVP Multiplier : Direct Amount",
+          "affected_spells": [
+            "Rejuvenation (774)",
+            "Regrowth (8936)",
+            "Swiftmend (18562)",
+            "Lifebloom (33763)",
+            "Lifebloom (33778)",
+            "Wild Growth (48438)",
+            "Efflorescence (81269)",
+            "Cenarion Ward (102352)",
+            "Rejuvenation (Germination) (155777)",
+            "Tranquility (157982)",
+            "Lifebloom (188550)",
+            "Cultivation (200389)",
+            "Reactive Resin (203406)",
+            "Grove Tending (279793)",
+            "Early Harvest (287255)",
+            "Adaptive Swarm (325748)",
+            "Renewing Bloom (364686)",
+            "Ephemeral Profusion (367330)",
+            "Embrace of the Dream (392147)",
+            "Verdancy (392329)",
+            "Nourish (422090)",
+            "Nourish (423618)",
+            "Dream Bloom (434141)",
+            "Symbiotic Blooms (439530)",
+            "Bursting Growth (440121)",
+            "Reactive Resin (468152)",
+            "Blossom Burst (473919)",
+            "Mass Blooming (474149)",
+            "Insurance! (1215515)",
+            "Insurance! (1215518)",
+            "Tranquility (1236573)",
+            "Regrowth (1264664)",
+            "Spirit of the Thicket (1264905)"
+          ],
+          "id": "1264729",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "-3",
+              "new": "-7"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "-3",
+              "new": "-7"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "1266737"
+        },
+        {
+          "type": "removed",
+          "id": "1266738"
+        },
+        {
+          "type": "removed",
+          "id": "1266739"
+        },
+        {
+          "type": "removed",
+          "id": "1266740"
+        },
+        {
+          "type": "removed",
+          "id": "1266741"
+        },
+        {
+          "type": "removed",
+          "id": "1266742"
+        },
+        {
+          "type": "removed",
+          "id": "1266743"
+        },
+        {
+          "type": "removed",
+          "id": "1266744"
+        },
+        {
+          "type": "removed",
+          "id": "1266745"
+        },
+        {
+          "type": "removed",
+          "id": "1315889"
+        }
+      ]
+    },
+    {
+      "name": "Patient Custodian",
+      "id": 1270592,
+      "type": "modified",
+      "talent_entry": "Wildstalker (Feral, Restoration)",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "1",
+          "type": "Apply Aura",
+          "subtype": "Add Percent Modifier : Spell Periodic Amount",
+          "affected_spells": [
+            "Rip (1079)",
+            "Rake (1822)",
+            "Mass Entanglement (102359)",
+            "Thrash (106830)",
+            "Moonfire (155625)",
+            "Rake (155722)",
+            "Moonfire (164812)",
+            "Sunfire (164815)",
+            "Thrash (192090)",
+            "Feral Frenzy (274837)",
+            "Feral Frenzy (274838)",
+            "Thrash (405233)",
+            "Frantic Frenzy (1243807)",
+            "Frantic Frenzy (1244079)",
+            "Red Moon (1252871)",
+            "Red Moon (1253582)",
+            "Lunar Wrath (1253609)",
+            "Frantic Frenzy (1278969)"
+          ],
+          "id": "1282732",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "8",
+              "new": "10"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "8",
+              "new": "10"
+            },
+            {
+              "type": "added",
+              "key": "PvP Coefficient",
+              "new": "0.8"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "1282736"
+        },
+        {
+          "type": "removed",
+          "id": "1282737"
+        },
+        {
+          "type": "removed",
+          "id": "1282738"
+        }
+      ]
+    },
+    {
+      "name": "Exacerbating Wounds",
+      "id": 1271839,
+      "type": "modified",
+      "talent_entry": "Druid of the Claw (Feral, Guardian)",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "2",
+          "type": "Apply Aura",
+          "subtype": "Apply Percent Modifier w/ Label : Spell Periodic Amount",
+          "affected_spells": [
+            "Dreadful Wound (441812)",
+            "Dreadful Wound (451177)"
+          ],
+          "id": "1284870",
+          "modifications": [],
+          "values": [
+            {
+              "type": "added",
+              "key": "PvP Coefficient",
+              "new": "1.25"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "1284871"
+        }
+      ]
+    }
+  ]
 }
