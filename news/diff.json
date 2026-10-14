@@ -1,3 +1,51 @@
 {
-  "delta": []
+  "delta": [
+    {
+      "name": "Bear Form",
+      "id": 5487,
+      "type": "modified",
+      "fields": [],
+      "effects": [
+        {
+          "idx": "10",
+          "type": "Apply Aura",
+          "subtype": "Add Percent Modifier : Spell Resource Cost 2",
+          "id": "876221",
+          "modifications": [],
+          "values": [
+            {
+              "key": "Base Value",
+              "prev": "-100",
+              "new": "0"
+            },
+            {
+              "key": "Scaled Value",
+              "prev": "-100",
+              "new": "0"
+            },
+            {
+              "type": "removed",
+              "key": "Misc Value"
+            },
+            {
+              "type": "removed",
+              "key": "Family Flags"
+            }
+          ]
+        },
+        {
+          "type": "removed",
+          "id": "887526"
+        },
+        {
+          "type": "removed",
+          "id": "1090524"
+        },
+        {
+          "type": "removed",
+          "id": "1138694"
+        }
+      ]
+    }
+  ]
 }
