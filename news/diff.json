@@ -9,41 +9,34 @@
         {
           "idx": "10",
           "type": "Apply Aura",
-          "subtype": "Add Percent Modifier : Spell Resource Cost 2",
+          "subtype": "Dummy",
+          "affected_spells": [
+            "Rebirth (20484)"
+          ],
           "id": "876221",
           "modifications": [],
           "values": [
             {
               "key": "Base Value",
-              "prev": "-100",
-              "new": "0"
+              "prev": "0",
+              "new": "-100"
             },
             {
               "key": "Scaled Value",
-              "prev": "-100",
-              "new": "0"
+              "prev": "0",
+              "new": "-100"
             },
             {
-              "type": "removed",
-              "key": "Misc Value"
+              "type": "added",
+              "key": "Misc Value",
+              "new": "34"
             },
             {
-              "type": "removed",
-              "key": "Family Flags"
+              "type": "added",
+              "key": "Family Flags",
+              "new": "28"
             }
           ]
-        },
-        {
-          "type": "removed",
-          "id": "887526"
-        },
-        {
-          "type": "removed",
-          "id": "1090524"
-        },
-        {
-          "type": "removed",
-          "id": "1138694"
         }
       ]
     }
