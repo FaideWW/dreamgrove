@@ -7,36 +7,85 @@
       "fields": [],
       "effects": [
         {
-          "idx": "10",
-          "type": "Apply Aura",
-          "subtype": "Dummy",
-          "affected_spells": [
-            "Rebirth (20484)"
-          ],
-          "id": "876221",
-          "modifications": [],
-          "values": [
-            {
-              "key": "Base Value",
-              "prev": "0",
-              "new": "-100"
-            },
-            {
-              "key": "Scaled Value",
-              "prev": "0",
-              "new": "-100"
-            },
-            {
-              "type": "added",
-              "key": "Misc Value",
-              "new": "34"
-            },
-            {
-              "type": "added",
-              "key": "Family Flags",
-              "new": "28"
-            }
-          ]
+          "type": "added",
+          "effect": {
+            "idx": "11",
+            "id": "887526",
+            "type": "Apply Aura",
+            "subtype": "Modify Damage Taken%",
+            "values": [
+              {
+                "Base Value": "-3"
+              },
+              {
+                "Scaled Value": "-3"
+              },
+              {
+                "Misc Value": "0x3f"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Affected School(s)": "Fire, Frost, Holy, Nature, Shadow, Physical"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "12",
+            "id": "1090524",
+            "type": "Apply Aura",
+            "subtype": "Modify Damage Taken%",
+            "values": [
+              {
+                "Base Value": "-6"
+              },
+              {
+                "Scaled Value": "-6"
+              },
+              {
+                "Misc Value": "0x40"
+              },
+              {
+                "Target": "Self (1)"
+              },
+              {
+                "Affected School(s)": "Arcane"
+              }
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "effect": {
+            "idx": "13",
+            "id": "1138694",
+            "type": "Apply Aura",
+            "subtype": "Override Action Spell (Misc w/ Base) : Heart of the Wild overrides Heart of the Wild",
+            "values": [
+              {
+                "Base Value": "1261872"
+              },
+              {
+                "Scaled Value": "1261872"
+              },
+              {
+                "Misc Value": "1261867"
+              },
+              {
+                "Misc Value 2": "3"
+              },
+              {
+                "Trigger Spell": "1261872"
+              },
+              {
+                "Target": "Self (1)"
+              }
+            ]
+          }
         }
       ]
     }
